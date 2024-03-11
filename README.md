@@ -17,7 +17,7 @@ All open-source EDA tools used,
 * Magic, https://github.com/RTimothyEdwards/magic
 * Netgen, https://github.com/RTimothyEdwards/netgen
 
-and GNU tools
+Additionally, QuestaSim Intel FPGA Starter edition for netlist post-simulation.
 
 Layout:
 </br>
