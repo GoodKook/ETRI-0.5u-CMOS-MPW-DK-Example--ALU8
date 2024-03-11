@@ -1,0 +1,71 @@
+# -----------------------------------------------------
+VERILOG_SRCS = ../source/ALU.v ../source/ALU_wrapper.v
+SC_SRCS      = sc_main.cpp
+SC_TOP_H     = sc_ALU_wrapper_top.h sc_monitor.h sc_gen_test.h def_commands.h
+
+VERILATOR    = verilator
+CFLAGS       = -CFLAGS -std=c++17
+CFLAGS		+= -CFLAGS -g
+
+TOP_MODULE   = ALU_wrapper
+TARGET       = V$(TOP_MODULE)
+TARGET_DIR   = obj_dir
+
+export SYSTEMC			= /usr/local/systemc-3.0.0
+export SYSTEMC_HOME		= $(SYSTEMC)
+export SYSTEMC_INCLUDE	= $(SYSTEMC_HOME)/include
+export SYSTEMC_LIBDIR	= $(SYSTEMC_HOME)/lib-linux64
+export LD_LIBRARY_PATH	:=$(LD_LIBRARY_PATH):$(SYSTEMC_LIBDIR)
+export CXX				= clang++
+export CXXFLAGS			= -std=c++17
+
+all : $(TARGET_DIR)/$(TARGET)
+
+$(TARGET_DIR)/$(TARGET) : $(VERILOG_SRCS) $(SC_SRCS) $(SC_TOP_H)
+	$(VERILATOR) --sc -Wall --top-module $(TOP_MODULE) --exe --build \
+		$(CFLAGS) $(VERILOG_SRCS) $(SC_SRCS)
+
+lint : $(VERILOG_SRCS) $(SC_SRCS) $(SC_TOP_H)
+	$(VERILATOR) --sc -Wall --top-module $(TOP_MODULE) \
+		$(CFLAGS) $(VERILOG_SRCS) $(SC_SRCS)
+
+run : $(TARGET_DIR)/$(TARGET)
+	./$(TARGET_DIR)/$(TARGET)
+
+clean :
+	rm -rf $(TARGET_DIR)
+	rm -f *.vcd
+
+clean_all :
+	rm -rf $(TARGET_DIR)
+	rm -rf work
+	rm -f transcript
+	rm -f *.wlf
+	rm -f *.vcd
+
+debug : $(TARGET_DIR)/$(TARGET)
+	ddd $(TARGET_DIR)/$(TARGET)
+
+wave: sc_VALU_wrapper.vcd
+	gtkwave sc_VALU_wrapper.vcd &
+
+# ===========================================================
+
+mti_fun_build : $(VERILOG_SRCS) $(SC_SRCS) $(SC_TOP_H)
+	vsim -c -do ./mti_sim/compile_fun.do
+
+mti_net_build : ../synthesis/$(TOP_MODULE).v
+	vsim -c -do ./mti_sim/compile_net.do
+
+mti_fun_run :
+	vsim -c -do ./mti_sim/simulate_fun.do
+
+mti_net_run :
+	vsim -c -do ./mti_sim/simulate_net.do
+
+mti_clean :
+	rm -rf work
+	rm -f transcript
+	rm -f *.wlf
+	rm -f *.vcd
+
