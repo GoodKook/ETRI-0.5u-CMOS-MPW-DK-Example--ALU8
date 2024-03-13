@@ -1,4 +1,4 @@
-#ETRI 0.5um CMOS MPW Example: ALU8
+# ETRI 0.5um CMOS MPW Example: ALU8
 
 Visit following blog page for more information,
 
@@ -27,6 +27,8 @@ Layout:
 
 ETRI 0.5um CMOS Std-Cell Design Kit
 -----------------------------------
+
+Find Design-Kit and Tools at following repo.,
 
         https://github.com/GoodKook/ETRI-0.5um-CMOS-MPW-Std-Cell-DK
 
