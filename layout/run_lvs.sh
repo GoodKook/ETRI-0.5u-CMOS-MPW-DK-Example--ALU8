@@ -12,6 +12,6 @@ fi
 netgen -noc -batch lvs \
     "$1.spice $1" \
     "../synthesis/ALU_wrapper.spc ALU_wrapper" \
-    setup.tcl \
+    ../../../tech/etri050_setup.tcl \
     LVS_$1.txt
 

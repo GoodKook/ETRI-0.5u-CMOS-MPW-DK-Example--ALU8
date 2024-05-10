@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+../../../scripts/generate_chip.sh ALU_wrapper 97.5 97.5 0 0 481.05 481.4
+

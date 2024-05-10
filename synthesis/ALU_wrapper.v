@@ -1,14 +1,15 @@
 /* Verilog module written by vlog2Verilog (qflow) */
 
-module ALU_wrapper( clk, reset, ABCmd_i, ACC_o, Done_o, LoadA_i, LoadB_i, LoadCmd_i);
-    input [7:0] ABCmd_i;
-    output [7:0] ACC_o;
-    output Done_o;
-    input LoadA_i;
-    input LoadB_i;
-    input LoadCmd_i;
-    input clk;
-    input reset;
+module ALU_wrapper(
+    input [7:0] ABCmd_i,
+    output [7:0] ACC_o,
+    output Done_o,
+    input LoadA_i,
+    input LoadB_i,
+    input LoadCmd_i,
+    input clk,
+    input reset
+);
 
 wire vdd = 1'b1;
 wire gnd = 1'b0;

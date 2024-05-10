@@ -1,0 +1,7060 @@
+Qflow route logfile created on Mon May 6 17:22:05 KST 2024
+qrouter -noc  -s ALU_wrapper.cfg
+Qrouter detail maze router version 1.4.87.T
+Reading LEF data from file /usr/local/share/qflow/tech/etri050/etri050_stdcells.lef.
+LEF Read, Line 113: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 114: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 118: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 119: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 130: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 131: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 135: NOTE:  Old format VIARULE ignored.
+LEF Read, Line 136: NOTE:  Old format VIARULE ignored.
+LEF file:  Defines site corner (ignored)
+LEF file:  Defines site IO (ignored)
+LEF file:  Defines site core (ignored)
+LEF read: Processed 3327 lines.
+LEF Read: encountered 0 errors and 8 warnings total.
+Reading DEF data from file ALU_wrapper.def.
+Diagnostic: Design name: "ALU_wrapper"
+  Processed 0 vias total.
+  Processed 4393 subcell instances total.
+  Processed 24 pins total.
+  Processed 994 nets total (0 fixed).
+  Processed 2 special nets total (3 fixed).
+DEF read: Processed 8886 lines.
+Output scale = microns / 100, precision 1
+There are 995 nets in this design.
+*** Running stage1 routing with defaults
+Finished routing net vdd
+Nets remaining: 994
+Finished routing net AI[6]
+Nets remaining: 993
+Finished routing net AI[4]
+Nets remaining: 992
+Finished routing net ABCmd_i[7]
+Nets remaining: 991
+Finished routing net _712_
+Nets remaining: 990
+Finished routing net BI[2]
+Nets remaining: 989
+Finished routing net AI[2]
+Nets remaining: 988
+Finished routing net AI[1]
+Nets remaining: 987
+Failed to route net BI[5]
+Finished routing net AI[3]
+Nets remaining: 986
+Finished routing net _167_
+Nets remaining: 985
+Finished routing net _825_
+Nets remaining: 984
+Finished routing net \u_ALU.AI7\
+Nets remaining: 983
+Finished routing net BI[7]
+Nets remaining: 982
+Finished routing net _54_
+Nets remaining: 981
+Finished routing net ABCmd_i[5]
+Nets remaining: 980
+Failed to route net _835_
+Finished routing net _844_
+Nets remaining: 979
+Finished routing net AI[0]
+Nets remaining: 978
+Finished routing net _58_
+Nets remaining: 977
+Finished routing net _829_
+Nets remaining: 976
+Failed to route net _830_
+Finished routing net _831_
+Nets remaining: 975
+Finished routing net BI[6]
+Nets remaining: 974
+Finished routing net _715_
+Nets remaining: 973
+Finished routing net state[1]
+Nets remaining: 972
+Finished routing net _431_
+Nets remaining: 971
+Finished routing net ABCmd_i[0]
+Nets remaining: 970
+Finished routing net ABCmd_i_2_bF$buf2
+Nets remaining: 969
+Finished routing net ABCmd_i_2_bF$buf3
+Nets remaining: 968
+Finished routing net _0__bF$buf3
+Nets remaining: 967
+Finished routing net _0__bF$buf4
+Nets remaining: 966
+Finished routing net clk_bF$buf3
+Nets remaining: 965
+Failed to remove stacked via at grid point 195 191.
+Failed to remove stacked via at grid point 195 191.
+Failed to route net clk_bF$buf4
+Finished routing net _83_
+Nets remaining: 964
+Finished routing net _62_
+Nets remaining: 963
+Finished routing net _703_
+Nets remaining: 962
+Finished routing net _563_
+Nets remaining: 961
+Finished routing net ABCmd_i_2_bF$buf0
+Nets remaining: 960
+Finished routing net ABCmd_i_2_bF$buf1
+Nets remaining: 959
+Finished routing net BI_1_bF$buf2
+Nets remaining: 958
+Finished routing net BI_1_bF$buf3
+Nets remaining: 957
+Finished routing net BI_4_bF$buf0
+Nets remaining: 956
+Finished routing net BI_4_bF$buf1
+Nets remaining: 955
+Finished routing net BI_4_bF$buf2
+Nets remaining: 954
+Failed to route net BI_4_bF$buf3
+Finished routing net _32__bF$buf2
+Nets remaining: 953
+Failed to route net _32__bF$buf3
+Finished routing net AI_5_bF$buf3
+Nets remaining: 952
+Finished routing net _0_
+Nets remaining: 951
+Finished routing net _0__bF$buf0
+Nets remaining: 950
+Finished routing net _0__bF$buf1
+Nets remaining: 949
+Finished routing net _0__bF$buf2
+Nets remaining: 948
+Finished routing net _705__bF$buf2
+Nets remaining: 947
+Failed to route net _705__bF$buf3
+Finished routing net clk
+Nets remaining: 946
+Finished routing net clk_bF$buf0
+Nets remaining: 945
+Finished routing net clk_bF$buf1
+Nets remaining: 944
+Finished routing net clk_bF$buf2
+Nets remaining: 943
+Failed to route net BI_0_bF$buf1
+Failed to route net BI_0_bF$buf2
+Finished routing net BI_0_bF$buf3
+Nets remaining: 942
+Finished routing net BI_3_bF$buf2
+Nets remaining: 941
+Failed to route net BI_3_bF$buf3
+Finished routing net _122_
+Nets remaining: 940
+Finished routing net _61_
+Nets remaining: 939
+Finished routing net _130_
+Nets remaining: 938
+Failed to route net _149_
+Finished routing net _271_
+Nets remaining: 937
+Finished routing net _285_
+Nets remaining: 936
+Finished routing net _361_
+Nets remaining: 935
+Failed to route net _423_
+Finished routing net _498_
+Nets remaining: 934
+Finished routing net _25_
+Nets remaining: 933
+Finished routing net ABCmd_i[6]
+Nets remaining: 932
+Finished routing net _775_
+Nets remaining: 931
+Finished routing net _796_
+Nets remaining: 930
+Finished routing net _26_
+Nets remaining: 929
+Finished routing net ABCmd_i[2]
+Nets remaining: 928
+Failed to route net BI[1]
+Finished routing net BI_1_bF$buf0
+Nets remaining: 927
+Finished routing net BI_1_bF$buf1
+Nets remaining: 926
+Failed to route net BI[4]
+Finished routing net _32_
+Nets remaining: 925
+Finished routing net _32__bF$buf0
+Nets remaining: 924
+Finished routing net _32__bF$buf1
+Nets remaining: 923
+Finished routing net AI[5]
+Nets remaining: 922
+Finished routing net AI_5_bF$buf0
+Nets remaining: 921
+Finished routing net AI_5_bF$buf1
+Nets remaining: 920
+Failed to route net AI_5_bF$buf2
+Finished routing net _705_
+Nets remaining: 919
+Finished routing net _705__bF$buf0
+Nets remaining: 918
+Finished routing net _705__bF$buf1
+Nets remaining: 917
+Finished routing net BI[0]
+Nets remaining: 916
+Finished routing net BI_0_bF$buf0
+Nets remaining: 915
+Finished routing net BI[3]
+Nets remaining: 914
+Failed to route net BI_3_bF$buf0
+Finished routing net BI_3_bF$buf1
+Nets remaining: 913
+Finished routing net _109_
+Nets remaining: 912
+Failed to route net _113_
+Finished routing net _92_
+Nets remaining: 911
+Finished routing net _94_
+Nets remaining: 910
+Finished routing net _127_
+Nets remaining: 909
+Finished routing net _128_
+Nets remaining: 908
+Finished routing net _133_
+Nets remaining: 907
+Finished routing net _57_
+Nets remaining: 906
+Finished routing net _170_
+Nets remaining: 905
+Finished routing net _176_
+Nets remaining: 904
+Finished routing net _177_
+Nets remaining: 903
+Finished routing net _183_
+Nets remaining: 902
+Finished routing net _185_
+Nets remaining: 901
+Finished routing net _188_
+Nets remaining: 900
+Failed to route net _74_
+Finished routing net _68_
+Nets remaining: 899
+Finished routing net _313_
+Nets remaining: 898
+Finished routing net _317_
+Nets remaining: 897
+Finished routing net _318_
+Nets remaining: 896
+Finished routing net _354_
+Nets remaining: 895
+Finished routing net _375_
+Nets remaining: 894
+Finished routing net _700_
+Nets remaining: 893
+Failed to route net AN
+Finished routing net _415_
+Nets remaining: 892
+Finished routing net _427_
+Nets remaining: 891
+Finished routing net _442_
+Nets remaining: 890
+Finished routing net state[0]
+Nets remaining: 889
+Finished routing net _482_
+Nets remaining: 888
+Finished routing net _483_
+Nets remaining: 887
+Finished routing net _500_
+Nets remaining: 886
+Finished routing net _524_
+Nets remaining: 885
+Finished routing net _557_
+Nets remaining: 884
+Finished routing net _571_
+Nets remaining: 883
+Finished routing net _573_
+Nets remaining: 882
+Finished routing net _577_
+Nets remaining: 881
+Finished routing net _613_
+Nets remaining: 880
+Finished routing net _647_
+Nets remaining: 879
+Finished routing net ABCmd_i[1]
+Nets remaining: 878
+Finished routing net _841_
+Nets remaining: 877
+Finished routing net _855_
+Nets remaining: 876
+Finished routing net _857_
+Nets remaining: 875
+Finished routing net _776_
+Nets remaining: 874
+Finished routing net LoadB_i
+Nets remaining: 873
+Finished routing net _70_
+Nets remaining: 872
+Finished routing net _71_
+Nets remaining: 871
+Finished routing net _107_
+Nets remaining: 870
+Finished routing net _60_
+Nets remaining: 869
+Finished routing net _111_
+Nets remaining: 868
+Finished routing net _116_
+Nets remaining: 867
+Finished routing net _100_
+Nets remaining: 866
+Finished routing net _104_
+Nets remaining: 865
+Finished routing net _118_
+Nets remaining: 864
+Finished routing net _119_
+Nets remaining: 863
+Failed to route net _120_
+Finished routing net _123_
+Nets remaining: 862
+Finished routing net _91_
+Nets remaining: 861
+Finished routing net _131_
+Nets remaining: 860
+Finished routing net _132_
+Nets remaining: 859
+Finished routing net _134_
+Nets remaining: 858
+Finished routing net _135_
+Nets remaining: 857
+Finished routing net _136_
+Nets remaining: 856
+Finished routing net _137_
+Nets remaining: 855
+Finished routing net _139_
+Nets remaining: 854
+Failed to route net _93_
+Failed to route net _95_
+Failed to route net _98_
+Failed to route net _143_
+Finished routing net _156_
+Nets remaining: 853
+Finished routing net _158_
+Nets remaining: 852
+Finished routing net _159_
+Nets remaining: 851
+Finished routing net _160_
+Nets remaining: 850
+Finished routing net _162_
+Nets remaining: 849
+Finished routing net _166_
+Nets remaining: 848
+Failed to route net _171_
+Finished routing net _172_
+Nets remaining: 847
+Finished routing net _173_
+Nets remaining: 846
+Finished routing net _174_
+Nets remaining: 845
+Finished routing net _175_
+Nets remaining: 844
+Finished routing net _178_
+Nets remaining: 843
+Finished routing net _182_
+Nets remaining: 842
+Finished routing net _184_
+Nets remaining: 841
+Finished routing net _186_
+Nets remaining: 840
+Finished routing net _189_
+Nets remaining: 839
+Finished routing net _191_
+Nets remaining: 838
+Finished routing net _194_
+Nets remaining: 837
+Finished routing net _195_
+Nets remaining: 836
+Finished routing net _197_
+Nets remaining: 835
+Finished routing net _206_
+Nets remaining: 834
+Finished routing net _209_
+Nets remaining: 833
+Finished routing net _210_
+Nets remaining: 832
+Failed to route net _211_
+Finished routing net _213_
+Nets remaining: 831
+Finished routing net _217_
+Nets remaining: 830
+Finished routing net _218_
+Nets remaining: 829
+Failed to route net _220_
+Finished routing net _226_
+Nets remaining: 828
+Finished routing net _229_
+Nets remaining: 827
+Finished routing net _231_
+Nets remaining: 826
+Failed to route net _232_
+Finished routing net _235_
+Nets remaining: 825
+Finished routing net _237_
+Nets remaining: 824
+Finished routing net _241_
+Nets remaining: 823
+Finished routing net _243_
+Nets remaining: 822
+Finished routing net _244_
+Nets remaining: 821
+Finished routing net _63_
+Nets remaining: 820
+Finished routing net _65_
+Nets remaining: 819
+Finished routing net _77_
+Nets remaining: 818
+Failed to route net _78_
+Finished routing net _69_
+Nets remaining: 817
+Finished routing net _75_
+Nets remaining: 816
+Finished routing net _72_
+Nets remaining: 815
+Finished routing net _262_
+Nets remaining: 814
+Finished routing net _265_
+Nets remaining: 813
+Finished routing net _80_
+Nets remaining: 812
+Finished routing net _269_
+Nets remaining: 811
+Finished routing net _277_
+Nets remaining: 810
+Failed to route net _278_
+Finished routing net _81_
+Nets remaining: 809
+Finished routing net _282_
+Nets remaining: 808
+Failed to route net _59_
+Finished routing net _293_
+Nets remaining: 807
+Finished routing net _301_
+Nets remaining: 806
+Finished routing net _303_
+Nets remaining: 805
+Finished routing net _307_
+Nets remaining: 804
+Finished routing net _308_
+Nets remaining: 803
+Finished routing net _309_
+Nets remaining: 802
+Finished routing net _311_
+Nets remaining: 801
+Finished routing net _314_
+Nets remaining: 800
+Finished routing net _315_
+Nets remaining: 799
+Finished routing net _321_
+Nets remaining: 798
+Finished routing net _324_
+Nets remaining: 797
+Finished routing net _325_
+Nets remaining: 796
+Finished routing net _326_
+Nets remaining: 795
+Finished routing net _327_
+Nets remaining: 794
+Finished routing net _332_
+Nets remaining: 793
+Finished routing net _337_
+Nets remaining: 792
+Finished routing net _338_
+Nets remaining: 791
+Finished routing net _339_
+Nets remaining: 790
+Failed to route net _340_
+Finished routing net _341_
+Nets remaining: 789
+Failed to route net _343_
+Finished routing net _344_
+Nets remaining: 788
+Finished routing net _346_
+Nets remaining: 787
+Finished routing net _348_
+Nets remaining: 786
+Finished routing net _349_
+Nets remaining: 785
+Finished routing net _350_
+Nets remaining: 784
+Finished routing net _352_
+Nets remaining: 783
+Failed to route net _353_
+Finished routing net _356_
+Nets remaining: 782
+Finished routing net _358_
+Nets remaining: 781
+Failed to route net _359_
+Failed to route net _360_
+Finished routing net _365_
+Nets remaining: 780
+Finished routing net _367_
+Nets remaining: 779
+Finished routing net _376_
+Nets remaining: 778
+Finished routing net HC
+Nets remaining: 777
+Finished routing net _387_
+Nets remaining: 776
+Finished routing net _393_
+Nets remaining: 775
+Finished routing net _396_
+Nets remaining: 774
+Finished routing net _401_
+Nets remaining: 773
+Finished routing net _402_
+Nets remaining: 772
+Finished routing net _404_
+Nets remaining: 771
+Finished routing net _405_
+Nets remaining: 770
+Finished routing net _410_
+Nets remaining: 769
+Finished routing net _411_
+Nets remaining: 768
+Finished routing net _413_
+Nets remaining: 767
+Finished routing net _419_
+Nets remaining: 766
+Finished routing net _432_
+Nets remaining: 765
+Finished routing net _437_
+Nets remaining: 764
+Finished routing net _438_
+Nets remaining: 763
+Finished routing net _439_
+Nets remaining: 762
+Finished routing net _440_
+Nets remaining: 761
+Finished routing net _441_
+Nets remaining: 760
+Finished routing net _457_
+Nets remaining: 759
+Finished routing net _460_
+Nets remaining: 758
+Finished routing net _699_
+Nets remaining: 757
+Finished routing net _474_
+Nets remaining: 756
+Finished routing net _480_
+Nets remaining: 755
+Finished routing net _486_
+Nets remaining: 754
+Finished routing net _489_
+Nets remaining: 753
+Finished routing net _490_
+Nets remaining: 752
+Finished routing net _491_
+Nets remaining: 751
+Failed to route net _494_
+Finished routing net _502_
+Nets remaining: 750
+Finished routing net _504_
+Nets remaining: 749
+Finished routing net _506_
+Nets remaining: 748
+Finished routing net _507_
+Nets remaining: 747
+Finished routing net _509_
+Nets remaining: 746
+Finished routing net _516_
+Nets remaining: 745
+Finished routing net _518_
+Nets remaining: 744
+Finished routing net _523_
+Nets remaining: 743
+Failed to route net _545_
+Finished routing net _549_
+Nets remaining: 742
+Finished routing net _550_
+Nets remaining: 741
+Finished routing net _561_
+Nets remaining: 740
+Finished routing net _569_
+Nets remaining: 739
+Finished routing net _590_
+Nets remaining: 738
+Finished routing net _592_
+Nets remaining: 737
+Finished routing net _596_
+Nets remaining: 736
+Failed to route net _597_
+Finished routing net _602_
+Nets remaining: 735
+Finished routing net _603_
+Nets remaining: 734
+Failed to route net _605_
+Finished routing net _611_
+Nets remaining: 733
+Finished routing net _618_
+Nets remaining: 732
+Finished routing net _622_
+Nets remaining: 731
+Finished routing net _624_
+Nets remaining: 730
+Finished routing net _636_
+Nets remaining: 729
+Finished routing net _638_
+Nets remaining: 728
+Finished routing net _641_
+Nets remaining: 727
+Finished routing net _642_
+Nets remaining: 726
+Finished routing net _668_
+Nets remaining: 725
+Finished routing net state[2]
+Nets remaining: 724
+Finished routing net ABCmd_i[4]
+Nets remaining: 723
+Finished routing net _836_
+Nets remaining: 722
+Finished routing net _837_
+Nets remaining: 721
+Finished routing net _843_
+Nets remaining: 720
+Finished routing net _872_
+Nets remaining: 719
+Finished routing net _875_
+Nets remaining: 718
+Finished routing net _877_
+Nets remaining: 717
+Finished routing net _884_
+Nets remaining: 716
+Finished routing net _716_
+Nets remaining: 715
+Finished routing net _718_
+Nets remaining: 714
+Finished routing net _723_
+Nets remaining: 713
+Finished routing net _733_
+Nets remaining: 712
+Finished routing net _749_
+Nets remaining: 711
+Finished routing net _759_
+Nets remaining: 710
+Finished routing net _761_
+Nets remaining: 709
+Failed to route net _766_
+Finished routing net _792_
+Nets remaining: 708
+Finished routing net _794_
+Nets remaining: 707
+Finished routing net _804_
+Nets remaining: 706
+Finished routing net _887_
+Nets remaining: 705
+Finished routing net _707_
+Nets remaining: 704
+Finished routing net _708_
+Nets remaining: 703
+Finished routing net LoadA_i
+Nets remaining: 702
+Finished routing net _105_
+Nets remaining: 701
+Finished routing net _82_
+Nets remaining: 700
+Finished routing net _115_
+Nets remaining: 699
+Failed to route net _117_
+Finished routing net _102_
+Nets remaining: 698
+Finished routing net _103_
+Nets remaining: 697
+Failed to route net _101_
+Failed to route net _99_
+Finished routing net _96_
+Nets remaining: 696
+Finished routing net _89_
+Nets remaining: 695
+Finished routing net _121_
+Nets remaining: 694
+Finished routing net _88_
+Nets remaining: 693
+Finished routing net _124_
+Nets remaining: 692
+Finished routing net _125_
+Nets remaining: 691
+Failed to route net _126_
+Finished routing net _90_
+Nets remaining: 690
+Finished routing net _97_
+Nets remaining: 689
+Finished routing net _138_
+Nets remaining: 688
+Failed to route net _140_
+Finished routing net _141_
+Nets remaining: 687
+Failed to route net _142_
+Failed to route net _144_
+Failed to route net _145_
+Finished routing net _146_
+Nets remaining: 686
+Finished routing net _147_
+Nets remaining: 685
+Finished routing net _150_
+Nets remaining: 684
+Finished routing net _151_
+Nets remaining: 683
+Finished routing net _152_
+Nets remaining: 682
+Finished routing net _155_
+Nets remaining: 681
+Finished routing net _157_
+Nets remaining: 680
+Finished routing net _161_
+Nets remaining: 679
+Finished routing net _163_
+Nets remaining: 678
+Finished routing net _164_
+Nets remaining: 677
+Finished routing net _165_
+Nets remaining: 676
+Failed to route net _168_
+Finished routing net _84_
+Nets remaining: 675
+Finished routing net _169_
+Nets remaining: 674
+Finished routing net _179_
+Nets remaining: 673
+Finished routing net _180_
+Nets remaining: 672
+Finished routing net _181_
+Nets remaining: 671
+Failed to route net _187_
+Failed to route net _190_
+Finished routing net _192_
+Nets remaining: 670
+Finished routing net _193_
+Nets remaining: 669
+Failed to route net _198_
+Finished routing net _199_
+Nets remaining: 668
+Finished routing net _200_
+Nets remaining: 667
+Finished routing net _202_
+Nets remaining: 666
+Finished routing net _205_
+Nets remaining: 665
+Finished routing net _207_
+Nets remaining: 664
+Finished routing net _212_
+Nets remaining: 663
+Failed to route net _214_
+Failed to route net _215_
+Finished routing net _216_
+Nets remaining: 662
+Finished routing net _219_
+Nets remaining: 661
+Finished routing net _221_
+Nets remaining: 660
+Finished routing net _222_
+Nets remaining: 659
+Finished routing net _223_
+Nets remaining: 658
+Finished routing net _224_
+Nets remaining: 657
+Finished routing net _227_
+Nets remaining: 656
+Finished routing net _230_
+Nets remaining: 655
+Finished routing net _233_
+Nets remaining: 654
+Failed to route net _236_
+Failed to route net _238_
+Finished routing net _239_
+Nets remaining: 653
+Finished routing net _240_
+Nets remaining: 652
+Finished routing net _242_
+Nets remaining: 651
+Finished routing net _245_
+Nets remaining: 650
+Finished routing net _246_
+Nets remaining: 649
+Finished routing net _247_
+Nets remaining: 648
+Finished routing net _248_
+Nets remaining: 647
+Finished routing net _249_
+Nets remaining: 646
+Finished routing net _250_
+Nets remaining: 645
+Finished routing net _73_
+Nets remaining: 644
+Finished routing net _251_
+Nets remaining: 643
+Finished routing net _252_
+Nets remaining: 642
+Finished routing net _253_
+Nets remaining: 641
+Finished routing net _254_
+Nets remaining: 640
+Failed to remove stacked via at grid point 286 282.
+Finished routing net _255_
+Nets remaining: 639
+Failed to route net _85_
+Finished routing net _256_
+Nets remaining: 638
+Failed to route net _257_
+Finished routing net _259_
+Nets remaining: 637
+Failed to route net _260_
+Failed to route net _261_
+Finished routing net _64_
+Nets remaining: 636
+Finished routing net _270_
+Nets remaining: 635
+Finished routing net _273_
+Nets remaining: 634
+Finished routing net _274_
+Nets remaining: 633
+Finished routing net _275_
+Nets remaining: 632
+Finished routing net _66_
+Nets remaining: 631
+Finished routing net _276_
+Nets remaining: 630
+Failed to route net _279_
+Failed to remove stacked via at grid point 286 282.
+Failed to route net _87_
+Finished routing net _86_
+Nets remaining: 629
+Finished routing net _280_
+Nets remaining: 628
+Finished routing net _281_
+Nets remaining: 627
+Finished routing net _283_
+Nets remaining: 626
+Failed to remove stacked via at grid point 269 178.
+Failed to remove stacked via at grid point 269 178.
+Failed to route net _286_
+Finished routing net _289_
+Nets remaining: 625
+Finished routing net _291_
+Nets remaining: 624
+Finished routing net _292_
+Nets remaining: 623
+Failed to remove stacked via at grid point 172 230.
+Failed to route net _294_
+Failed to route net _296_
+Finished routing net _297_
+Nets remaining: 622
+Finished routing net _298_
+Nets remaining: 621
+Failed to route net _300_
+Finished routing net _302_
+Nets remaining: 620
+Failed to route net _306_
+Failed to route net _310_
+Finished routing net _319_
+Nets remaining: 619
+Failed to route net _323_
+Finished routing net _328_
+Nets remaining: 618
+Finished routing net _330_
+Nets remaining: 617
+Failed to route net _335_
+Finished routing net _342_
+Nets remaining: 616
+Failed to route net _345_
+Finished routing net _347_
+Nets remaining: 615
+Finished routing net _351_
+Nets remaining: 614
+Finished routing net _355_
+Nets remaining: 613
+Finished routing net _357_
+Nets remaining: 612
+Failed to route net _362_
+Finished routing net _363_
+Nets remaining: 611
+Failed to remove stacked via at grid point 294 35.
+Failed to route net _364_
+Failed to route net _368_
+Finished routing net _369_
+Nets remaining: 610
+Finished routing net _371_
+Nets remaining: 609
+Finished routing net _374_
+Nets remaining: 608
+Finished routing net ACC[0]
+Nets remaining: 607
+Finished routing net _886_[1]
+Nets remaining: 606
+Finished routing net _389_
+Nets remaining: 605
+Failed to route net _390_
+Finished routing net _392_
+Nets remaining: 604
+Finished routing net _397_
+Nets remaining: 603
+Failed to remove stacked via at grid point 187 72.
+Failed to route net _398_
+Failed to route net _406_
+Failed to route net _409_
+Finished routing net _412_
+Nets remaining: 602
+Failed to route net _414_
+Finished routing net _416_
+Nets remaining: 601
+Finished routing net _417_
+Nets remaining: 600
+Finished routing net _418_
+Nets remaining: 599
+Finished routing net _420_
+Nets remaining: 598
+Failed to route net _421_
+Finished routing net _424_
+Nets remaining: 597
+Failed to route net _425_
+Finished routing net _433_
+Nets remaining: 596
+Finished routing net _435_
+Nets remaining: 595
+Finished routing net _436_
+Nets remaining: 594
+Finished routing net _444_
+Nets remaining: 593
+Finished routing net _445_
+Nets remaining: 592
+Finished routing net _448_
+Nets remaining: 591
+Failed to route net _449_
+Finished routing net _450_
+Nets remaining: 590
+Finished routing net _451_
+Nets remaining: 589
+Finished routing net _452_
+Nets remaining: 588
+Finished routing net _453_
+Nets remaining: 587
+Finished routing net _456_
+Nets remaining: 586
+Finished routing net _458_
+Nets remaining: 585
+Finished routing net _459_
+Nets remaining: 584
+Finished routing net _886_[2]
+Nets remaining: 583
+Finished routing net _470_
+Nets remaining: 582
+Failed to route net _472_
+Finished routing net _475_
+Nets remaining: 581
+Finished routing net _477_
+Nets remaining: 580
+Finished routing net _478_
+Nets remaining: 579
+Finished routing net _479_
+Nets remaining: 578
+Failed to route net _484_
+Failed to route net _488_
+Finished routing net _492_
+Nets remaining: 577
+Failed to route net _493_
+Finished routing net _495_
+Nets remaining: 576
+Finished routing net _499_
+Nets remaining: 575
+Finished routing net _501_
+Nets remaining: 574
+Finished routing net _503_
+Nets remaining: 573
+Failed to remove stacked via at grid point 153 22.
+Failed to route net _510_
+Failed to route net _513_
+Finished routing net _515_
+Nets remaining: 572
+Finished routing net _525_
+Nets remaining: 571
+Failed to route net _526_
+Finished routing net _527_
+Nets remaining: 570
+Finished routing net _528_
+Nets remaining: 569
+Finished routing net _886_[3]
+Nets remaining: 568
+Finished routing net _541_
+Nets remaining: 567
+Failed to route net _542_
+Finished routing net _544_
+Nets remaining: 566
+Finished routing net _547_
+Nets remaining: 565
+Finished routing net _548_
+Nets remaining: 564
+Finished routing net _552_
+Nets remaining: 563
+Finished routing net _554_
+Nets remaining: 562
+Failed to route net _556_
+Finished routing net _558_
+Nets remaining: 561
+Failed to route net _560_
+Finished routing net _562_
+Nets remaining: 560
+Finished routing net _565_
+Nets remaining: 559
+Finished routing net _566_
+Nets remaining: 558
+Finished routing net _568_
+Nets remaining: 557
+Finished routing net _576_
+Nets remaining: 556
+Finished routing net ACC[3]
+Nets remaining: 555
+Finished routing net _886_[4]
+Nets remaining: 554
+Failed to route net _595_
+Finished routing net _598_
+Nets remaining: 553
+Finished routing net _604_
+Nets remaining: 552
+Finished routing net _607_
+Nets remaining: 551
+Finished routing net _609_
+Nets remaining: 550
+Finished routing net _614_
+Nets remaining: 549
+Finished routing net _616_
+Nets remaining: 548
+Finished routing net _617_
+Nets remaining: 547
+Failed to route net _619_
+Finished routing net _620_
+Nets remaining: 546
+Finished routing net CO
+Nets remaining: 545
+Finished routing net ACC[4]
+Nets remaining: 544
+Finished routing net _886_[5]
+Nets remaining: 543
+Finished routing net _639_
+Nets remaining: 542
+Finished routing net _640_
+Nets remaining: 541
+Finished routing net _644_
+Nets remaining: 540
+Finished routing net _645_
+Nets remaining: 539
+Finished routing net _646_
+Nets remaining: 538
+Finished routing net _886_[6]
+Nets remaining: 537
+Finished routing net _658_
+Nets remaining: 536
+Finished routing net _660_
+Nets remaining: 535
+Finished routing net _662_
+Nets remaining: 534
+Finished routing net _663_
+Nets remaining: 533
+Finished routing net _666_
+Nets remaining: 532
+Finished routing net _886_[7]
+Nets remaining: 531
+Finished routing net _40_
+Nets remaining: 530
+Failed to route net _42_
+Finished routing net _44_
+Nets remaining: 529
+Failed to remove stacked via at grid point 195 191.
+Failed to route net _46_
+Failed to route net _48_
+Finished routing net _50_
+Nets remaining: 528
+Finished routing net _52_
+Nets remaining: 527
+Finished routing net _886_[0]
+Nets remaining: 526
+Finished routing net _824_
+Nets remaining: 525
+Finished routing net ABCmd_i[3]
+Nets remaining: 524
+Finished routing net _827_
+Nets remaining: 523
+Finished routing net _828_
+Nets remaining: 522
+Failed to route net _832_
+Failed to route net _833_
+Finished routing net _840_
+Nets remaining: 521
+Finished routing net _842_
+Nets remaining: 520
+Finished routing net _845_
+Nets remaining: 519
+Finished routing net _858_
+Nets remaining: 518
+Finished routing net _861_
+Nets remaining: 517
+Failed to route net _863_
+Failed to route net _871_
+Finished routing net _719_
+Nets remaining: 516
+Finished routing net _722_
+Nets remaining: 515
+Finished routing net _725_
+Nets remaining: 514
+Finished routing net _729_
+Nets remaining: 513
+Failed to route net _731_
+Finished routing net _732_
+Nets remaining: 512
+Failed to route net _734_
+Finished routing net _737_
+Nets remaining: 511
+Finished routing net _739_
+Nets remaining: 510
+Finished routing net _742_
+Nets remaining: 509
+Finished routing net _746_
+Nets remaining: 508
+Failed to route net _748_
+Finished routing net _750_
+Nets remaining: 507
+Finished routing net _751_
+Nets remaining: 506
+Finished routing net _753_
+Nets remaining: 505
+Finished routing net _755_
+Nets remaining: 504
+Finished routing net _762_
+Nets remaining: 503
+Failed to route net _763_
+Failed to route net _764_
+Finished routing net _765_
+Nets remaining: 502
+Failed to route net _767_
+Failed to route net _768_
+Failed to route net _772_
+Finished routing net _774_
+Nets remaining: 501
+Finished routing net _777_
+Nets remaining: 500
+Finished routing net _783_
+Nets remaining: 499
+Finished routing net _784_
+Nets remaining: 498
+Finished routing net _785_
+Nets remaining: 497
+Finished routing net _786_
+Nets remaining: 496
+Finished routing net _788_
+Nets remaining: 495
+Failed to route net _795_
+Finished routing net _797_
+Nets remaining: 494
+Finished routing net _798_
+Nets remaining: 493
+Finished routing net _799_
+Nets remaining: 492
+Finished routing net _800_
+Nets remaining: 491
+Finished routing net _806_
+Nets remaining: 490
+Finished routing net _807_
+Nets remaining: 489
+Finished routing net _814_
+Nets remaining: 488
+Failed to route net _817_
+Finished routing net _818_
+Nets remaining: 487
+Finished routing net _820_
+Nets remaining: 486
+Finished routing net _702_
+Nets remaining: 485
+Finished routing net _706_
+Nets remaining: 484
+Failed to route net LoadCmd_i
+Finished routing net _711_
+Nets remaining: 483
+Failed to route net _714_
+Finished routing net _33_
+Nets remaining: 482
+Finished routing net _34_
+Nets remaining: 481
+Finished routing net _67_
+Nets remaining: 480
+Finished routing net _76_
+Nets remaining: 479
+Failed to route net _79_
+Finished routing net _106_
+Nets remaining: 478
+Finished routing net _108_
+Nets remaining: 477
+Failed to route net _110_
+Finished routing net _112_
+Nets remaining: 476
+Finished routing net _114_
+Nets remaining: 475
+Finished routing net _129_
+Nets remaining: 474
+Failed to route net _148_
+Finished routing net _153_
+Nets remaining: 473
+Failed to route net _154_
+Finished routing net _196_
+Nets remaining: 472
+Finished routing net _201_
+Nets remaining: 471
+Finished routing net _203_
+Nets remaining: 470
+Finished routing net _204_
+Nets remaining: 469
+Finished routing net _208_
+Nets remaining: 468
+Finished routing net _225_
+Nets remaining: 467
+Finished routing net _228_
+Nets remaining: 466
+Failed to route net _234_
+Failed to route net _258_
+Finished routing net _263_
+Nets remaining: 465
+Finished routing net _264_
+Nets remaining: 464
+Finished routing net _266_
+Nets remaining: 463
+Finished routing net _267_
+Nets remaining: 462
+Finished routing net _268_
+Nets remaining: 461
+Finished routing net _272_
+Nets remaining: 460
+Finished routing net _284_
+Nets remaining: 459
+Finished routing net _287_
+Nets remaining: 458
+Failed to route net _288_
+Finished routing net _290_
+Nets remaining: 457
+Finished routing net _295_
+Nets remaining: 456
+Failed to route net _299_
+Finished routing net _304_
+Nets remaining: 455
+Finished routing net _305_
+Nets remaining: 454
+Finished routing net _312_
+Nets remaining: 453
+Finished routing net _316_
+Nets remaining: 452
+Finished routing net _320_
+Nets remaining: 451
+Finished routing net _322_
+Nets remaining: 450
+Finished routing net _329_
+Nets remaining: 449
+Finished routing net _331_
+Nets remaining: 448
+Finished routing net _333_
+Nets remaining: 447
+Finished routing net _334_
+Nets remaining: 446
+Finished routing net _336_
+Nets remaining: 445
+Finished routing net _366_
+Nets remaining: 444
+Finished routing net _370_
+Nets remaining: 443
+Failed to remove stacked via at grid point 267 61.
+Failed to route net _372_
+Failed to route net _373_
+Finished routing net _377_
+Nets remaining: 442
+Failed to route net _378_
+Failed to route net _379_
+Failed to route net _380_
+Finished routing net _381_
+Nets remaining: 441
+Finished routing net _382_
+Nets remaining: 440
+Failed to route net _383_
+Failed to route net _384_
+Finished routing net _56_
+Nets remaining: 439
+Finished routing net _9_
+Nets remaining: 438
+Finished routing net _385_
+Nets remaining: 437
+Finished routing net _386_
+Nets remaining: 436
+Failed to route net _388_
+Failed to route net _391_
+Finished routing net _394_
+Nets remaining: 435
+Failed to route net _395_
+Finished routing net _399_
+Nets remaining: 434
+Finished routing net _400_
+Nets remaining: 433
+Finished routing net _403_
+Nets remaining: 432
+Finished routing net _407_
+Nets remaining: 431
+Finished routing net _408_
+Nets remaining: 430
+Finished routing net _422_
+Nets remaining: 429
+Finished routing net _426_
+Nets remaining: 428
+Finished routing net _428_
+Nets remaining: 427
+Finished routing net _429_
+Nets remaining: 426
+Finished routing net _430_
+Nets remaining: 425
+Failed to route net _434_
+Failed to route net _443_
+Finished routing net _446_
+Nets remaining: 424
+Finished routing net _447_
+Nets remaining: 423
+Finished routing net _454_
+Nets remaining: 422
+Finished routing net _455_
+Nets remaining: 421
+Failed to remove stacked via at grid point 115 126.
+Failed to route net _461_
+Finished routing net _462_
+Nets remaining: 420
+Finished routing net _463_
+Nets remaining: 419
+Finished routing net _464_
+Nets remaining: 418
+Failed to route net ACC[1]
+Finished routing net _465_
+Nets remaining: 417
+Failed to route net _466_
+Finished routing net _467_
+Nets remaining: 416
+Finished routing net _468_
+Nets remaining: 415
+Finished routing net _10_
+Nets remaining: 414
+Finished routing net _469_
+Nets remaining: 413
+Failed to route net _471_
+Finished routing net _473_
+Nets remaining: 412
+Finished routing net _476_
+Nets remaining: 411
+Finished routing net _481_
+Nets remaining: 410
+Finished routing net _485_
+Nets remaining: 409
+Finished routing net _487_
+Nets remaining: 408
+Finished routing net _496_
+Nets remaining: 407
+Finished routing net _497_
+Nets remaining: 406
+Finished routing net _505_
+Nets remaining: 405
+Finished routing net _508_
+Nets remaining: 404
+Finished routing net _511_
+Nets remaining: 403
+Failed to route net _512_
+Finished routing net _514_
+Nets remaining: 402
+Finished routing net _517_
+Nets remaining: 401
+Failed to route net _519_
+Finished routing net _520_
+Nets remaining: 400
+Failed to route net _521_
+Finished routing net _522_
+Nets remaining: 399
+Finished routing net _529_
+Nets remaining: 398
+Finished routing net _530_
+Nets remaining: 397
+Finished routing net AZ
+Nets remaining: 396
+Finished routing net _531_
+Nets remaining: 395
+Finished routing net _532_
+Nets remaining: 394
+Finished routing net _533_
+Nets remaining: 393
+Finished routing net _534_
+Nets remaining: 392
+Finished routing net ACC[2]
+Nets remaining: 391
+Failed to remove stacked via at grid point 55 230.
+Failed to route net _535_
+Finished routing net _536_
+Nets remaining: 390
+Finished routing net _537_
+Nets remaining: 389
+Finished routing net _11_
+Nets remaining: 388
+Finished routing net _538_
+Nets remaining: 387
+Finished routing net AV
+Nets remaining: 386
+Finished routing net _539_
+Nets remaining: 385
+Failed to route net _540_
+Finished routing net _543_
+Nets remaining: 384
+Finished routing net _546_
+Nets remaining: 383
+Finished routing net _551_
+Nets remaining: 382
+Finished routing net _553_
+Nets remaining: 381
+Finished routing net _555_
+Nets remaining: 380
+Finished routing net _559_
+Nets remaining: 379
+Finished routing net _564_
+Nets remaining: 378
+Finished routing net _567_
+Nets remaining: 377
+Finished routing net _570_
+Nets remaining: 376
+Finished routing net _572_
+Nets remaining: 375
+Finished routing net _574_
+Nets remaining: 374
+Finished routing net _575_
+Nets remaining: 373
+Finished routing net _578_
+Nets remaining: 372
+Finished routing net _579_
+Nets remaining: 371
+Finished routing net _580_
+Nets remaining: 370
+Finished routing net _581_
+Nets remaining: 369
+Failed to route net _582_
+Finished routing net _583_
+Nets remaining: 368
+Finished routing net _584_
+Nets remaining: 367
+Failed to route net _585_
+Finished routing net _586_
+Nets remaining: 366
+Finished routing net _587_
+Nets remaining: 365
+Finished routing net _588_
+Nets remaining: 364
+Finished routing net _12_
+Nets remaining: 363
+Finished routing net _589_
+Nets remaining: 362
+Finished routing net _591_
+Nets remaining: 361
+Failed to route net _593_
+Failed to route net _594_
+Finished routing net _599_
+Nets remaining: 360
+Failed to route net _600_
+Finished routing net _601_
+Nets remaining: 359
+Finished routing net _606_
+Nets remaining: 358
+Failed to route net _608_
+Failed to route net _610_
+Finished routing net _612_
+Nets remaining: 357
+Finished routing net _615_
+Nets remaining: 356
+Finished routing net _621_
+Nets remaining: 355
+Finished routing net _623_
+Nets remaining: 354
+Finished routing net _625_
+Nets remaining: 353
+Finished routing net _626_
+Nets remaining: 352
+Finished routing net _627_
+Nets remaining: 351
+Finished routing net _628_
+Nets remaining: 350
+Finished routing net _629_
+Nets remaining: 349
+Finished routing net _630_
+Nets remaining: 348
+Finished routing net _631_
+Nets remaining: 347
+Finished routing net _632_
+Nets remaining: 346
+Failed to route net _633_
+Finished routing net _634_
+Nets remaining: 345
+Finished routing net _13_
+Nets remaining: 344
+Finished routing net _635_
+Nets remaining: 343
+Failed to route net _637_
+Finished routing net _643_
+Nets remaining: 342
+Finished routing net _648_
+Nets remaining: 341
+Finished routing net _649_
+Nets remaining: 340
+Finished routing net _650_
+Nets remaining: 339
+Finished routing net _651_
+Nets remaining: 338
+Finished routing net _652_
+Nets remaining: 337
+Failed to route net _653_
+Finished routing net ACC[5]
+Nets remaining: 336
+Failed to route net _654_
+Failed to route net _655_
+Failed to route net _656_
+Finished routing net _14_
+Nets remaining: 335
+Finished routing net _657_
+Nets remaining: 334
+Finished routing net _659_
+Nets remaining: 333
+Finished routing net _661_
+Nets remaining: 332
+Finished routing net _664_
+Nets remaining: 331
+Failed to route net _665_
+Finished routing net _667_
+Nets remaining: 330
+Finished routing net _669_
+Nets remaining: 329
+Finished routing net _670_
+Nets remaining: 328
+Finished routing net _671_
+Nets remaining: 327
+Finished routing net _672_
+Nets remaining: 326
+Failed to route net _673_
+Failed to route net _674_
+Failed to route net _675_
+Finished routing net _676_
+Nets remaining: 325
+Finished routing net _677_
+Nets remaining: 324
+Finished routing net ACC[6]
+Nets remaining: 323
+Finished routing net _678_
+Nets remaining: 322
+Finished routing net _679_
+Nets remaining: 321
+Failed to route net _680_
+Finished routing net _15_
+Nets remaining: 320
+Finished routing net _681_
+Nets remaining: 319
+Failed to route net _682_
+Finished routing net _683_
+Nets remaining: 318
+Failed to route net _684_
+Failed to route net _685_
+Finished routing net _686_
+Nets remaining: 317
+Failed to route net _687_
+Finished routing net _688_
+Nets remaining: 316
+Finished routing net _689_
+Nets remaining: 315
+Finished routing net _690_
+Nets remaining: 314
+Finished routing net _16_
+Nets remaining: 313
+Failed to route net _691_
+Finished routing net _17_
+Nets remaining: 312
+Finished routing net _692_
+Nets remaining: 311
+Finished routing net _18_
+Nets remaining: 310
+Finished routing net _693_
+Nets remaining: 309
+Failed to route net _19_
+Finished routing net _694_
+Nets remaining: 308
+Failed to route net _20_
+Failed to route net _695_
+Failed to route net _21_
+Failed to route net _696_
+Failed to route net _22_
+Finished routing net _697_
+Nets remaining: 307
+Failed to route net _23_
+Finished routing net _698_
+Nets remaining: 306
+Finished routing net _24_
+Nets remaining: 305
+Finished routing net _1_
+Nets remaining: 304
+Failed to route net _2_
+Finished routing net _3_
+Nets remaining: 303
+Finished routing net _4_
+Nets remaining: 302
+Finished routing net _5_
+Nets remaining: 301
+Failed to route net _6_
+Failed to route net _7_
+Finished routing net _8_
+Nets remaining: 300
+Failed to route net _888_[0]
+Finished routing net _888_[1]
+Nets remaining: 299
+Failed to route net _888_[2]
+Finished routing net _826_
+Nets remaining: 298
+Finished routing net _834_
+Nets remaining: 297
+Finished routing net _838_
+Nets remaining: 296
+Finished routing net _839_
+Nets remaining: 295
+Failed to route net _846_
+Finished routing net _847_
+Nets remaining: 294
+Finished routing net _848_
+Nets remaining: 293
+Finished routing net _849_
+Nets remaining: 292
+Finished routing net _850_
+Nets remaining: 291
+Failed to route net _851_
+Finished routing net _852_
+Nets remaining: 290
+Failed to route net _853_
+Finished routing net _854_
+Nets remaining: 289
+Finished routing net _856_
+Nets remaining: 288
+Finished routing net _859_
+Nets remaining: 287
+Finished routing net _860_
+Nets remaining: 286
+Finished routing net _862_
+Nets remaining: 285
+Failed to remove stacked via at grid point 198 306.
+Failed to route net _864_
+Finished routing net _865_
+Nets remaining: 284
+Finished routing net _866_
+Nets remaining: 283
+Finished routing net _867_
+Nets remaining: 282
+Failed to route net _868_
+Finished routing net _869_
+Nets remaining: 281
+Finished routing net _870_
+Nets remaining: 280
+Failed to route net _873_
+Finished routing net _874_
+Nets remaining: 279
+Finished routing net _876_
+Nets remaining: 278
+Finished routing net _878_
+Nets remaining: 277
+Finished routing net _879_
+Nets remaining: 276
+Finished routing net _880_
+Nets remaining: 275
+Finished routing net _881_
+Nets remaining: 274
+Finished routing net _882_
+Nets remaining: 273
+Finished routing net _883_
+Nets remaining: 272
+Finished routing net _885_
+Nets remaining: 271
+Finished routing net _717_
+Nets remaining: 270
+Finished routing net _720_
+Nets remaining: 269
+Finished routing net _721_
+Nets remaining: 268
+Finished routing net _724_
+Nets remaining: 267
+Finished routing net _726_
+Nets remaining: 266
+Finished routing net _727_
+Nets remaining: 265
+Finished routing net _728_
+Nets remaining: 264
+Failed to route net _730_
+Finished routing net _735_
+Nets remaining: 263
+Finished routing net _736_
+Nets remaining: 262
+Failed to route net _738_
+Finished routing net _740_
+Nets remaining: 261
+Finished routing net _741_
+Nets remaining: 260
+Finished routing net _743_
+Nets remaining: 259
+Finished routing net _744_
+Nets remaining: 258
+Finished routing net _745_
+Nets remaining: 257
+Failed to route net _747_
+Failed to route net _752_
+Finished routing net _754_
+Nets remaining: 256
+Failed to remove stacked via at grid point 131 246.
+Failed to route net _756_
+Finished routing net _757_
+Nets remaining: 255
+Finished routing net _758_
+Nets remaining: 254
+Finished routing net _760_
+Nets remaining: 253
+Finished routing net _769_
+Nets remaining: 252
+Failed to route net _770_
+Finished routing net _771_
+Nets remaining: 251
+Finished routing net _773_
+Nets remaining: 250
+Finished routing net _778_
+Nets remaining: 249
+Failed to route net _779_
+Failed to route net _780_
+Finished routing net _781_
+Nets remaining: 248
+Finished routing net _782_
+Nets remaining: 247
+Finished routing net _787_
+Nets remaining: 246
+Finished routing net _789_
+Nets remaining: 245
+Failed to route net _790_
+Finished routing net _791_
+Nets remaining: 244
+Finished routing net _793_
+Nets remaining: 243
+Finished routing net _801_
+Nets remaining: 242
+Failed to route net _802_
+Finished routing net _803_
+Nets remaining: 241
+Failed to route net _805_
+Finished routing net _808_
+Nets remaining: 240
+Finished routing net _809_
+Nets remaining: 239
+Finished routing net _810_
+Nets remaining: 238
+Failed to route net _811_
+Finished routing net _812_
+Nets remaining: 237
+Finished routing net _813_
+Nets remaining: 236
+Failed to route net _815_
+Finished routing net _816_
+Nets remaining: 235
+Finished routing net _819_
+Nets remaining: 234
+Failed to route net _821_
+Finished routing net _822_
+Nets remaining: 233
+Finished routing net _823_
+Nets remaining: 232
+Finished routing net ACC_o[0]
+Nets remaining: 231
+Finished routing net ACC_o[1]
+Nets remaining: 230
+Finished routing net ACC_o[2]
+Nets remaining: 229
+Finished routing net ACC_o[3]
+Nets remaining: 228
+Finished routing net ACC_o[4]
+Nets remaining: 227
+Finished routing net ACC_o[5]
+Nets remaining: 226
+Finished routing net ACC_o[6]
+Nets remaining: 225
+Finished routing net ACC_o[7]
+Nets remaining: 224
+Finished routing net Done_o
+Nets remaining: 223
+Finished routing net _701_
+Nets remaining: 222
+Finished routing net _704_
+Nets remaining: 221
+Failed to route net _709_
+Failed to route net _710_
+Failed to route net _713_
+Finished routing net _27_
+Nets remaining: 220
+Failed to route net _28_
+Finished routing net _29_
+Nets remaining: 219
+Failed to route net _30_
+Finished routing net _31_
+Nets remaining: 218
+Finished routing net _35_
+Nets remaining: 217
+Finished routing net _36_
+Nets remaining: 216
+Finished routing net _37_
+Nets remaining: 215
+Finished routing net _38_
+Nets remaining: 214
+Finished routing net _39_
+Nets remaining: 213
+Finished routing net reset
+Nets remaining: 212
+Finished routing net _41_
+Nets remaining: 211
+Finished routing net _43_
+Nets remaining: 210
+Finished routing net _45_
+Nets remaining: 209
+Finished routing net _47_
+Nets remaining: 208
+Failed to route net _49_
+Failed to route net _51_
+Finished routing net _53_
+Nets remaining: 207
+Failed to route net _55_
+
+----------------------------------------------
+Progress: Stage 1 total routes completed: 2088
+Failed net routes: 210
+----------------------------------------------
+*** Running stage2 routing with options mask 10, effort 10
+Nets remaining: 210
+Best route of _55_ collides with net: ABCmd_i[7] 
+Ripping up blocking net ABCmd_i[7]
+Nets remaining: 210
+Best route of _51_ collides with net: AI[6] 
+Ripping up blocking net AI[6]
+Nets remaining: 210
+Best route of _49_ collides with net: _5_ 
+Ripping up blocking net _5_
+Nets remaining: 210
+Best route of _30_ collides with net: LoadA_i 
+Ripping up blocking net LoadA_i
+Nets remaining: 210
+Nets remaining: 209
+Best route of _713_ collides with net: _712_ 
+Ripping up blocking net _712_
+Nets remaining: 209
+Nets remaining: 208
+Best route of _709_ collides with net: _706_ 
+Ripping up blocking net _706_
+Nets remaining: 208
+Best route of _821_ collides with net: _820_ 
+Ripping up blocking net _820_
+Nets remaining: 208
+Best route of _815_ collides with net: _786_ 
+Ripping up blocking net _786_
+Nets remaining: 208
+Best route of _811_ collides with net: _796_ 
+Ripping up blocking net _796_
+Nets remaining: 208
+Best route of _805_ collides with net: LoadB_i 
+Ripping up blocking net LoadB_i
+Nets remaining: 208
+Best route of _802_ collides with nets: _844_ _734_ 
+Ripping up blocking net _844_
+Ripping up blocking net _734_
+Nets remaining: 209
+Best route of _790_ collides with nets: ABCmd_i[5] ABCmd_i[0] BI_1_bF$buf3 
+Ripping up blocking net ABCmd_i[5]
+Ripping up blocking net ABCmd_i[0]
+Ripping up blocking net BI_1_bF$buf3
+Nets remaining: 211
+Best route of _780_ collides with net: _739_ 
+Ripping up blocking net _739_
+Nets remaining: 211
+Nets remaining: 210
+Nets remaining: 209
+Nets remaining: 208
+Best route of _752_ collides with net: _751_ 
+Ripping up blocking net _751_
+Nets remaining: 208
+Nets remaining: 207
+Best route of _738_ collides with net: _767_ 
+Ripping up blocking net _767_
+Nets remaining: 207
+Best route of _730_ collides with net: ABCmd_i_2_bF$buf0 
+Ripping up blocking net ABCmd_i_2_bF$buf0
+Nets remaining: 207
+Best route of _873_ collides with net: _857_ 
+Ripping up blocking net _857_
+Nets remaining: 207
+Best route of _868_ collides with net: _837_ 
+Ripping up blocking net _837_
+Nets remaining: 207
+Nets remaining: 206
+Best route of _853_ collides with nets: ABCmd_i[1] BI[2] AI[2] 
+Ripping up blocking net ABCmd_i[1]
+Ripping up blocking net BI[2]
+Ripping up blocking net AI[2]
+Nets remaining: 208
+Nets remaining: 207
+Nets remaining: 206
+Best route of _888_[2] collides with net: state[1] 
+Ripping up blocking net state[1]
+Nets remaining: 206
+Best route of _888_[0] collides with net: clk_bF$buf2 
+Ripping up blocking net clk_bF$buf2
+Nets remaining: 206
+Nets remaining: 205
+Nets remaining: 204
+Best route of _2_ collides with net: _677_ 
+Ripping up blocking net _677_
+Nets remaining: 204
+Nets remaining: 203
+Nets remaining: 202
+Best route of _696_ collides with net: AI[0] 
+Ripping up blocking net AI[0]
+Nets remaining: 202
+Nets remaining: 201
+Best route of _695_ collides with net: AI[4] 
+Ripping up blocking net AI[4]
+Nets remaining: 201
+Nets remaining: 200
+Nets remaining: 199
+Nets remaining: 198
+Nets remaining: 197
+Nets remaining: 196
+Best route of _684_ collides with net: _642_ 
+Ripping up blocking net _642_
+Nets remaining: 196
+Nets remaining: 195
+Best route of _680_ collides with nets: _886_[7] _886_[6] 
+Ripping up blocking net _886_[7]
+Ripping up blocking net _886_[6]
+Nets remaining: 196
+Best route of _675_ collides with net: _393_ 
+Ripping up blocking net _393_
+Nets remaining: 196
+Nets remaining: 195
+Nets remaining: 194
+Best route of _665_ collides with net: _668_ 
+Ripping up blocking net _668_
+Nets remaining: 194
+Nets remaining: 193
+Best route of _655_ collides with net: _888_[2] 
+Ripping up blocking net _888_[2]
+Nets remaining: 193
+Best route of _654_ collides with net: _715_ 
+Ripping up blocking net _715_
+Nets remaining: 193
+Best route of _653_ collides with nets: BI_1_bF$buf2 _655_ state[2] _467_ 
+Ripping up blocking net BI_1_bF$buf2
+Ripping up blocking net _655_
+Ripping up blocking net state[2]
+Ripping up blocking net _467_
+Nets remaining: 196
+Best route of _637_ collides with nets: _622_ _550_ 
+Ripping up blocking net _622_
+Ripping up blocking net _550_
+Nets remaining: 197
+Nets remaining: 196
+Best route of _610_ collides with net: _611_ 
+Ripping up blocking net _611_
+Nets remaining: 196
+Best route of _608_ collides with net: _603_ 
+Ripping up blocking net _603_
+Nets remaining: 196
+Nets remaining: 195
+Nets remaining: 194
+Best route of _593_ collides with net: BI[7] 
+Ripping up blocking net BI[7]
+Nets remaining: 194
+Nets remaining: 193
+Best route of _582_ collides with net: _581_ 
+Ripping up blocking net _581_
+Nets remaining: 193
+Best route of _540_ collides with net: _557_ 
+Ripping up blocking net _557_
+Nets remaining: 193
+Nets remaining: 192
+Nets remaining: 191
+Best route of _519_ collides with nets: _518_ _470_ 
+Ripping up blocking net _518_
+Ripping up blocking net _470_
+Nets remaining: 192
+Nets remaining: 191
+Best route of _471_ collides with net: _315_ 
+Ripping up blocking net _315_
+Nets remaining: 191
+Best route of _466_ collides with net: _17_ 
+Ripping up blocking net _17_
+Nets remaining: 191
+Nets remaining: 190
+Nets remaining: 189
+Best route of _443_ collides with net: _363_ 
+Ripping up blocking net _363_
+Nets remaining: 189
+Nets remaining: 188
+Nets remaining: 187
+Best route of _391_ collides with net: _262_ 
+Ripping up blocking net _262_
+Nets remaining: 187
+Best route of _388_ collides with net: BI_4_bF$buf1 
+Ripping up blocking net BI_4_bF$buf1
+Nets remaining: 187
+Best route of _384_ collides with net: _700_ 
+Ripping up blocking net _700_
+Nets remaining: 187
+Nets remaining: 186
+Nets remaining: 185
+Nets remaining: 184
+Nets remaining: 183
+Best route of _373_ collides with net: _368_ 
+Ripping up blocking net _368_
+Nets remaining: 183
+Best route of _372_ collides with net: _373_ 
+Ripping up blocking net _373_
+Nets remaining: 183
+Best route of _299_ collides with net: _277_ 
+Ripping up blocking net _277_
+Nets remaining: 183
+Best route of _288_ collides with net: _82_ 
+Ripping up blocking net _82_
+Nets remaining: 183
+Nets remaining: 182
+Best route of _234_ collides with net: _219_ 
+Ripping up blocking net _219_
+Nets remaining: 182
+Nets remaining: 181
+Nets remaining: 180
+Best route of _110_ collides with net: _106_ 
+Ripping up blocking net _106_
+Nets remaining: 180
+Best route of _79_ collides with net: _76_ 
+Ripping up blocking net _76_
+Nets remaining: 180
+Best route of _714_ collides with net: _711_ 
+Ripping up blocking net _711_
+Nets remaining: 180
+Nets remaining: 179
+Nets remaining: 178
+Best route of _795_ collides with net: _794_ 
+Ripping up blocking net _794_
+Nets remaining: 178
+Nets remaining: 177
+Nets remaining: 176
+Nets remaining: 175
+Nets remaining: 174
+Best route of _763_ collides with nets: _761_ ACC[4] 
+Ripping up blocking net _761_
+Ripping up blocking net ACC[4]
+Nets remaining: 175
+Nets remaining: 174
+Best route of _734_ collides with nets: HC ACC[0] ACC[3] 
+Ripping up blocking net HC
+Ripping up blocking net ACC[0]
+Ripping up blocking net ACC[3]
+Nets remaining: 176
+Nets remaining: 175
+Best route of _871_ collides with net: _843_ 
+Ripping up blocking net _843_
+Nets remaining: 175
+Best route of _863_ collides with nets: _841_ AI[1] _840_ _824_ 
+Ripping up blocking net _841_
+Ripping up blocking net AI[1]
+Ripping up blocking net _840_
+Ripping up blocking net _824_
+Nets remaining: 178
+Nets remaining: 177
+Nets remaining: 176
+Best route of _48_ collides with net: _0__bF$buf1 
+Ripping up blocking net _0__bF$buf1
+Nets remaining: 176
+Nets remaining: 175
+Nets remaining: 174
+Nets remaining: 173
+Best route of _595_ collides with nets: _687_ BI[6] 
+Ripping up blocking net _687_
+Ripping up blocking net BI[6]
+Nets remaining: 174
+Nets remaining: 173
+Nets remaining: 172
+Nets remaining: 171
+Best route of _526_ collides with net: _376_ 
+Ripping up blocking net _376_
+Nets remaining: 171
+Best route of _513_ collides with net: _479_ 
+Ripping up blocking net _479_
+Nets remaining: 171
+Nets remaining: 170
+Nets remaining: 169
+Best route of _488_ collides with net: _460_ 
+Ripping up blocking net _460_
+Nets remaining: 169
+Nets remaining: 168
+Nets remaining: 167
+Best route of _449_ collides with net: _402_ 
+Ripping up blocking net _402_
+Nets remaining: 167
+Best route of _425_ collides with net: _415_ 
+Ripping up blocking net _415_
+Nets remaining: 167
+Nets remaining: 166
+Best route of _414_ collides with net: _431_ 
+Ripping up blocking net _431_
+Nets remaining: 166
+Nets remaining: 165
+Best route of _406_ collides with net: _167_ 
+Ripping up blocking net _167_
+Nets remaining: 165
+Nets remaining: 164
+Nets remaining: 163
+Best route of _368_ collides with nets: _367_ _71_ 
+Ripping up blocking net _367_
+Ripping up blocking net _71_
+Nets remaining: 164
+Nets remaining: 163
+Best route of _362_ collides with nets: _235_ _70_ 
+Ripping up blocking net _235_
+Ripping up blocking net _70_
+Nets remaining: 164
+Best route of _345_ collides with net: _339_ 
+Ripping up blocking net _339_
+Nets remaining: 164
+Nets remaining: 163
+Best route of _323_ collides with net: _404_ 
+Ripping up blocking net _404_
+Nets remaining: 163
+Nets remaining: 162
+Best route of _306_ collides with net: _61_ 
+Ripping up blocking net _61_
+Nets remaining: 162
+Best route of _300_ collides with net: _630_ 
+Ripping up blocking net _630_
+Nets remaining: 162
+Nets remaining: 161
+Nets remaining: 160
+Nets remaining: 159
+Nets remaining: 158
+Best route of _87_ collides with nets: _75_ _68_ 
+Ripping up blocking net _75_
+Ripping up blocking net _68_
+Nets remaining: 159
+Best route of _279_ collides with net: _80_ 
+Ripping up blocking net _80_
+Nets remaining: 159
+Best route of _261_ collides with net: _123_ 
+Ripping up blocking net _123_
+Nets remaining: 159
+Nets remaining: 158
+Best route of _257_ collides with nets: ABCmd_i[2] _254_ _87_ 
+Ripping up blocking net ABCmd_i[2]
+Ripping up blocking net _254_
+Ripping up blocking net _87_
+Nets remaining: 160
+Best route of _85_ collides with net: _84_ 
+Ripping up blocking net _84_
+Nets remaining: 160
+Nets remaining: 159
+Best route of _238_ collides with net: _241_ 
+Ripping up blocking net _241_
+Nets remaining: 159
+Nets remaining: 158
+Nets remaining: 157
+Best route of _214_ collides with net: _180_ 
+Ripping up blocking net _180_
+Nets remaining: 157
+Best route of _198_ collides with net: AI[3] 
+Ripping up blocking net AI[3]
+Nets remaining: 157
+Nets remaining: 156
+Best route of _187_ collides with nets: _190_ _183_ _209_ _210_ 
+Ripping up blocking net _190_
+Ripping up blocking net _183_
+Ripping up blocking net _209_
+Ripping up blocking net _210_
+Nets remaining: 159
+Best route of _168_ collides with net: _83_ 
+Ripping up blocking net _83_
+Nets remaining: 159
+Nets remaining: 158
+Nets remaining: 157
+Nets remaining: 156
+Best route of _142_ collides with net: _135_ 
+Ripping up blocking net _135_
+Nets remaining: 156
+Nets remaining: 155
+Best route of _126_ collides with net: _120_ 
+Ripping up blocking net _120_
+Nets remaining: 155
+Nets remaining: 154
+Nets remaining: 153
+Best route of _117_ collides with net: BI_1_bF$buf1 
+Ripping up blocking net BI_1_bF$buf1
+Nets remaining: 153
+Best route of _766_ collides with net: _775_ 
+Ripping up blocking net _775_
+Nets remaining: 153
+Best route of _605_ collides with net: _590_ 
+Ripping up blocking net _590_
+Nets remaining: 153
+Nets remaining: 152
+Nets remaining: 151
+Best route of _494_ collides with net: \u_ALU.AI7\ 
+Ripping up blocking net \u_ALU.AI7\
+Nets remaining: 151
+Nets remaining: 150
+Best route of _359_ collides with net: _325_ 
+Ripping up blocking net _325_
+Nets remaining: 150
+Best route of _353_ collides with net: _348_ 
+Ripping up blocking net _348_
+Nets remaining: 150
+Nets remaining: 149
+Nets remaining: 148
+Best route of _59_ collides with net: _302_ 
+Ripping up blocking net _302_
+Nets remaining: 148
+Nets remaining: 147
+Best route of _78_ collides with nets: _162_ _161_ 
+Ripping up blocking net _162_
+Ripping up blocking net _161_
+Nets remaining: 148
+Best route of _232_ collides with net: _231_ 
+Ripping up blocking net _231_
+Nets remaining: 148
+Nets remaining: 147
+Nets remaining: 146
+Nets remaining: 145
+Best route of _143_ collides with net: _139_ 
+Ripping up blocking net _139_
+Nets remaining: 145
+Best route of _98_ collides with nets: _92_ _119_ 
+Ripping up blocking net _92_
+Ripping up blocking net _119_
+Nets remaining: 146
+Best route of _95_ collides with nets: _116_ _99_ 
+Ripping up blocking net _116_
+Ripping up blocking net _99_
+Nets remaining: 147
+Nets remaining: 146
+Nets remaining: 145
+Nets remaining: 144
+Best route of AN collides with nets: _383_ _633_ _654_ 
+Ripping up blocking net _383_
+Ripping up blocking net _633_
+Ripping up blocking net _654_
+Nets remaining: 146
+Best route of _74_ collides with net: _149_ 
+Ripping up blocking net _149_
+Nets remaining: 146
+Nets remaining: 145
+Best route of BI_3_bF$buf0 collides with net: _829_ 
+Ripping up blocking net _829_
+Nets remaining: 145
+Nets remaining: 144
+Nets remaining: 143
+Nets remaining: 142
+Nets remaining: 141
+Nets remaining: 140
+Nets remaining: 139
+Nets remaining: 138
+Best route of BI_0_bF$buf1 collides with net: _62_ 
+Ripping up blocking net _62_
+Nets remaining: 138
+Nets remaining: 137
+Nets remaining: 136
+Nets remaining: 135
+Nets remaining: 134
+Nets remaining: 133
+Nets remaining: 132
+Nets remaining: 131
+Nets remaining: 130
+Nets remaining: 129
+Nets remaining: 128
+Nets remaining: 127
+Best route of _712_ collides with nets: _684_ _656_ vdd 
+Ripping up blocking net _684_
+Ripping up blocking net _656_
+Ripping up blocking net vdd
+Nets remaining: 129
+Nets remaining: 128
+Nets remaining: 127
+Nets remaining: 126
+Nets remaining: 125
+Best route of LoadB_i collides with net: _26_ 
+Ripping up blocking net _26_
+Nets remaining: 125
+Nets remaining: 124
+Nets remaining: 123
+Best route of ABCmd_i[5] collides with net: _756_ 
+Ripping up blocking net _756_
+Nets remaining: 123
+Best route of ABCmd_i[0] collides with net: _118_ 
+Ripping up blocking net _118_
+Nets remaining: 123
+Nets remaining: 122
+Nets remaining: 121
+Nets remaining: 120
+Nets remaining: 119
+Nets remaining: 118
+Nets remaining: 117
+Nets remaining: 116
+Nets remaining: 115
+Nets remaining: 114
+Best route of AI[2] collides with nets: _831_ ABCmd_i[1] _22_ 
+Ripping up blocking net _831_
+Ripping up blocking net ABCmd_i[1]
+Ripping up blocking net _22_
+Nets remaining: 116
+Best route of state[1] collides with net: AN 
+Ripping up blocking net AN
+Nets remaining: 116
+Nets remaining: 115
+Best route of _677_ collides with nets: clk_bF$buf4 _0__bF$buf3 _46_ 
+Ripping up blocking net clk_bF$buf4
+Ripping up blocking net _0__bF$buf3
+Ripping up blocking net _46_
+Nets remaining: 117
+Nets remaining: 116
+Best route of AI[4] collides with nets: _540_ _377_ _90_ 
+Ripping up blocking net _540_
+Ripping up blocking net _377_
+Ripping up blocking net _90_
+Nets remaining: 118
+Nets remaining: 117
+Nets remaining: 116
+Nets remaining: 115
+Nets remaining: 114
+Nets remaining: 113
+Best route of _888_[2] collides with net: _712_ 
+Ripping up blocking net _712_
+Nets remaining: 113
+Nets remaining: 112
+Nets remaining: 111
+Best route of _655_ collides with net: _705__bF$buf0 
+Ripping up blocking net _705__bF$buf0
+Nets remaining: 111
+Nets remaining: 110
+Best route of _467_ collides with net: BI[2] 
+Ripping up blocking net BI[2]
+Nets remaining: 110
+Nets remaining: 109
+Nets remaining: 108
+Nets remaining: 107
+Nets remaining: 106
+Best route of BI[7] collides with net: _597_ 
+Ripping up blocking net _597_
+Nets remaining: 106
+Nets remaining: 105
+Best route of _557_ collides with nets: AI[6] _130_ _548_ AI[4] _461_ 
+Ripping up blocking net AI[6]
+Ripping up blocking net _130_
+Ripping up blocking net _548_
+Ripping up blocking net AI[4]
+Ripping up blocking net _461_
+Nets remaining: 109
+Nets remaining: 108
+Nets remaining: 107
+Nets remaining: 106
+Best route of _17_ collides with net: AI[0] 
+Ripping up blocking net AI[0]
+Nets remaining: 106
+Nets remaining: 105
+Nets remaining: 104
+Nets remaining: 103
+Nets remaining: 102
+Nets remaining: 101
+Best route of _373_ collides with nets: _368_ _374_ 
+Ripping up blocking net _368_
+Ripping up blocking net _374_
+Nets remaining: 103
+Nets remaining: 102
+Nets remaining: 101
+Nets remaining: 100
+Nets remaining: 99
+Nets remaining: 98
+Nets remaining: 97
+Nets remaining: 96
+Nets remaining: 95
+Best route of _761_ collides with net: _844_ 
+Ripping up blocking net _844_
+Nets remaining: 95
+Nets remaining: 94
+Nets remaining: 93
+Nets remaining: 92
+Best route of ACC[3] collides with nets: _772_ _825_ _739_ 
+Ripping up blocking net _772_
+Ripping up blocking net _825_
+Ripping up blocking net _739_
+Nets remaining: 94
+Nets remaining: 93
+Nets remaining: 92
+Best route of AI[1] collides with net: _113_ 
+Ripping up blocking net _113_
+Nets remaining: 92
+Nets remaining: 91
+Nets remaining: 90
+Nets remaining: 89
+Nets remaining: 88
+Nets remaining: 87
+Nets remaining: 86
+Best route of _479_ collides with nets: _513_ _510_ 
+Ripping up blocking net _513_
+Ripping up blocking net _510_
+Nets remaining: 87
+Nets remaining: 86
+Nets remaining: 85
+Best route of _415_ collides with net: _420_ 
+Ripping up blocking net _420_
+Nets remaining: 85
+Nets remaining: 84
+Best route of _167_ collides with nets: _151_ _311_ 
+Ripping up blocking net _151_
+Ripping up blocking net _311_
+Nets remaining: 85
+Best route of _367_ collides with nets: _71_ _360_ 
+Ripping up blocking net _71_
+Ripping up blocking net _360_
+Nets remaining: 86
+Nets remaining: 85
+Nets remaining: 84
+Best route of _70_ collides with net: _78_ 
+Ripping up blocking net _78_
+Nets remaining: 84
+Best route of _339_ collides with nets: _182_ _188_ 
+Ripping up blocking net _182_
+Ripping up blocking net _188_
+Nets remaining: 85
+Nets remaining: 84
+Nets remaining: 83
+Nets remaining: 82
+Nets remaining: 81
+Nets remaining: 80
+Nets remaining: 79
+Nets remaining: 78
+Nets remaining: 77
+Nets remaining: 76
+Nets remaining: 75
+Best route of _84_ collides with net: _106_ 
+Ripping up blocking net _106_
+Nets remaining: 75
+Nets remaining: 74
+Nets remaining: 73
+Best route of AI[3] collides with nets: AI[1] ABCmd_i[5] _327_ BI[5] 
+Ripping up blocking net AI[1]
+Ripping up blocking net ABCmd_i[5]
+Ripping up blocking net _327_
+Ripping up blocking net BI[5]
+Nets remaining: 76
+Nets remaining: 75
+Best route of _183_ collides with nets: _265_ _190_ 
+Ripping up blocking net _265_
+Ripping up blocking net _190_
+Nets remaining: 76
+Best route of _209_ collides with net: _191_ 
+Ripping up blocking net _191_
+Nets remaining: 76
+Nets remaining: 75
+Nets remaining: 74
+Best route of _135_ collides with nets: _209_ _193_ _137_ 
+Ripping up blocking net _209_
+Ripping up blocking net _193_
+Ripping up blocking net _137_
+Nets remaining: 76
+Nets remaining: 75
+Nets remaining: 74
+Best route of _775_ collides with net: _783_ 
+Ripping up blocking net _783_
+Nets remaining: 74
+Nets remaining: 73
+Best route of \u_ALU.AI7\ collides with net: _779_ 
+Ripping up blocking net _779_
+Nets remaining: 73
+Best route of _325_ collides with nets: _363_ _367_ 
+Ripping up blocking net _363_
+Ripping up blocking net _367_
+Nets remaining: 74
+Nets remaining: 73
+Nets remaining: 72
+Best route of _162_ collides with net: _171_ 
+Ripping up blocking net _171_
+Nets remaining: 72
+Nets remaining: 71
+Best route of _231_ collides with net: _235_ 
+Ripping up blocking net _235_
+Nets remaining: 71
+Best route of _139_ collides with net: _70_ 
+Ripping up blocking net _70_
+Nets remaining: 71
+Nets remaining: 70
+Best route of _119_ collides with nets: _92_ _162_ _120_ 
+Ripping up blocking net _92_
+Ripping up blocking net _162_
+Ripping up blocking net _120_
+Nets remaining: 72
+Best route of _116_ collides with nets: _93_ _95_ ABCmd_i[0] 
+Ripping up blocking net _93_
+Ripping up blocking net _95_
+Ripping up blocking net ABCmd_i[0]
+Nets remaining: 74
+Nets remaining: 73
+Nets remaining: 72
+Nets remaining: 71
+Best route of _654_ collides with net: _383_ 
+Ripping up blocking net _383_
+Nets remaining: 71
+Nets remaining: 70
+Nets remaining: 69
+Best route of _62_ collides with net: _149_ 
+Ripping up blocking net _149_
+Nets remaining: 69
+Nets remaining: 68
+Best route of _656_ collides with nets: state[1] _655_ 
+Ripping up blocking net state[1]
+Ripping up blocking net _655_
+Nets remaining: 69
+Best route of vdd collides with nets: _656_ _587_ _888_[2] _715_ 
+Ripping up blocking net _656_
+Ripping up blocking net _587_
+Ripping up blocking net _888_[2]
+Ripping up blocking net _715_
+Nets remaining: 72
+Nets remaining: 71
+Nets remaining: 70
+Best route of _118_ collides with nets: _122_ _117_ _103_ 
+Ripping up blocking net _122_
+Ripping up blocking net _117_
+Ripping up blocking net _103_
+Nets remaining: 72
+Best route of _831_ collides with net: _830_ 
+Ripping up blocking net _830_
+Nets remaining: 72
+Nets remaining: 71
+Nets remaining: 70
+Nets remaining: 69
+Nets remaining: 68
+Best route of _0__bF$buf3 collides with nets: _32__bF$buf3 _2_ AI[2] vdd 
+Ripping up blocking net _32__bF$buf3
+Ripping up blocking net _2_
+Ripping up blocking net AI[2]
+Ripping up blocking net vdd
+Nets remaining: 71
+Nets remaining: 70
+Best route of _540_ collides with nets: _595_ _423_ 
+Ripping up blocking net _595_
+Ripping up blocking net _423_
+Nets remaining: 71
+Best route of _377_ collides with nets: _381_ _379_ 
+Ripping up blocking net _381_
+Ripping up blocking net _379_
+Nets remaining: 72
+Nets remaining: 71
+Best route of _712_ collides with nets: _713_ _28_ 
+Ripping up blocking net _713_
+Ripping up blocking net _28_
+Nets remaining: 72
+Nets remaining: 71
+Best route of BI[2] collides with nets: _74_ AI[3] 
+Ripping up blocking net _74_
+Ripping up blocking net AI[3]
+Nets remaining: 72
+Nets remaining: 71
+Best route of AI[6] collides with net: _0__bF$buf1 
+Ripping up blocking net _0__bF$buf1
+
+No progress at level of effort 10; ending 2nd stage.
+
+----------------------------------------------
+Progress: Stage 2 total routes completed: 3438
+Failed net routes: 71
+----------------------------------------------
+*** Running stage2 routing with options mask 20, effort 10
+Nets remaining: 71
+Nets remaining: 70
+Nets remaining: 69
+Best route of AI[4] collides with nets: _494_ _557_ _540_ _0__bF$buf3 BI[2] AI_5_bF$buf2 
+Ripping up blocking net _494_
+Ripping up blocking net _557_
+Ripping up blocking net _540_
+Ripping up blocking net _0__bF$buf3
+Ripping up blocking net BI[2]
+Ripping up blocking net AI_5_bF$buf2
+Nets remaining: 74
+Nets remaining: 73
+Best route of AI[0] collides with nets: _17_ AI[6] 
+Ripping up blocking net _17_
+Ripping up blocking net AI[6]
+Nets remaining: 74
+Nets remaining: 73
+Nets remaining: 72
+Best route of _844_ collides with net: _774_ 
+Ripping up blocking net _774_
+Nets remaining: 72
+Nets remaining: 71
+Nets remaining: 70
+Best route of _739_ collides with nets: ABCmd_i[6] _738_ ACC[3] 
+Ripping up blocking net ABCmd_i[6]
+Ripping up blocking net _738_
+Ripping up blocking net ACC[3]
+Nets remaining: 72
+Nets remaining: 71
+Best route of _513_ collides with net: _479_ 
+Ripping up blocking net _479_
+Nets remaining: 71
+Nets remaining: 70
+Best route of _420_ collides with net: _461_ 
+Ripping up blocking net _461_
+Nets remaining: 70
+Nets remaining: 69
+Nets remaining: 68
+Nets remaining: 67
+Nets remaining: 66
+Nets remaining: 65
+Nets remaining: 64
+Nets remaining: 63
+Best route of _106_ collides with net: BI_1_bF$buf2 
+Ripping up blocking net BI_1_bF$buf2
+Nets remaining: 63
+Nets remaining: 62
+Best route of ABCmd_i[5] collides with nets: _825_ AI[1] 
+Ripping up blocking net _825_
+Ripping up blocking net AI[1]
+Nets remaining: 63
+Nets remaining: 62
+Nets remaining: 61
+Best route of _265_ collides with net: _266_ 
+Ripping up blocking net _266_
+Nets remaining: 61
+Nets remaining: 60
+Nets remaining: 59
+Best route of _209_ collides with net: _191_ 
+Ripping up blocking net _191_
+Nets remaining: 59
+Nets remaining: 58
+Best route of _137_ collides with nets: _190_ _238_ 
+Ripping up blocking net _190_
+Ripping up blocking net _238_
+Nets remaining: 59
+Nets remaining: 58
+Nets remaining: 57
+Nets remaining: 56
+Nets remaining: 55
+Nets remaining: 54
+Nets remaining: 53
+Best route of _70_ collides with nets: _133_ _213_ 
+Ripping up blocking net _133_
+Ripping up blocking net _213_
+Nets remaining: 54
+Nets remaining: 53
+Nets remaining: 52
+Best route of _120_ collides with net: _70_ 
+Ripping up blocking net _70_
+Nets remaining: 52
+Nets remaining: 51
+Best route of _95_ collides with nets: _94_ _120_ _125_ 
+Ripping up blocking net _94_
+Ripping up blocking net _120_
+Ripping up blocking net _125_
+Nets remaining: 53
+Nets remaining: 52
+Nets remaining: 51
+Best route of _149_ collides with net: _148_ 
+Ripping up blocking net _148_
+Nets remaining: 51
+Nets remaining: 50
+Nets remaining: 49
+Best route of _656_ collides with net: _530_ 
+Ripping up blocking net _530_
+Nets remaining: 49
+Nets remaining: 48
+Nets remaining: 47
+Best route of _715_ collides with nets: ABCmd_i[7] BI[6] 
+Ripping up blocking net ABCmd_i[7]
+Ripping up blocking net BI[6]
+Nets remaining: 48
+Nets remaining: 47
+Nets remaining: 46
+Nets remaining: 45
+Best route of _830_ collides with net: _851_ 
+Ripping up blocking net _851_
+Nets remaining: 45
+Nets remaining: 44
+Nets remaining: 43
+Nets remaining: 42
+Best route of vdd collides with net: _712_ 
+Ripping up blocking net _712_
+Nets remaining: 42
+Nets remaining: 41
+Nets remaining: 40
+Nets remaining: 39
+Best route of _379_ collides with net: _54_ 
+Ripping up blocking net _54_
+Nets remaining: 39
+Nets remaining: 38
+Nets remaining: 37
+Best route of _74_ collides with nets: clk_bF$buf4 AI[2] 
+Ripping up blocking net clk_bF$buf4
+Ripping up blocking net AI[2]
+Nets remaining: 38
+Best route of AI[3] collides with nets: _32__bF$buf3 BI[5] _327_ 
+Ripping up blocking net _32__bF$buf3
+Ripping up blocking net BI[5]
+Ripping up blocking net _327_
+Nets remaining: 40
+Nets remaining: 39
+Nets remaining: 38
+Nets remaining: 37
+Nets remaining: 36
+Nets remaining: 35
+Best route of BI[2] collides with nets: _830_ _204_ 
+Ripping up blocking net _830_
+Ripping up blocking net _204_
+Nets remaining: 36
+Nets remaining: 35
+Nets remaining: 34
+Best route of AI[6] collides with nets: _109_ BI_0_bF$buf2 
+Ripping up blocking net _109_
+Ripping up blocking net BI_0_bF$buf2
+Nets remaining: 35
+Best route of _774_ collides with net: _844_ 
+Ripping up blocking net _844_
+Nets remaining: 35
+Nets remaining: 34
+Nets remaining: 33
+Best route of ACC[3] collides with nets: _835_ _875_ 
+Ripping up blocking net _835_
+Ripping up blocking net _875_
+Nets remaining: 34
+Nets remaining: 33
+Nets remaining: 32
+Best route of BI_1_bF$buf2 collides with nets: _168_ AI[4] 
+Ripping up blocking net _168_
+Ripping up blocking net AI[4]
+Nets remaining: 33
+Best route of _825_ collides with net: ABCmd_i[5] 
+Ripping up blocking net ABCmd_i[5]
+Nets remaining: 33
+Best route of AI[1] collides with net: _332_ 
+Ripping up blocking net _332_
+Nets remaining: 33
+Best route of _266_ collides with net: _265_ 
+Ripping up blocking net _265_
+Nets remaining: 33
+Nets remaining: 32
+Nets remaining: 31
+Nets remaining: 30
+Nets remaining: 29
+Nets remaining: 28
+Best route of _70_ collides with net: _91_ 
+Ripping up blocking net _91_
+Nets remaining: 28
+Best route of _94_ collides with nets: _95_ _118_ 
+Ripping up blocking net _95_
+Ripping up blocking net _118_
+Nets remaining: 29
+Nets remaining: 28
+Nets remaining: 27
+Nets remaining: 26
+Nets remaining: 25
+Best route of ABCmd_i[7] collides with nets: _585_ BI[2] 
+Ripping up blocking net _585_
+Ripping up blocking net BI[2]
+Nets remaining: 26
+Best route of BI[6] collides with net: ABCmd_i_2_bF$buf1 
+Ripping up blocking net ABCmd_i_2_bF$buf1
+Nets remaining: 26
+Nets remaining: 25
+Best route of _712_ collides with nets: _0_ _711_ 
+Ripping up blocking net _0_
+Ripping up blocking net _711_
+Nets remaining: 26
+Best route of _54_ collides with net: _379_ 
+Ripping up blocking net _379_
+Nets remaining: 26
+Nets remaining: 25
+Nets remaining: 24
+Nets remaining: 23
+Best route of BI[5] collides with net: _0__bF$buf3 
+Ripping up blocking net _0__bF$buf3
+Nets remaining: 23
+Nets remaining: 22
+Best route of _830_ collides with net: ABCmd_i[0] 
+Ripping up blocking net ABCmd_i[0]
+Nets remaining: 22
+Nets remaining: 21
+Nets remaining: 20
+Best route of BI_0_bF$buf2 collides with net: _287_ 
+Ripping up blocking net _287_
+Nets remaining: 20
+Nets remaining: 19
+Best route of _835_ collides with net: _825_ 
+Ripping up blocking net _825_
+Nets remaining: 19
+Best route of _875_ collides with net: _779_ 
+Ripping up blocking net _779_
+Nets remaining: 19
+Best route of _168_ collides with net: BI_3_bF$buf1 
+Ripping up blocking net BI_3_bF$buf1
+Nets remaining: 19
+Best route of AI[4] collides with nets: AI[1] _169_ BI_1_bF$buf2 
+Ripping up blocking net AI[1]
+Ripping up blocking net _169_
+Ripping up blocking net BI_1_bF$buf2
+Nets remaining: 21
+Nets remaining: 20
+Nets remaining: 19
+Best route of _265_ collides with net: _70_ 
+Ripping up blocking net _70_
+Nets remaining: 19
+Best route of _91_ collides with nets: _93_ _94_ 
+Ripping up blocking net _93_
+Ripping up blocking net _94_
+Nets remaining: 20
+Best route of _95_ collides with net: _71_ 
+Ripping up blocking net _71_
+Nets remaining: 20
+Nets remaining: 19
+Best route of _585_ collides with nets: BI_0_bF$buf3 ABCmd_i[7] vdd 
+Ripping up blocking net BI_0_bF$buf3
+Ripping up blocking net ABCmd_i[7]
+Ripping up blocking net vdd
+Nets remaining: 21
+Best route of BI[2] collides with nets: _466_ AI[4] _132_ 
+Ripping up blocking net _466_
+Ripping up blocking net AI[4]
+Ripping up blocking net _132_
+Nets remaining: 23
+Nets remaining: 22
+Best route of _0_ collides with net: _54_ 
+Ripping up blocking net _54_
+Nets remaining: 22
+Nets remaining: 21
+Nets remaining: 20
+Best route of _0__bF$buf3 collides with net: BI[1] 
+Ripping up blocking net BI[1]
+
+No progress at level of effort 10; ending 2nd stage.
+
+----------------------------------------------
+Progress: Stage 2 total routes completed: 4084
+Failed net routes: 20
+----------------------------------------------
+*** Running stage2 routing with options mask 30, effort 10
+Nets remaining: 20
+Best route of ABCmd_i[0] collides with nets: BI_1_bF$buf3 _830_ ABCmd_i[5] 
+Ripping up blocking net BI_1_bF$buf3
+Ripping up blocking net _830_
+Ripping up blocking net ABCmd_i[5]
+Nets remaining: 22
+Nets remaining: 21
+Nets remaining: 20
+Best route of _779_ collides with net: _875_ 
+Ripping up blocking net _875_
+Nets remaining: 20
+Best route of BI_3_bF$buf1 collides with nets: _168_ _150_ 
+Ripping up blocking net _168_
+Ripping up blocking net _150_
+Nets remaining: 21
+Best route of AI[1] collides with nets: _149_ ABCmd_i[2] BI_3_bF$buf1 _84_ 
+Ripping up blocking net _149_
+Ripping up blocking net ABCmd_i[2]
+Ripping up blocking net BI_3_bF$buf1
+Ripping up blocking net _84_
+Nets remaining: 24
+Nets remaining: 23
+Nets remaining: 22
+Nets remaining: 21
+Best route of _93_ collides with nets: _91_ _119_ _120_ 
+Ripping up blocking net _91_
+Ripping up blocking net _119_
+Ripping up blocking net _120_
+Nets remaining: 23
+Nets remaining: 22
+Nets remaining: 21
+Nets remaining: 20
+Best route of ABCmd_i[7] collides with net: _585_ 
+Ripping up blocking net _585_
+Nets remaining: 20
+Best route of vdd collides with net: clk_bF$buf4 
+Ripping up blocking net clk_bF$buf4
+Nets remaining: 20
+Nets remaining: 19
+Best route of AI[4] collides with nets: AI[1] BI_4_bF$buf2 _71_ 
+Ripping up blocking net AI[1]
+Ripping up blocking net BI_4_bF$buf2
+Ripping up blocking net _71_
+Nets remaining: 21
+Nets remaining: 20
+Best route of _54_ collides with nets: _0__bF$buf1 _465_ 
+Ripping up blocking net _0__bF$buf1
+Ripping up blocking net _465_
+Nets remaining: 21
+Nets remaining: 20
+Nets remaining: 19
+Nets remaining: 18
+Best route of ABCmd_i[5] collides with net: _831_ 
+Ripping up blocking net _831_
+Nets remaining: 18
+Nets remaining: 17
+Nets remaining: 16
+Nets remaining: 15
+Nets remaining: 14
+Nets remaining: 13
+Nets remaining: 12
+Best route of _84_ collides with net: _150_ 
+Ripping up blocking net _150_
+Nets remaining: 12
+Best route of _91_ collides with nets: _166_ _172_ _174_ _309_ 
+Ripping up blocking net _166_
+Ripping up blocking net _172_
+Ripping up blocking net _174_
+Ripping up blocking net _309_
+Nets remaining: 15
+Nets remaining: 14
+Best route of _120_ collides with net: _95_ 
+Ripping up blocking net _95_
+Nets remaining: 14
+Best route of _585_ collides with nets: _296_ AI[3] AI[0] _54_ 
+Ripping up blocking net _296_
+Ripping up blocking net AI[3]
+Ripping up blocking net AI[0]
+Ripping up blocking net _54_
+Nets remaining: 17
+Nets remaining: 16
+Best route of AI[1] collides with net: _220_ 
+Ripping up blocking net _220_
+Nets remaining: 16
+Nets remaining: 15
+Nets remaining: 14
+Nets remaining: 13
+Nets remaining: 12
+Nets remaining: 11
+Best route of _150_ collides with nets: _129_ AI[1] AI[2] AI[4] 
+Ripping up blocking net _129_
+Ripping up blocking net AI[1]
+Ripping up blocking net AI[2]
+Ripping up blocking net AI[4]
+Nets remaining: 14
+Nets remaining: 13
+Nets remaining: 12
+Best route of _174_ collides with nets: _173_ _120_ 
+Ripping up blocking net _173_
+Ripping up blocking net _120_
+Nets remaining: 13
+Nets remaining: 12
+Nets remaining: 11
+Nets remaining: 10
+Nets remaining: 9
+Nets remaining: 8
+Nets remaining: 7
+Nets remaining: 6
+Nets remaining: 5
+Best route of AI[1] collides with nets: AI[3] _0__bF$buf3 ABCmd_i[7] _150_ 
+Ripping up blocking net AI[3]
+Ripping up blocking net _0__bF$buf3
+Ripping up blocking net ABCmd_i[7]
+Ripping up blocking net _150_
+Nets remaining: 8
+Best route of AI[2] collides with net: clk_bF$buf4 
+Ripping up blocking net clk_bF$buf4
+Nets remaining: 8
+Best route of AI[4] collides with net: _170_ 
+Ripping up blocking net _170_
+Nets remaining: 8
+Nets remaining: 7
+Best route of _120_ collides with nets: _91_ _116_ 
+Ripping up blocking net _91_
+Ripping up blocking net _116_
+Nets remaining: 8
+Best route of AI[3] collides with nets: AI[2] vdd AI[4] 
+Ripping up blocking net AI[2]
+Ripping up blocking net vdd
+Ripping up blocking net AI[4]
+Nets remaining: 10
+Nets remaining: 9
+Nets remaining: 8
+Best route of _150_ collides with nets: _149_ BI_3_bF$buf1 _90_ 
+Ripping up blocking net _149_
+Ripping up blocking net BI_3_bF$buf1
+Ripping up blocking net _90_
+Nets remaining: 10
+Nets remaining: 9
+Nets remaining: 8
+Best route of _91_ collides with nets: _99_ _120_ 
+Ripping up blocking net _99_
+Ripping up blocking net _120_
+Nets remaining: 9
+Nets remaining: 8
+Best route of AI[2] collides with net: _289_ 
+Ripping up blocking net _289_
+Nets remaining: 8
+Nets remaining: 7
+Best route of AI[4] collides with nets: _150_ _144_ _265_ BI_1_bF$buf2 
+Ripping up blocking net _150_
+Ripping up blocking net _144_
+Ripping up blocking net _265_
+Ripping up blocking net BI_1_bF$buf2
+Nets remaining: 10
+Best route of _149_ collides with nets: _220_ _146_ _271_ AI[3] 
+Ripping up blocking net _220_
+Ripping up blocking net _146_
+Ripping up blocking net _271_
+Ripping up blocking net AI[3]
+Nets remaining: 13
+Best route of BI_3_bF$buf1 collides with nets: _113_ _149_ 
+Ripping up blocking net _113_
+Ripping up blocking net _149_
+Nets remaining: 14
+Best route of _90_ collides with net: AI[4] 
+Ripping up blocking net AI[4]
+Nets remaining: 14
+Nets remaining: 13
+Best route of _120_ collides with nets: _100_ _99_ 
+Ripping up blocking net _100_
+Ripping up blocking net _99_
+Nets remaining: 14
+Nets remaining: 13
+Nets remaining: 12
+
+No progress at level of effort 10; ending 2nd stage.
+
+----------------------------------------------
+Progress: Stage 2 total routes completed: 4563
+Failed net routes: 11
+----------------------------------------------
+*** Running stage2 routing with options mask 40, effort 10
+Nets remaining: 11
+Nets remaining: 10
+Nets remaining: 9
+Nets remaining: 8
+Nets remaining: 7
+Nets remaining: 6
+Best route of AI[3] collides with nets: _220_ BI_0_bF$buf2 AI[6] 
+Ripping up blocking net _220_
+Ripping up blocking net BI_0_bF$buf2
+Ripping up blocking net AI[6]
+Nets remaining: 8
+Best route of _113_ collides with net: BI_3_bF$buf1 
+Ripping up blocking net BI_3_bF$buf1
+Nets remaining: 8
+Best route of _149_ collides with nets: _146_ _145_ 
+Ripping up blocking net _146_
+Ripping up blocking net _145_
+Nets remaining: 9
+Best route of AI[4] collides with nets: _120_ _175_ 
+Ripping up blocking net _120_
+Ripping up blocking net _175_
+Nets remaining: 10
+Nets remaining: 9
+Nets remaining: 8
+Nets remaining: 7
+Best route of BI_0_bF$buf2 collides with nets: _111_ _84_ 
+Ripping up blocking net _111_
+Ripping up blocking net _84_
+Nets remaining: 8
+Best route of AI[6] collides with nets: BI[2] _197_ _58_ 
+Ripping up blocking net BI[2]
+Ripping up blocking net _197_
+Ripping up blocking net _58_
+Nets remaining: 10
+Best route of BI_3_bF$buf1 collides with net: BI[1] 
+Ripping up blocking net BI[1]
+Nets remaining: 10
+Nets remaining: 9
+Best route of _145_ collides with net: _220_ 
+Ripping up blocking net _220_
+Nets remaining: 9
+Nets remaining: 8
+Nets remaining: 7
+Best route of _111_ collides with nets: _265_ BI_1_bF$buf2 
+Ripping up blocking net _265_
+Ripping up blocking net BI_1_bF$buf2
+Nets remaining: 8
+Nets remaining: 7
+Best route of BI[2] collides with net: _844_ 
+Ripping up blocking net _844_
+Nets remaining: 7
+Nets remaining: 6
+Best route of _58_ collides with net: _145_ 
+Ripping up blocking net _145_
+Nets remaining: 6
+Best route of BI[1] collides with net: AI[2] 
+Ripping up blocking net AI[2]
+Nets remaining: 6
+Nets remaining: 5
+Nets remaining: 4
+Best route of BI_1_bF$buf2 collides with net: BI[5] 
+Ripping up blocking net BI[5]
+Nets remaining: 4
+Nets remaining: 3
+Nets remaining: 2
+Best route of AI[2] collides with net: _829_ 
+Ripping up blocking net _829_
+Nets remaining: 2
+Best route of BI[5] collides with nets: _327_ _427_ BI_4_bF$buf0 _705__bF$buf2 _653_ _144_ 
+Ripping up blocking net _327_
+Ripping up blocking net _427_
+Ripping up blocking net BI_4_bF$buf0
+Ripping up blocking net _705__bF$buf2
+Ripping up blocking net _653_
+Ripping up blocking net _144_
+Nets remaining: 7
+Nets remaining: 6
+Nets remaining: 5
+Nets remaining: 4
+Nets remaining: 3
+Best route of _705__bF$buf2 collides with net: _48_ 
+Ripping up blocking net _48_
+Nets remaining: 3
+Nets remaining: 2
+Best route of _144_ collides with net: BI_4_bF$buf0 
+Ripping up blocking net BI_4_bF$buf0
+Nets remaining: 2
+Best route of _48_ collides with nets: _705__bF$buf2 BI[2] 
+Ripping up blocking net _705__bF$buf2
+Ripping up blocking net BI[2]
+Nets remaining: 3
+Nets remaining: 2
+Best route of _705__bF$buf2 collides with net: AI_5_bF$buf0 
+Ripping up blocking net AI_5_bF$buf0
+Nets remaining: 2
+Nets remaining: 1
+Best route of AI_5_bF$buf0 collides with net: clk_bF$buf4 
+Ripping up blocking net clk_bF$buf4
+Nets remaining: 1
+
+----------------------------------------------
+Progress: Stage 2 total routes completed: 4811
+No failed routes!
+----------------------------------------------
+*** Running stage3 routing with defaults, 1st round
+Finished routing net vdd
+Nets remaining: 994
+Finished routing net AI[6]
+Nets remaining: 993
+Finished routing net AI[4]
+Nets remaining: 992
+Finished routing net ABCmd_i[7]
+Nets remaining: 991
+Finished routing net _712_
+Nets remaining: 990
+Finished routing net BI[2]
+Nets remaining: 989
+Finished routing net AI[2]
+Nets remaining: 988
+Finished routing net AI[1]
+Nets remaining: 987
+Finished routing net BI[5]
+Nets remaining: 986
+Finished routing net AI[3]
+Nets remaining: 985
+Finished routing net _167_
+Nets remaining: 984
+Finished routing net _825_
+Nets remaining: 983
+Finished routing net \u_ALU.AI7\
+Nets remaining: 982
+Finished routing net BI[7]
+Nets remaining: 981
+Finished routing net _54_
+Nets remaining: 980
+Finished routing net ABCmd_i[5]
+Nets remaining: 979
+Finished routing net _835_
+Nets remaining: 978
+Finished routing net _844_
+Nets remaining: 977
+Finished routing net AI[0]
+Nets remaining: 976
+Finished routing net _58_
+Nets remaining: 975
+Finished routing net _829_
+Nets remaining: 974
+Finished routing net _830_
+Nets remaining: 973
+Finished routing net _831_
+Nets remaining: 972
+Finished routing net BI[6]
+Nets remaining: 971
+Finished routing net _715_
+Nets remaining: 970
+Finished routing net state[1]
+Nets remaining: 969
+Finished routing net _431_
+Nets remaining: 968
+Finished routing net ABCmd_i[0]
+Nets remaining: 967
+Finished routing net ABCmd_i_2_bF$buf2
+Nets remaining: 966
+Finished routing net ABCmd_i_2_bF$buf3
+Nets remaining: 965
+Finished routing net _0__bF$buf3
+Nets remaining: 964
+Finished routing net _0__bF$buf4
+Nets remaining: 963
+Finished routing net clk_bF$buf3
+Nets remaining: 962
+Finished routing net clk_bF$buf4
+Nets remaining: 961
+Finished routing net _83_
+Nets remaining: 960
+Finished routing net _62_
+Nets remaining: 959
+Finished routing net _703_
+Nets remaining: 958
+Finished routing net _563_
+Nets remaining: 957
+Finished routing net ABCmd_i_2_bF$buf0
+Nets remaining: 956
+Finished routing net ABCmd_i_2_bF$buf1
+Nets remaining: 955
+Finished routing net BI_1_bF$buf2
+Nets remaining: 954
+Finished routing net BI_1_bF$buf3
+Nets remaining: 953
+Finished routing net BI_4_bF$buf0
+Nets remaining: 952
+Finished routing net BI_4_bF$buf1
+Nets remaining: 951
+Finished routing net BI_4_bF$buf2
+Nets remaining: 950
+Finished routing net BI_4_bF$buf3
+Nets remaining: 949
+Finished routing net _32__bF$buf2
+Nets remaining: 948
+Finished routing net _32__bF$buf3
+Nets remaining: 947
+Finished routing net AI_5_bF$buf3
+Nets remaining: 946
+Finished routing net _0_
+Nets remaining: 945
+Finished routing net _0__bF$buf0
+Nets remaining: 944
+Finished routing net _0__bF$buf1
+Nets remaining: 943
+Finished routing net _0__bF$buf2
+Nets remaining: 942
+Finished routing net _705__bF$buf2
+Nets remaining: 941
+Finished routing net _705__bF$buf3
+Nets remaining: 940
+Finished routing net clk
+Nets remaining: 939
+Finished routing net clk_bF$buf0
+Nets remaining: 938
+Finished routing net clk_bF$buf1
+Nets remaining: 937
+Finished routing net clk_bF$buf2
+Nets remaining: 936
+Finished routing net BI_0_bF$buf1
+Nets remaining: 935
+Finished routing net BI_0_bF$buf2
+Nets remaining: 934
+Finished routing net BI_0_bF$buf3
+Nets remaining: 933
+Finished routing net BI_3_bF$buf2
+Nets remaining: 932
+Finished routing net BI_3_bF$buf3
+Nets remaining: 931
+Finished routing net _122_
+Nets remaining: 930
+Finished routing net _61_
+Nets remaining: 929
+Finished routing net _130_
+Nets remaining: 928
+Finished routing net _149_
+Nets remaining: 927
+Finished routing net _271_
+Nets remaining: 926
+Finished routing net _285_
+Nets remaining: 925
+Finished routing net _361_
+Nets remaining: 924
+Finished routing net _423_
+Nets remaining: 923
+Finished routing net _498_
+Nets remaining: 922
+Finished routing net _25_
+Nets remaining: 921
+Finished routing net ABCmd_i[6]
+Nets remaining: 920
+Finished routing net _775_
+Nets remaining: 919
+Finished routing net _796_
+Nets remaining: 918
+Finished routing net _26_
+Nets remaining: 917
+Finished routing net ABCmd_i[2]
+Nets remaining: 916
+Finished routing net BI[1]
+Nets remaining: 915
+Finished routing net BI_1_bF$buf0
+Nets remaining: 914
+Finished routing net BI_1_bF$buf1
+Nets remaining: 913
+Finished routing net BI[4]
+Nets remaining: 912
+Finished routing net _32_
+Nets remaining: 911
+Finished routing net _32__bF$buf0
+Nets remaining: 910
+Finished routing net _32__bF$buf1
+Nets remaining: 909
+Finished routing net AI[5]
+Nets remaining: 908
+Finished routing net AI_5_bF$buf0
+Nets remaining: 907
+Finished routing net AI_5_bF$buf1
+Nets remaining: 906
+Finished routing net AI_5_bF$buf2
+Nets remaining: 905
+Finished routing net _705_
+Nets remaining: 904
+Finished routing net _705__bF$buf0
+Nets remaining: 903
+Finished routing net _705__bF$buf1
+Nets remaining: 902
+Finished routing net BI[0]
+Nets remaining: 901
+Finished routing net BI_0_bF$buf0
+Nets remaining: 900
+Finished routing net BI[3]
+Nets remaining: 899
+Finished routing net BI_3_bF$buf0
+Nets remaining: 898
+Finished routing net BI_3_bF$buf1
+Nets remaining: 897
+Finished routing net _109_
+Nets remaining: 896
+Finished routing net _113_
+Nets remaining: 895
+Finished routing net _92_
+Nets remaining: 894
+Finished routing net _94_
+Nets remaining: 893
+Finished routing net _127_
+Nets remaining: 892
+Finished routing net _128_
+Nets remaining: 891
+Finished routing net _133_
+Nets remaining: 890
+Finished routing net _57_
+Nets remaining: 889
+Finished routing net _170_
+Nets remaining: 888
+Finished routing net _176_
+Nets remaining: 887
+Finished routing net _177_
+Nets remaining: 886
+Finished routing net _183_
+Nets remaining: 885
+Finished routing net _185_
+Nets remaining: 884
+Finished routing net _188_
+Nets remaining: 883
+Finished routing net _74_
+Nets remaining: 882
+Finished routing net _68_
+Nets remaining: 881
+Finished routing net _313_
+Nets remaining: 880
+Finished routing net _317_
+Nets remaining: 879
+Finished routing net _318_
+Nets remaining: 878
+Finished routing net _354_
+Nets remaining: 877
+Finished routing net _375_
+Nets remaining: 876
+Finished routing net _700_
+Nets remaining: 875
+Finished routing net AN
+Nets remaining: 874
+Finished routing net _415_
+Nets remaining: 873
+Finished routing net _427_
+Nets remaining: 872
+Finished routing net _442_
+Nets remaining: 871
+Finished routing net state[0]
+Nets remaining: 870
+Finished routing net _482_
+Nets remaining: 869
+Finished routing net _483_
+Nets remaining: 868
+Finished routing net _500_
+Nets remaining: 867
+Finished routing net _524_
+Nets remaining: 866
+Finished routing net _557_
+Nets remaining: 865
+Finished routing net _571_
+Nets remaining: 864
+Finished routing net _573_
+Nets remaining: 863
+Finished routing net _577_
+Nets remaining: 862
+Finished routing net _613_
+Nets remaining: 861
+Finished routing net _647_
+Nets remaining: 860
+Finished routing net ABCmd_i[1]
+Nets remaining: 859
+Finished routing net _841_
+Nets remaining: 858
+Finished routing net _855_
+Nets remaining: 857
+Finished routing net _857_
+Nets remaining: 856
+Finished routing net _776_
+Nets remaining: 855
+Finished routing net LoadB_i
+Nets remaining: 854
+Finished routing net _70_
+Nets remaining: 853
+Finished routing net _71_
+Nets remaining: 852
+Finished routing net _107_
+Nets remaining: 851
+Finished routing net _60_
+Nets remaining: 850
+Finished routing net _111_
+Nets remaining: 849
+Finished routing net _116_
+Nets remaining: 848
+Finished routing net _100_
+Nets remaining: 847
+Finished routing net _104_
+Nets remaining: 846
+Finished routing net _118_
+Nets remaining: 845
+Finished routing net _119_
+Nets remaining: 844
+Finished routing net _120_
+Nets remaining: 843
+Finished routing net _123_
+Nets remaining: 842
+Finished routing net _91_
+Nets remaining: 841
+Finished routing net _131_
+Nets remaining: 840
+Finished routing net _132_
+Nets remaining: 839
+Finished routing net _134_
+Nets remaining: 838
+Finished routing net _135_
+Nets remaining: 837
+Finished routing net _136_
+Nets remaining: 836
+Finished routing net _137_
+Nets remaining: 835
+Finished routing net _139_
+Nets remaining: 834
+Finished routing net _93_
+Nets remaining: 833
+Finished routing net _95_
+Nets remaining: 832
+Finished routing net _98_
+Nets remaining: 831
+Finished routing net _143_
+Nets remaining: 830
+Finished routing net _156_
+Nets remaining: 829
+Finished routing net _158_
+Nets remaining: 828
+Finished routing net _159_
+Nets remaining: 827
+Finished routing net _160_
+Nets remaining: 826
+Finished routing net _162_
+Nets remaining: 825
+Finished routing net _166_
+Nets remaining: 824
+Finished routing net _171_
+Nets remaining: 823
+Finished routing net _172_
+Nets remaining: 822
+Finished routing net _173_
+Nets remaining: 821
+Finished routing net _174_
+Nets remaining: 820
+Finished routing net _175_
+Nets remaining: 819
+Finished routing net _178_
+Nets remaining: 818
+Finished routing net _182_
+Nets remaining: 817
+Finished routing net _184_
+Nets remaining: 816
+Finished routing net _186_
+Nets remaining: 815
+Finished routing net _189_
+Nets remaining: 814
+Finished routing net _191_
+Nets remaining: 813
+Finished routing net _194_
+Nets remaining: 812
+Finished routing net _195_
+Nets remaining: 811
+Finished routing net _197_
+Nets remaining: 810
+Finished routing net _206_
+Nets remaining: 809
+Finished routing net _209_
+Nets remaining: 808
+Finished routing net _210_
+Nets remaining: 807
+Finished routing net _211_
+Nets remaining: 806
+Finished routing net _213_
+Nets remaining: 805
+Finished routing net _217_
+Nets remaining: 804
+Finished routing net _218_
+Nets remaining: 803
+Finished routing net _220_
+Nets remaining: 802
+Finished routing net _226_
+Nets remaining: 801
+Finished routing net _229_
+Nets remaining: 800
+Finished routing net _231_
+Nets remaining: 799
+Finished routing net _232_
+Nets remaining: 798
+Finished routing net _235_
+Nets remaining: 797
+Finished routing net _237_
+Nets remaining: 796
+Finished routing net _241_
+Nets remaining: 795
+Finished routing net _243_
+Nets remaining: 794
+Finished routing net _244_
+Nets remaining: 793
+Finished routing net _63_
+Nets remaining: 792
+Finished routing net _65_
+Nets remaining: 791
+Finished routing net _77_
+Nets remaining: 790
+Finished routing net _78_
+Nets remaining: 789
+Finished routing net _69_
+Nets remaining: 788
+Finished routing net _75_
+Nets remaining: 787
+Finished routing net _72_
+Nets remaining: 786
+Finished routing net _262_
+Nets remaining: 785
+Finished routing net _265_
+Nets remaining: 784
+Finished routing net _80_
+Nets remaining: 783
+Finished routing net _269_
+Nets remaining: 782
+Finished routing net _277_
+Nets remaining: 781
+Finished routing net _278_
+Nets remaining: 780
+Finished routing net _81_
+Nets remaining: 779
+Finished routing net _282_
+Nets remaining: 778
+Finished routing net _59_
+Nets remaining: 777
+Finished routing net _293_
+Nets remaining: 776
+Finished routing net _301_
+Nets remaining: 775
+Finished routing net _303_
+Nets remaining: 774
+Finished routing net _307_
+Nets remaining: 773
+Finished routing net _308_
+Nets remaining: 772
+Finished routing net _309_
+Nets remaining: 771
+Finished routing net _311_
+Nets remaining: 770
+Finished routing net _314_
+Nets remaining: 769
+Finished routing net _315_
+Nets remaining: 768
+Finished routing net _321_
+Nets remaining: 767
+Finished routing net _324_
+Nets remaining: 766
+Finished routing net _325_
+Nets remaining: 765
+Finished routing net _326_
+Nets remaining: 764
+Finished routing net _327_
+Nets remaining: 763
+Finished routing net _332_
+Nets remaining: 762
+Finished routing net _337_
+Nets remaining: 761
+Finished routing net _338_
+Nets remaining: 760
+Finished routing net _339_
+Nets remaining: 759
+Finished routing net _340_
+Nets remaining: 758
+Finished routing net _341_
+Nets remaining: 757
+Finished routing net _343_
+Nets remaining: 756
+Finished routing net _344_
+Nets remaining: 755
+Finished routing net _346_
+Nets remaining: 754
+Finished routing net _348_
+Nets remaining: 753
+Finished routing net _349_
+Nets remaining: 752
+Finished routing net _350_
+Nets remaining: 751
+Finished routing net _352_
+Nets remaining: 750
+Failed to remove stacked via at grid point 246 45.
+Failed to route net _353_; restoring original
+Finished routing net _356_
+Nets remaining: 748
+Finished routing net _358_
+Nets remaining: 747
+Finished routing net _359_
+Nets remaining: 746
+Finished routing net _360_
+Nets remaining: 745
+Finished routing net _365_
+Nets remaining: 744
+Finished routing net _367_
+Nets remaining: 743
+Finished routing net _376_
+Nets remaining: 742
+Finished routing net HC
+Nets remaining: 741
+Finished routing net _387_
+Nets remaining: 740
+Finished routing net _393_
+Nets remaining: 739
+Finished routing net _396_
+Nets remaining: 738
+Finished routing net _401_
+Nets remaining: 737
+Finished routing net _402_
+Nets remaining: 736
+Finished routing net _404_
+Nets remaining: 735
+Finished routing net _405_
+Nets remaining: 734
+Finished routing net _410_
+Nets remaining: 733
+Finished routing net _411_
+Nets remaining: 732
+Finished routing net _413_
+Nets remaining: 731
+Finished routing net _419_
+Nets remaining: 730
+Finished routing net _432_
+Nets remaining: 729
+Finished routing net _437_
+Nets remaining: 728
+Finished routing net _438_
+Nets remaining: 727
+Finished routing net _439_
+Nets remaining: 726
+Finished routing net _440_
+Nets remaining: 725
+Finished routing net _441_
+Nets remaining: 724
+Finished routing net _457_
+Nets remaining: 723
+Finished routing net _460_
+Nets remaining: 722
+Finished routing net _699_
+Nets remaining: 721
+Finished routing net _474_
+Nets remaining: 720
+Finished routing net _480_
+Nets remaining: 719
+Finished routing net _486_
+Nets remaining: 718
+Finished routing net _489_
+Nets remaining: 717
+Finished routing net _490_
+Nets remaining: 716
+Finished routing net _491_
+Nets remaining: 715
+Finished routing net _494_
+Nets remaining: 714
+Finished routing net _502_
+Nets remaining: 713
+Finished routing net _504_
+Nets remaining: 712
+Finished routing net _506_
+Nets remaining: 711
+Finished routing net _507_
+Nets remaining: 710
+Finished routing net _509_
+Nets remaining: 709
+Finished routing net _516_
+Nets remaining: 708
+Finished routing net _518_
+Nets remaining: 707
+Finished routing net _523_
+Nets remaining: 706
+Finished routing net _545_
+Nets remaining: 705
+Finished routing net _549_
+Nets remaining: 704
+Finished routing net _550_
+Nets remaining: 703
+Finished routing net _561_
+Nets remaining: 702
+Finished routing net _569_
+Nets remaining: 701
+Finished routing net _590_
+Nets remaining: 700
+Finished routing net _592_
+Nets remaining: 699
+Finished routing net _596_
+Nets remaining: 698
+Finished routing net _597_
+Nets remaining: 697
+Finished routing net _602_
+Nets remaining: 696
+Finished routing net _603_
+Nets remaining: 695
+Finished routing net _605_
+Nets remaining: 694
+Finished routing net _611_
+Nets remaining: 693
+Finished routing net _618_
+Nets remaining: 692
+Finished routing net _622_
+Nets remaining: 691
+Finished routing net _624_
+Nets remaining: 690
+Finished routing net _636_
+Nets remaining: 689
+Finished routing net _638_
+Nets remaining: 688
+Finished routing net _641_
+Nets remaining: 687
+Finished routing net _642_
+Nets remaining: 686
+Finished routing net _668_
+Nets remaining: 685
+Finished routing net state[2]
+Nets remaining: 684
+Finished routing net ABCmd_i[4]
+Nets remaining: 683
+Finished routing net _836_
+Nets remaining: 682
+Finished routing net _837_
+Nets remaining: 681
+Finished routing net _843_
+Nets remaining: 680
+Finished routing net _872_
+Nets remaining: 679
+Finished routing net _875_
+Nets remaining: 678
+Finished routing net _877_
+Nets remaining: 677
+Finished routing net _884_
+Nets remaining: 676
+Finished routing net _716_
+Nets remaining: 675
+Finished routing net _718_
+Nets remaining: 674
+Finished routing net _723_
+Nets remaining: 673
+Finished routing net _733_
+Nets remaining: 672
+Finished routing net _749_
+Nets remaining: 671
+Finished routing net _759_
+Nets remaining: 670
+Finished routing net _761_
+Nets remaining: 669
+Finished routing net _766_
+Nets remaining: 668
+Finished routing net _792_
+Nets remaining: 667
+Finished routing net _794_
+Nets remaining: 666
+Finished routing net _804_
+Nets remaining: 665
+Finished routing net _887_
+Nets remaining: 664
+Finished routing net _707_
+Nets remaining: 663
+Finished routing net _708_
+Nets remaining: 662
+Finished routing net LoadA_i
+Nets remaining: 661
+Finished routing net _105_
+Nets remaining: 660
+Finished routing net _82_
+Nets remaining: 659
+Finished routing net _115_
+Nets remaining: 658
+Finished routing net _117_
+Nets remaining: 657
+Finished routing net _102_
+Nets remaining: 656
+Finished routing net _103_
+Nets remaining: 655
+Finished routing net _101_
+Nets remaining: 654
+Finished routing net _99_
+Nets remaining: 653
+Finished routing net _96_
+Nets remaining: 652
+Finished routing net _89_
+Nets remaining: 651
+Finished routing net _121_
+Nets remaining: 650
+Finished routing net _88_
+Nets remaining: 649
+Finished routing net _124_
+Nets remaining: 648
+Finished routing net _125_
+Nets remaining: 647
+Finished routing net _126_
+Nets remaining: 646
+Finished routing net _90_
+Nets remaining: 645
+Finished routing net _97_
+Nets remaining: 644
+Finished routing net _138_
+Nets remaining: 643
+Finished routing net _140_
+Nets remaining: 642
+Finished routing net _141_
+Nets remaining: 641
+Finished routing net _142_
+Nets remaining: 640
+Finished routing net _144_
+Nets remaining: 639
+Finished routing net _145_
+Nets remaining: 638
+Finished routing net _146_
+Nets remaining: 637
+Finished routing net _147_
+Nets remaining: 636
+Finished routing net _150_
+Nets remaining: 635
+Finished routing net _151_
+Nets remaining: 634
+Finished routing net _152_
+Nets remaining: 633
+Finished routing net _155_
+Nets remaining: 632
+Finished routing net _157_
+Nets remaining: 631
+Finished routing net _161_
+Nets remaining: 630
+Finished routing net _163_
+Nets remaining: 629
+Finished routing net _164_
+Nets remaining: 628
+Finished routing net _165_
+Nets remaining: 627
+Finished routing net _168_
+Nets remaining: 626
+Finished routing net _84_
+Nets remaining: 625
+Finished routing net _169_
+Nets remaining: 624
+Finished routing net _179_
+Nets remaining: 623
+Finished routing net _180_
+Nets remaining: 622
+Finished routing net _181_
+Nets remaining: 621
+Finished routing net _187_
+Nets remaining: 620
+Finished routing net _190_
+Nets remaining: 619
+Finished routing net _192_
+Nets remaining: 618
+Finished routing net _193_
+Nets remaining: 617
+Finished routing net _198_
+Nets remaining: 616
+Finished routing net _199_
+Nets remaining: 615
+Finished routing net _200_
+Nets remaining: 614
+Finished routing net _202_
+Nets remaining: 613
+Finished routing net _205_
+Nets remaining: 612
+Finished routing net _207_
+Nets remaining: 611
+Finished routing net _212_
+Nets remaining: 610
+Finished routing net _214_
+Nets remaining: 609
+Finished routing net _215_
+Nets remaining: 608
+Finished routing net _216_
+Nets remaining: 607
+Finished routing net _219_
+Nets remaining: 606
+Finished routing net _221_
+Nets remaining: 605
+Failed to remove stacked via at grid point 198 89.
+Failed to route net _222_; restoring original
+Finished routing net _223_
+Nets remaining: 603
+Finished routing net _224_
+Nets remaining: 602
+Finished routing net _227_
+Nets remaining: 601
+Finished routing net _230_
+Nets remaining: 600
+Finished routing net _233_
+Nets remaining: 599
+Finished routing net _236_
+Nets remaining: 598
+Finished routing net _238_
+Nets remaining: 597
+Finished routing net _239_
+Nets remaining: 596
+Finished routing net _240_
+Nets remaining: 595
+Finished routing net _242_
+Nets remaining: 594
+Finished routing net _245_
+Nets remaining: 593
+Finished routing net _246_
+Nets remaining: 592
+Finished routing net _247_
+Nets remaining: 591
+Finished routing net _248_
+Nets remaining: 590
+Finished routing net _249_
+Nets remaining: 589
+Finished routing net _250_
+Nets remaining: 588
+Finished routing net _73_
+Nets remaining: 587
+Finished routing net _251_
+Nets remaining: 586
+Finished routing net _252_
+Nets remaining: 585
+Finished routing net _253_
+Nets remaining: 584
+Finished routing net _254_
+Nets remaining: 583
+Finished routing net _255_
+Nets remaining: 582
+Finished routing net _85_
+Nets remaining: 581
+Finished routing net _256_
+Nets remaining: 580
+Finished routing net _257_
+Nets remaining: 579
+Finished routing net _259_
+Nets remaining: 578
+Finished routing net _260_
+Nets remaining: 577
+Finished routing net _261_
+Nets remaining: 576
+Finished routing net _64_
+Nets remaining: 575
+Finished routing net _270_
+Nets remaining: 574
+Finished routing net _273_
+Nets remaining: 573
+Finished routing net _274_
+Nets remaining: 572
+Finished routing net _275_
+Nets remaining: 571
+Finished routing net _66_
+Nets remaining: 570
+Finished routing net _276_
+Nets remaining: 569
+Finished routing net _279_
+Nets remaining: 568
+Finished routing net _87_
+Nets remaining: 567
+Finished routing net _86_
+Nets remaining: 566
+Finished routing net _280_
+Nets remaining: 565
+Finished routing net _281_
+Nets remaining: 564
+Finished routing net _283_
+Nets remaining: 563
+Finished routing net _286_
+Nets remaining: 562
+Finished routing net _289_
+Nets remaining: 561
+Finished routing net _291_
+Nets remaining: 560
+Finished routing net _292_
+Nets remaining: 559
+Finished routing net _294_
+Nets remaining: 558
+Finished routing net _296_
+Nets remaining: 557
+Finished routing net _297_
+Nets remaining: 556
+Finished routing net _298_
+Nets remaining: 555
+Finished routing net _300_
+Nets remaining: 554
+Finished routing net _302_
+Nets remaining: 553
+Finished routing net _306_
+Nets remaining: 552
+Finished routing net _310_
+Nets remaining: 551
+Finished routing net _319_
+Nets remaining: 550
+Finished routing net _323_
+Nets remaining: 549
+Finished routing net _328_
+Nets remaining: 548
+Finished routing net _330_
+Nets remaining: 547
+Finished routing net _335_
+Nets remaining: 546
+Finished routing net _342_
+Nets remaining: 545
+Finished routing net _345_
+Nets remaining: 544
+Finished routing net _347_
+Nets remaining: 543
+Finished routing net _351_
+Nets remaining: 542
+Finished routing net _355_
+Nets remaining: 541
+Finished routing net _357_
+Nets remaining: 540
+Finished routing net _362_
+Nets remaining: 539
+Finished routing net _363_
+Nets remaining: 538
+Finished routing net _364_
+Nets remaining: 537
+Finished routing net _368_
+Nets remaining: 536
+Finished routing net _369_
+Nets remaining: 535
+Finished routing net _371_
+Nets remaining: 534
+Finished routing net _374_
+Nets remaining: 533
+Finished routing net ACC[0]
+Nets remaining: 532
+Finished routing net _886_[1]
+Nets remaining: 531
+Finished routing net _389_
+Nets remaining: 530
+Finished routing net _390_
+Nets remaining: 529
+Finished routing net _392_
+Nets remaining: 528
+Finished routing net _397_
+Nets remaining: 527
+Finished routing net _398_
+Nets remaining: 526
+Finished routing net _406_
+Nets remaining: 525
+Finished routing net _409_
+Nets remaining: 524
+Finished routing net _412_
+Nets remaining: 523
+Finished routing net _414_
+Nets remaining: 522
+Finished routing net _416_
+Nets remaining: 521
+Finished routing net _417_
+Nets remaining: 520
+Keeping route for net _418_
+Finished routing net _420_
+Nets remaining: 518
+Finished routing net _421_
+Nets remaining: 517
+Finished routing net _424_
+Nets remaining: 516
+Finished routing net _425_
+Nets remaining: 515
+Finished routing net _433_
+Nets remaining: 514
+Finished routing net _435_
+Nets remaining: 513
+Finished routing net _436_
+Nets remaining: 512
+Finished routing net _444_
+Nets remaining: 511
+Finished routing net _445_
+Nets remaining: 510
+Finished routing net _448_
+Nets remaining: 509
+Finished routing net _449_
+Nets remaining: 508
+Finished routing net _450_
+Nets remaining: 507
+Finished routing net _451_
+Nets remaining: 506
+Finished routing net _452_
+Nets remaining: 505
+Finished routing net _453_
+Nets remaining: 504
+Finished routing net _456_
+Nets remaining: 503
+Finished routing net _458_
+Nets remaining: 502
+Finished routing net _459_
+Nets remaining: 501
+Finished routing net _886_[2]
+Nets remaining: 500
+Finished routing net _470_
+Nets remaining: 499
+Finished routing net _472_
+Nets remaining: 498
+Finished routing net _475_
+Nets remaining: 497
+Finished routing net _477_
+Nets remaining: 496
+Finished routing net _478_
+Nets remaining: 495
+Finished routing net _479_
+Nets remaining: 494
+Finished routing net _484_
+Nets remaining: 493
+Finished routing net _488_
+Nets remaining: 492
+Finished routing net _492_
+Nets remaining: 491
+Finished routing net _493_
+Nets remaining: 490
+Finished routing net _495_
+Nets remaining: 489
+Finished routing net _499_
+Nets remaining: 488
+Finished routing net _501_
+Nets remaining: 487
+Finished routing net _503_
+Nets remaining: 486
+Finished routing net _510_
+Nets remaining: 485
+Finished routing net _513_
+Nets remaining: 484
+Finished routing net _515_
+Nets remaining: 483
+Finished routing net _525_
+Nets remaining: 482
+Finished routing net _526_
+Nets remaining: 481
+Finished routing net _527_
+Nets remaining: 480
+Finished routing net _528_
+Nets remaining: 479
+Finished routing net _886_[3]
+Nets remaining: 478
+Finished routing net _541_
+Nets remaining: 477
+Finished routing net _542_
+Nets remaining: 476
+Finished routing net _544_
+Nets remaining: 475
+Finished routing net _547_
+Nets remaining: 474
+Finished routing net _548_
+Nets remaining: 473
+Finished routing net _552_
+Nets remaining: 472
+Finished routing net _554_
+Nets remaining: 471
+Finished routing net _556_
+Nets remaining: 470
+Finished routing net _558_
+Nets remaining: 469
+Finished routing net _560_
+Nets remaining: 468
+Finished routing net _562_
+Nets remaining: 467
+Finished routing net _565_
+Nets remaining: 466
+Failed to remove stacked via at grid point 74 22.
+Failed to route net _566_; restoring original
+Finished routing net _568_
+Nets remaining: 464
+Finished routing net _576_
+Nets remaining: 463
+Finished routing net ACC[3]
+Nets remaining: 462
+Finished routing net _886_[4]
+Nets remaining: 461
+Finished routing net _595_
+Nets remaining: 460
+Finished routing net _598_
+Nets remaining: 459
+Finished routing net _604_
+Nets remaining: 458
+Finished routing net _607_
+Nets remaining: 457
+Finished routing net _609_
+Nets remaining: 456
+Finished routing net _614_
+Nets remaining: 455
+Finished routing net _616_
+Nets remaining: 454
+Finished routing net _617_
+Nets remaining: 453
+Finished routing net _619_
+Nets remaining: 452
+Finished routing net _620_
+Nets remaining: 451
+Finished routing net CO
+Nets remaining: 450
+Finished routing net ACC[4]
+Nets remaining: 449
+Finished routing net _886_[5]
+Nets remaining: 448
+Finished routing net _639_
+Nets remaining: 447
+Finished routing net _640_
+Nets remaining: 446
+Finished routing net _644_
+Nets remaining: 445
+Finished routing net _645_
+Nets remaining: 444
+Finished routing net _646_
+Nets remaining: 443
+Finished routing net _886_[6]
+Nets remaining: 442
+Finished routing net _658_
+Nets remaining: 441
+Finished routing net _660_
+Nets remaining: 440
+Finished routing net _662_
+Nets remaining: 439
+Finished routing net _663_
+Nets remaining: 438
+Finished routing net _666_
+Nets remaining: 437
+Finished routing net _886_[7]
+Nets remaining: 436
+Finished routing net _40_
+Nets remaining: 435
+Finished routing net _42_
+Nets remaining: 434
+Finished routing net _44_
+Nets remaining: 433
+Finished routing net _46_
+Nets remaining: 432
+Finished routing net _48_
+Nets remaining: 431
+Finished routing net _50_
+Nets remaining: 430
+Finished routing net _52_
+Nets remaining: 429
+Finished routing net _886_[0]
+Nets remaining: 428
+Finished routing net _824_
+Nets remaining: 427
+Finished routing net ABCmd_i[3]
+Nets remaining: 426
+Finished routing net _827_
+Nets remaining: 425
+Finished routing net _828_
+Nets remaining: 424
+Finished routing net _832_
+Nets remaining: 423
+Finished routing net _833_
+Nets remaining: 422
+Finished routing net _840_
+Nets remaining: 421
+Finished routing net _842_
+Nets remaining: 420
+Finished routing net _845_
+Nets remaining: 419
+Finished routing net _858_
+Nets remaining: 418
+Finished routing net _861_
+Nets remaining: 417
+Finished routing net _863_
+Nets remaining: 416
+Finished routing net _871_
+Nets remaining: 415
+Finished routing net _719_
+Nets remaining: 414
+Finished routing net _722_
+Nets remaining: 413
+Finished routing net _725_
+Nets remaining: 412
+Finished routing net _729_
+Nets remaining: 411
+Finished routing net _731_
+Nets remaining: 410
+Finished routing net _732_
+Nets remaining: 409
+Finished routing net _734_
+Nets remaining: 408
+Finished routing net _737_
+Nets remaining: 407
+Finished routing net _739_
+Nets remaining: 406
+Finished routing net _742_
+Nets remaining: 405
+Finished routing net _746_
+Nets remaining: 404
+Finished routing net _748_
+Nets remaining: 403
+Finished routing net _750_
+Nets remaining: 402
+Finished routing net _751_
+Nets remaining: 401
+Finished routing net _753_
+Nets remaining: 400
+Finished routing net _755_
+Nets remaining: 399
+Finished routing net _762_
+Nets remaining: 398
+Finished routing net _763_
+Nets remaining: 397
+Finished routing net _764_
+Nets remaining: 396
+Finished routing net _765_
+Nets remaining: 395
+Finished routing net _767_
+Nets remaining: 394
+Finished routing net _768_
+Nets remaining: 393
+Finished routing net _772_
+Nets remaining: 392
+Finished routing net _774_
+Nets remaining: 391
+Finished routing net _777_
+Nets remaining: 390
+Finished routing net _783_
+Nets remaining: 389
+Finished routing net _784_
+Nets remaining: 388
+Finished routing net _785_
+Nets remaining: 387
+Finished routing net _786_
+Nets remaining: 386
+Finished routing net _788_
+Nets remaining: 385
+Finished routing net _795_
+Nets remaining: 384
+Finished routing net _797_
+Nets remaining: 383
+Finished routing net _798_
+Nets remaining: 382
+Finished routing net _799_
+Nets remaining: 381
+Finished routing net _800_
+Nets remaining: 380
+Finished routing net _806_
+Nets remaining: 379
+Finished routing net _807_
+Nets remaining: 378
+Finished routing net _814_
+Nets remaining: 377
+Finished routing net _817_
+Nets remaining: 376
+Finished routing net _818_
+Nets remaining: 375
+Finished routing net _820_
+Nets remaining: 374
+Finished routing net _702_
+Nets remaining: 373
+Finished routing net _706_
+Nets remaining: 372
+Finished routing net LoadCmd_i
+Nets remaining: 371
+Finished routing net _711_
+Nets remaining: 370
+Finished routing net _714_
+Nets remaining: 369
+Finished routing net _33_
+Nets remaining: 368
+Finished routing net _34_
+Nets remaining: 367
+Finished routing net _67_
+Nets remaining: 366
+Finished routing net _76_
+Nets remaining: 365
+Finished routing net _79_
+Nets remaining: 364
+Finished routing net _106_
+Nets remaining: 363
+Finished routing net _108_
+Nets remaining: 362
+Finished routing net _110_
+Nets remaining: 361
+Finished routing net _112_
+Nets remaining: 360
+Finished routing net _114_
+Nets remaining: 359
+Finished routing net _129_
+Nets remaining: 358
+Finished routing net _148_
+Nets remaining: 357
+Finished routing net _153_
+Nets remaining: 356
+Finished routing net _154_
+Nets remaining: 355
+Finished routing net _196_
+Nets remaining: 354
+Finished routing net _201_
+Nets remaining: 353
+Keeping route for net _203_
+Finished routing net _204_
+Nets remaining: 351
+Finished routing net _208_
+Nets remaining: 350
+Finished routing net _225_
+Nets remaining: 349
+Finished routing net _228_
+Nets remaining: 348
+Finished routing net _234_
+Nets remaining: 347
+Finished routing net _258_
+Nets remaining: 346
+Finished routing net _263_
+Nets remaining: 345
+Finished routing net _264_
+Nets remaining: 344
+Keeping route for net _266_
+Finished routing net _267_
+Nets remaining: 342
+Keeping route for net _268_
+Finished routing net _272_
+Nets remaining: 340
+Finished routing net _284_
+Nets remaining: 339
+Finished routing net _287_
+Nets remaining: 338
+Finished routing net _288_
+Nets remaining: 337
+Finished routing net _290_
+Nets remaining: 336
+Finished routing net _295_
+Nets remaining: 335
+Finished routing net _299_
+Nets remaining: 334
+Finished routing net _304_
+Nets remaining: 333
+Finished routing net _305_
+Nets remaining: 332
+Finished routing net _312_
+Nets remaining: 331
+Finished routing net _316_
+Nets remaining: 330
+Finished routing net _320_
+Nets remaining: 329
+Keeping route for net _322_
+Finished routing net _329_
+Nets remaining: 327
+Finished routing net _331_
+Nets remaining: 326
+Keeping route for net _333_
+Finished routing net _334_
+Nets remaining: 324
+Finished routing net _336_
+Nets remaining: 323
+Finished routing net _366_
+Nets remaining: 322
+Finished routing net _370_
+Nets remaining: 321
+Finished routing net _372_
+Nets remaining: 320
+Finished routing net _373_
+Nets remaining: 319
+Finished routing net _377_
+Nets remaining: 318
+Finished routing net _378_
+Nets remaining: 317
+Finished routing net _379_
+Nets remaining: 316
+Finished routing net _380_
+Nets remaining: 315
+Finished routing net _381_
+Nets remaining: 314
+Finished routing net _382_
+Nets remaining: 313
+Finished routing net _383_
+Nets remaining: 312
+Finished routing net _384_
+Nets remaining: 311
+Finished routing net _56_
+Nets remaining: 310
+Finished routing net _9_
+Nets remaining: 309
+Finished routing net _385_
+Nets remaining: 308
+Finished routing net _386_
+Nets remaining: 307
+Finished routing net _388_
+Nets remaining: 306
+Finished routing net _391_
+Nets remaining: 305
+Finished routing net _394_
+Nets remaining: 304
+Finished routing net _395_
+Nets remaining: 303
+Keeping route for net _399_
+Finished routing net _400_
+Nets remaining: 301
+Keeping route for net _403_
+Finished routing net _407_
+Nets remaining: 299
+Finished routing net _408_
+Nets remaining: 298
+Finished routing net _422_
+Nets remaining: 297
+Finished routing net _426_
+Nets remaining: 296
+Finished routing net _428_
+Nets remaining: 295
+Finished routing net _429_
+Nets remaining: 294
+Finished routing net _430_
+Nets remaining: 293
+Finished routing net _434_
+Nets remaining: 292
+Finished routing net _443_
+Nets remaining: 291
+Finished routing net _446_
+Nets remaining: 290
+Finished routing net _447_
+Nets remaining: 289
+Finished routing net _454_
+Nets remaining: 288
+Finished routing net _455_
+Nets remaining: 287
+Finished routing net _461_
+Nets remaining: 286
+Finished routing net _462_
+Nets remaining: 285
+Finished routing net _463_
+Nets remaining: 284
+Finished routing net _464_
+Nets remaining: 283
+Finished routing net ACC[1]
+Nets remaining: 282
+Finished routing net _465_
+Nets remaining: 281
+Finished routing net _466_
+Nets remaining: 280
+Finished routing net _467_
+Nets remaining: 279
+Finished routing net _468_
+Nets remaining: 278
+Finished routing net _10_
+Nets remaining: 277
+Finished routing net _469_
+Nets remaining: 276
+Finished routing net _471_
+Nets remaining: 275
+Finished routing net _473_
+Nets remaining: 274
+Finished routing net _476_
+Nets remaining: 273
+Finished routing net _481_
+Nets remaining: 272
+Finished routing net _485_
+Nets remaining: 271
+Finished routing net _487_
+Nets remaining: 270
+Finished routing net _496_
+Nets remaining: 269
+Keeping route for net _497_
+Keeping route for net _505_
+Finished routing net _508_
+Nets remaining: 266
+Finished routing net _511_
+Nets remaining: 265
+Finished routing net _512_
+Nets remaining: 264
+Keeping route for net _514_
+Finished routing net _517_
+Nets remaining: 262
+Finished routing net _519_
+Nets remaining: 261
+Finished routing net _520_
+Nets remaining: 260
+Finished routing net _521_
+Nets remaining: 259
+Finished routing net _522_
+Nets remaining: 258
+Keeping route for net _529_
+Finished routing net _530_
+Nets remaining: 256
+Finished routing net AZ
+Nets remaining: 255
+Finished routing net _531_
+Nets remaining: 254
+Finished routing net _532_
+Nets remaining: 253
+Finished routing net _533_
+Nets remaining: 252
+Finished routing net _534_
+Nets remaining: 251
+Finished routing net ACC[2]
+Nets remaining: 250
+Finished routing net _535_
+Nets remaining: 249
+Finished routing net _536_
+Nets remaining: 248
+Finished routing net _537_
+Nets remaining: 247
+Finished routing net _11_
+Nets remaining: 246
+Finished routing net _538_
+Nets remaining: 245
+Finished routing net AV
+Nets remaining: 244
+Finished routing net _539_
+Nets remaining: 243
+Finished routing net _540_
+Nets remaining: 242
+Finished routing net _543_
+Nets remaining: 241
+Finished routing net _546_
+Nets remaining: 240
+Keeping route for net _551_
+Finished routing net _553_
+Nets remaining: 238
+Finished routing net _555_
+Nets remaining: 237
+Finished routing net _559_
+Nets remaining: 236
+Finished routing net _564_
+Nets remaining: 235
+Keeping route for net _567_
+Finished routing net _570_
+Nets remaining: 233
+Finished routing net _572_
+Nets remaining: 232
+Finished routing net _574_
+Nets remaining: 231
+Finished routing net _575_
+Nets remaining: 230
+Finished routing net _578_
+Nets remaining: 229
+Finished routing net _579_
+Nets remaining: 228
+Finished routing net _580_
+Nets remaining: 227
+Finished routing net _581_
+Nets remaining: 226
+Finished routing net _582_
+Nets remaining: 225
+Finished routing net _583_
+Nets remaining: 224
+Finished routing net _584_
+Nets remaining: 223
+Finished routing net _585_
+Nets remaining: 222
+Finished routing net _586_
+Nets remaining: 221
+Finished routing net _587_
+Nets remaining: 220
+Finished routing net _588_
+Nets remaining: 219
+Keeping route for net _12_
+Finished routing net _589_
+Nets remaining: 217
+Finished routing net _591_
+Nets remaining: 216
+Finished routing net _593_
+Nets remaining: 215
+Finished routing net _594_
+Nets remaining: 214
+Finished routing net _599_
+Nets remaining: 213
+Failed to remove stacked via at grid point 86 87.
+Failed to route net _600_; restoring original
+Keeping route for net _601_
+Finished routing net _606_
+Nets remaining: 210
+Finished routing net _608_
+Nets remaining: 209
+Finished routing net _610_
+Nets remaining: 208
+Finished routing net _612_
+Nets remaining: 207
+Finished routing net _615_
+Nets remaining: 206
+Finished routing net _621_
+Nets remaining: 205
+Finished routing net _623_
+Nets remaining: 204
+Finished routing net _625_
+Nets remaining: 203
+Finished routing net _626_
+Nets remaining: 202
+Finished routing net _627_
+Nets remaining: 201
+Finished routing net _628_
+Nets remaining: 200
+Keeping route for net _629_
+Finished routing net _630_
+Nets remaining: 198
+Finished routing net _631_
+Nets remaining: 197
+Finished routing net _632_
+Nets remaining: 196
+Finished routing net _633_
+Nets remaining: 195
+Finished routing net _634_
+Nets remaining: 194
+Finished routing net _13_
+Nets remaining: 193
+Finished routing net _635_
+Nets remaining: 192
+Finished routing net _637_
+Nets remaining: 191
+Finished routing net _643_
+Nets remaining: 190
+Finished routing net _648_
+Nets remaining: 189
+Keeping route for net _649_
+Finished routing net _650_
+Nets remaining: 187
+Finished routing net _651_
+Nets remaining: 186
+Finished routing net _652_
+Nets remaining: 185
+Finished routing net _653_
+Nets remaining: 184
+Finished routing net ACC[5]
+Nets remaining: 183
+Finished routing net _654_
+Nets remaining: 182
+Finished routing net _655_
+Nets remaining: 181
+Finished routing net _656_
+Nets remaining: 180
+Finished routing net _14_
+Nets remaining: 179
+Keeping route for net _657_
+Finished routing net _659_
+Nets remaining: 177
+Finished routing net _661_
+Nets remaining: 176
+Finished routing net _664_
+Nets remaining: 175
+Finished routing net _665_
+Nets remaining: 174
+Finished routing net _667_
+Nets remaining: 173
+Finished routing net _669_
+Nets remaining: 172
+Finished routing net _670_
+Nets remaining: 171
+Finished routing net _671_
+Nets remaining: 170
+Finished routing net _672_
+Nets remaining: 169
+Finished routing net _673_
+Nets remaining: 168
+Finished routing net _674_
+Nets remaining: 167
+Finished routing net _675_
+Nets remaining: 166
+Finished routing net _676_
+Nets remaining: 165
+Finished routing net _677_
+Nets remaining: 164
+Keeping route for net ACC[6]
+Finished routing net _678_
+Nets remaining: 162
+Finished routing net _679_
+Nets remaining: 161
+Finished routing net _680_
+Nets remaining: 160
+Finished routing net _15_
+Nets remaining: 159
+Keeping route for net _681_
+Finished routing net _682_
+Nets remaining: 157
+Finished routing net _683_
+Nets remaining: 156
+Finished routing net _684_
+Nets remaining: 155
+Finished routing net _685_
+Nets remaining: 154
+Finished routing net _686_
+Nets remaining: 153
+Finished routing net _687_
+Nets remaining: 152
+Finished routing net _688_
+Nets remaining: 151
+Finished routing net _689_
+Nets remaining: 150
+Finished routing net _690_
+Nets remaining: 149
+Finished routing net _16_
+Nets remaining: 148
+Finished routing net _691_
+Nets remaining: 147
+Finished routing net _17_
+Nets remaining: 146
+Finished routing net _692_
+Nets remaining: 145
+Finished routing net _18_
+Nets remaining: 144
+Finished routing net _693_
+Nets remaining: 143
+Finished routing net _19_
+Nets remaining: 142
+Finished routing net _694_
+Nets remaining: 141
+Finished routing net _20_
+Nets remaining: 140
+Finished routing net _695_
+Nets remaining: 139
+Finished routing net _21_
+Nets remaining: 138
+Finished routing net _696_
+Nets remaining: 137
+Finished routing net _22_
+Nets remaining: 136
+Finished routing net _697_
+Nets remaining: 135
+Finished routing net _23_
+Nets remaining: 134
+Finished routing net _698_
+Nets remaining: 133
+Finished routing net _24_
+Nets remaining: 132
+Finished routing net _1_
+Nets remaining: 131
+Finished routing net _2_
+Nets remaining: 130
+Finished routing net _3_
+Nets remaining: 129
+Finished routing net _4_
+Nets remaining: 128
+Finished routing net _5_
+Nets remaining: 127
+Finished routing net _6_
+Nets remaining: 126
+Finished routing net _7_
+Nets remaining: 125
+Finished routing net _8_
+Nets remaining: 124
+Finished routing net _888_[0]
+Nets remaining: 123
+Finished routing net _888_[1]
+Nets remaining: 122
+Finished routing net _888_[2]
+Nets remaining: 121
+Finished routing net _826_
+Nets remaining: 120
+Finished routing net _834_
+Nets remaining: 119
+Finished routing net _838_
+Nets remaining: 118
+Finished routing net _839_
+Nets remaining: 117
+Keeping route for net _846_
+Keeping route for net _847_
+Finished routing net _848_
+Nets remaining: 114
+Finished routing net _849_
+Nets remaining: 113
+Finished routing net _850_
+Nets remaining: 112
+Finished routing net _851_
+Nets remaining: 111
+Finished routing net _852_
+Nets remaining: 110
+Finished routing net _853_
+Nets remaining: 109
+Finished routing net _854_
+Nets remaining: 108
+Finished routing net _856_
+Nets remaining: 107
+Keeping route for net _859_
+Finished routing net _860_
+Nets remaining: 105
+Finished routing net _862_
+Nets remaining: 104
+Finished routing net _864_
+Nets remaining: 103
+Keeping route for net _865_
+Finished routing net _866_
+Nets remaining: 101
+Finished routing net _867_
+Nets remaining: 100
+Finished routing net _868_
+Nets remaining: 99
+Finished routing net _869_
+Nets remaining: 98
+Finished routing net _870_
+Nets remaining: 97
+Finished routing net _873_
+Nets remaining: 96
+Finished routing net _874_
+Nets remaining: 95
+Finished routing net _876_
+Nets remaining: 94
+Finished routing net _878_
+Nets remaining: 93
+Finished routing net _879_
+Nets remaining: 92
+Finished routing net _880_
+Nets remaining: 91
+Finished routing net _881_
+Nets remaining: 90
+Keeping route for net _882_
+Finished routing net _883_
+Nets remaining: 88
+Finished routing net _885_
+Nets remaining: 87
+Finished routing net _717_
+Nets remaining: 86
+Keeping route for net _720_
+Finished routing net _721_
+Nets remaining: 84
+Finished routing net _724_
+Nets remaining: 83
+Finished routing net _726_
+Nets remaining: 82
+Finished routing net _727_
+Nets remaining: 81
+Finished routing net _728_
+Nets remaining: 80
+Finished routing net _730_
+Nets remaining: 79
+Finished routing net _735_
+Nets remaining: 78
+Finished routing net _736_
+Nets remaining: 77
+Finished routing net _738_
+Nets remaining: 76
+Finished routing net _740_
+Nets remaining: 75
+Finished routing net _741_
+Nets remaining: 74
+Finished routing net _743_
+Nets remaining: 73
+Finished routing net _744_
+Nets remaining: 72
+Keeping route for net _745_
+Finished routing net _747_
+Nets remaining: 70
+Finished routing net _752_
+Nets remaining: 69
+Finished routing net _754_
+Nets remaining: 68
+Finished routing net _756_
+Nets remaining: 67
+Finished routing net _757_
+Nets remaining: 66
+Finished routing net _758_
+Nets remaining: 65
+Finished routing net _760_
+Nets remaining: 64
+Finished routing net _769_
+Nets remaining: 63
+Finished routing net _770_
+Nets remaining: 62
+Finished routing net _771_
+Nets remaining: 61
+Finished routing net _773_
+Nets remaining: 60
+Finished routing net _778_
+Nets remaining: 59
+Finished routing net _779_
+Nets remaining: 58
+Finished routing net _780_
+Nets remaining: 57
+Finished routing net _781_
+Nets remaining: 56
+Finished routing net _782_
+Nets remaining: 55
+Finished routing net _787_
+Nets remaining: 54
+Finished routing net _789_
+Nets remaining: 53
+Failed to remove stacked via at grid point 175 267.
+Failed to route net _790_; restoring original
+Finished routing net _791_
+Nets remaining: 51
+Finished routing net _793_
+Nets remaining: 50
+Finished routing net _801_
+Nets remaining: 49
+Finished routing net _802_
+Nets remaining: 48
+Finished routing net _803_
+Nets remaining: 47
+Finished routing net _805_
+Nets remaining: 46
+Finished routing net _808_
+Nets remaining: 45
+Finished routing net _809_
+Nets remaining: 44
+Finished routing net _810_
+Nets remaining: 43
+Finished routing net _811_
+Nets remaining: 42
+Finished routing net _812_
+Nets remaining: 41
+Finished routing net _813_
+Nets remaining: 40
+Finished routing net _815_
+Nets remaining: 39
+Finished routing net _816_
+Nets remaining: 38
+Finished routing net _819_
+Nets remaining: 37
+Finished routing net _821_
+Nets remaining: 36
+Finished routing net _822_
+Nets remaining: 35
+Finished routing net _823_
+Nets remaining: 34
+Keeping route for net ACC_o[0]
+Finished routing net ACC_o[1]
+Nets remaining: 32
+Keeping route for net ACC_o[2]
+Keeping route for net ACC_o[3]
+Keeping route for net ACC_o[4]
+Keeping route for net ACC_o[5]
+Keeping route for net ACC_o[6]
+Finished routing net ACC_o[7]
+Nets remaining: 26
+Finished routing net Done_o
+Nets remaining: 25
+Finished routing net _701_
+Nets remaining: 24
+Finished routing net _704_
+Nets remaining: 23
+Finished routing net _709_
+Nets remaining: 22
+Finished routing net _710_
+Nets remaining: 21
+Finished routing net _713_
+Nets remaining: 20
+Finished routing net _27_
+Nets remaining: 19
+Finished routing net _28_
+Nets remaining: 18
+Finished routing net _29_
+Nets remaining: 17
+Finished routing net _30_
+Nets remaining: 16
+Finished routing net _31_
+Nets remaining: 15
+Failed to remove stacked via at grid point 55 202.
+Failed to route net _35_; restoring original
+Finished routing net _36_
+Nets remaining: 13
+Finished routing net _37_
+Nets remaining: 12
+Finished routing net _38_
+Nets remaining: 11
+Finished routing net _39_
+Nets remaining: 10
+Finished routing net reset
+Nets remaining: 9
+Finished routing net _41_
+Nets remaining: 8
+Finished routing net _43_
+Nets remaining: 7
+Finished routing net _45_
+Nets remaining: 6
+Finished routing net _47_
+Nets remaining: 5
+Finished routing net _49_
+Nets remaining: 4
+Finished routing net _51_
+Nets remaining: 3
+Finished routing net _53_
+Nets remaining: 2
+Finished routing net _55_
+Nets remaining: 1
+
+----------------------------------------------
+Progress: Stage 3 total routes completed: 7143
+No failed routes!
+----------------------------------------------
+*** Running stage3 routing with defaults, 2nd round
+Finished routing net vdd
+Nets remaining: 994
+Finished routing net AI[6]
+Nets remaining: 993
+Finished routing net AI[4]
+Nets remaining: 992
+Finished routing net ABCmd_i[7]
+Nets remaining: 991
+Finished routing net _712_
+Nets remaining: 990
+Finished routing net BI[2]
+Nets remaining: 989
+Finished routing net AI[2]
+Nets remaining: 988
+Finished routing net AI[1]
+Nets remaining: 987
+Finished routing net BI[5]
+Nets remaining: 986
+Finished routing net AI[3]
+Nets remaining: 985
+Finished routing net _167_
+Nets remaining: 984
+Finished routing net _825_
+Nets remaining: 983
+Finished routing net \u_ALU.AI7\
+Nets remaining: 982
+Finished routing net BI[7]
+Nets remaining: 981
+Finished routing net _54_
+Nets remaining: 980
+Finished routing net ABCmd_i[5]
+Nets remaining: 979
+Finished routing net _835_
+Nets remaining: 978
+Finished routing net _844_
+Nets remaining: 977
+Finished routing net AI[0]
+Nets remaining: 976
+Finished routing net _58_
+Nets remaining: 975
+Finished routing net _829_
+Nets remaining: 974
+Finished routing net _830_
+Nets remaining: 973
+Finished routing net _831_
+Nets remaining: 972
+Finished routing net BI[6]
+Nets remaining: 971
+Finished routing net _715_
+Nets remaining: 970
+Finished routing net state[1]
+Nets remaining: 969
+Finished routing net _431_
+Nets remaining: 968
+Finished routing net ABCmd_i[0]
+Nets remaining: 967
+Finished routing net ABCmd_i_2_bF$buf2
+Nets remaining: 966
+Finished routing net ABCmd_i_2_bF$buf3
+Nets remaining: 965
+Finished routing net _0__bF$buf3
+Nets remaining: 964
+Finished routing net _0__bF$buf4
+Nets remaining: 963
+Finished routing net clk_bF$buf3
+Nets remaining: 962
+Finished routing net clk_bF$buf4
+Nets remaining: 961
+Finished routing net _83_
+Nets remaining: 960
+Finished routing net _62_
+Nets remaining: 959
+Finished routing net _703_
+Nets remaining: 958
+Finished routing net _563_
+Nets remaining: 957
+Finished routing net ABCmd_i_2_bF$buf0
+Nets remaining: 956
+Finished routing net ABCmd_i_2_bF$buf1
+Nets remaining: 955
+Finished routing net BI_1_bF$buf2
+Nets remaining: 954
+Finished routing net BI_1_bF$buf3
+Nets remaining: 953
+Finished routing net BI_4_bF$buf0
+Nets remaining: 952
+Finished routing net BI_4_bF$buf1
+Nets remaining: 951
+Finished routing net BI_4_bF$buf2
+Nets remaining: 950
+Finished routing net BI_4_bF$buf3
+Nets remaining: 949
+Finished routing net _32__bF$buf2
+Nets remaining: 948
+Finished routing net _32__bF$buf3
+Nets remaining: 947
+Finished routing net AI_5_bF$buf3
+Nets remaining: 946
+Finished routing net _0_
+Nets remaining: 945
+Finished routing net _0__bF$buf0
+Nets remaining: 944
+Finished routing net _0__bF$buf1
+Nets remaining: 943
+Finished routing net _0__bF$buf2
+Nets remaining: 942
+Finished routing net _705__bF$buf2
+Nets remaining: 941
+Finished routing net _705__bF$buf3
+Nets remaining: 940
+Finished routing net clk
+Nets remaining: 939
+Finished routing net clk_bF$buf0
+Nets remaining: 938
+Finished routing net clk_bF$buf1
+Nets remaining: 937
+Finished routing net clk_bF$buf2
+Nets remaining: 936
+Finished routing net BI_0_bF$buf1
+Nets remaining: 935
+Finished routing net BI_0_bF$buf2
+Nets remaining: 934
+Finished routing net BI_0_bF$buf3
+Nets remaining: 933
+Finished routing net BI_3_bF$buf2
+Nets remaining: 932
+Finished routing net BI_3_bF$buf3
+Nets remaining: 931
+Finished routing net _122_
+Nets remaining: 930
+Finished routing net _61_
+Nets remaining: 929
+Finished routing net _130_
+Nets remaining: 928
+Finished routing net _149_
+Nets remaining: 927
+Finished routing net _271_
+Nets remaining: 926
+Finished routing net _285_
+Nets remaining: 925
+Finished routing net _361_
+Nets remaining: 924
+Finished routing net _423_
+Nets remaining: 923
+Finished routing net _498_
+Nets remaining: 922
+Finished routing net _25_
+Nets remaining: 921
+Finished routing net ABCmd_i[6]
+Nets remaining: 920
+Finished routing net _775_
+Nets remaining: 919
+Finished routing net _796_
+Nets remaining: 918
+Finished routing net _26_
+Nets remaining: 917
+Finished routing net ABCmd_i[2]
+Nets remaining: 916
+Finished routing net BI[1]
+Nets remaining: 915
+Finished routing net BI_1_bF$buf0
+Nets remaining: 914
+Finished routing net BI_1_bF$buf1
+Nets remaining: 913
+Finished routing net BI[4]
+Nets remaining: 912
+Finished routing net _32_
+Nets remaining: 911
+Finished routing net _32__bF$buf0
+Nets remaining: 910
+Finished routing net _32__bF$buf1
+Nets remaining: 909
+Finished routing net AI[5]
+Nets remaining: 908
+Finished routing net AI_5_bF$buf0
+Nets remaining: 907
+Finished routing net AI_5_bF$buf1
+Nets remaining: 906
+Finished routing net AI_5_bF$buf2
+Nets remaining: 905
+Finished routing net _705_
+Nets remaining: 904
+Finished routing net _705__bF$buf0
+Nets remaining: 903
+Finished routing net _705__bF$buf1
+Nets remaining: 902
+Finished routing net BI[0]
+Nets remaining: 901
+Finished routing net BI_0_bF$buf0
+Nets remaining: 900
+Finished routing net BI[3]
+Nets remaining: 899
+Finished routing net BI_3_bF$buf0
+Nets remaining: 898
+Finished routing net BI_3_bF$buf1
+Nets remaining: 897
+Finished routing net _109_
+Nets remaining: 896
+Finished routing net _113_
+Nets remaining: 895
+Finished routing net _92_
+Nets remaining: 894
+Finished routing net _94_
+Nets remaining: 893
+Finished routing net _127_
+Nets remaining: 892
+Finished routing net _128_
+Nets remaining: 891
+Finished routing net _133_
+Nets remaining: 890
+Finished routing net _57_
+Nets remaining: 889
+Finished routing net _170_
+Nets remaining: 888
+Finished routing net _176_
+Nets remaining: 887
+Finished routing net _177_
+Nets remaining: 886
+Finished routing net _183_
+Nets remaining: 885
+Finished routing net _185_
+Nets remaining: 884
+Finished routing net _188_
+Nets remaining: 883
+Finished routing net _74_
+Nets remaining: 882
+Finished routing net _68_
+Nets remaining: 881
+Finished routing net _313_
+Nets remaining: 880
+Finished routing net _317_
+Nets remaining: 879
+Finished routing net _318_
+Nets remaining: 878
+Finished routing net _354_
+Nets remaining: 877
+Finished routing net _375_
+Nets remaining: 876
+Finished routing net _700_
+Nets remaining: 875
+Finished routing net AN
+Nets remaining: 874
+Finished routing net _415_
+Nets remaining: 873
+Finished routing net _427_
+Nets remaining: 872
+Finished routing net _442_
+Nets remaining: 871
+Finished routing net state[0]
+Nets remaining: 870
+Finished routing net _482_
+Nets remaining: 869
+Finished routing net _483_
+Nets remaining: 868
+Finished routing net _500_
+Nets remaining: 867
+Finished routing net _524_
+Nets remaining: 866
+Finished routing net _557_
+Nets remaining: 865
+Finished routing net _571_
+Nets remaining: 864
+Finished routing net _573_
+Nets remaining: 863
+Finished routing net _577_
+Nets remaining: 862
+Finished routing net _613_
+Nets remaining: 861
+Finished routing net _647_
+Nets remaining: 860
+Finished routing net ABCmd_i[1]
+Nets remaining: 859
+Finished routing net _841_
+Nets remaining: 858
+Finished routing net _855_
+Nets remaining: 857
+Finished routing net _857_
+Nets remaining: 856
+Finished routing net _776_
+Nets remaining: 855
+Finished routing net LoadB_i
+Nets remaining: 854
+Finished routing net _70_
+Nets remaining: 853
+Finished routing net _71_
+Nets remaining: 852
+Finished routing net _107_
+Nets remaining: 851
+Finished routing net _60_
+Nets remaining: 850
+Finished routing net _111_
+Nets remaining: 849
+Finished routing net _116_
+Nets remaining: 848
+Finished routing net _100_
+Nets remaining: 847
+Finished routing net _104_
+Nets remaining: 846
+Finished routing net _118_
+Nets remaining: 845
+Finished routing net _119_
+Nets remaining: 844
+Finished routing net _120_
+Nets remaining: 843
+Finished routing net _123_
+Nets remaining: 842
+Finished routing net _91_
+Nets remaining: 841
+Finished routing net _131_
+Nets remaining: 840
+Finished routing net _132_
+Nets remaining: 839
+Finished routing net _134_
+Nets remaining: 838
+Finished routing net _135_
+Nets remaining: 837
+Finished routing net _136_
+Nets remaining: 836
+Finished routing net _137_
+Nets remaining: 835
+Finished routing net _139_
+Nets remaining: 834
+Finished routing net _93_
+Nets remaining: 833
+Finished routing net _95_
+Nets remaining: 832
+Finished routing net _98_
+Nets remaining: 831
+Finished routing net _143_
+Nets remaining: 830
+Finished routing net _156_
+Nets remaining: 829
+Finished routing net _158_
+Nets remaining: 828
+Finished routing net _159_
+Nets remaining: 827
+Finished routing net _160_
+Nets remaining: 826
+Finished routing net _162_
+Nets remaining: 825
+Finished routing net _166_
+Nets remaining: 824
+Finished routing net _171_
+Nets remaining: 823
+Finished routing net _172_
+Nets remaining: 822
+Finished routing net _173_
+Nets remaining: 821
+Finished routing net _174_
+Nets remaining: 820
+Finished routing net _175_
+Nets remaining: 819
+Finished routing net _178_
+Nets remaining: 818
+Finished routing net _182_
+Nets remaining: 817
+Finished routing net _184_
+Nets remaining: 816
+Finished routing net _186_
+Nets remaining: 815
+Finished routing net _189_
+Nets remaining: 814
+Finished routing net _191_
+Nets remaining: 813
+Finished routing net _194_
+Nets remaining: 812
+Finished routing net _195_
+Nets remaining: 811
+Finished routing net _197_
+Nets remaining: 810
+Finished routing net _206_
+Nets remaining: 809
+Finished routing net _209_
+Nets remaining: 808
+Finished routing net _210_
+Nets remaining: 807
+Finished routing net _211_
+Nets remaining: 806
+Finished routing net _213_
+Nets remaining: 805
+Finished routing net _217_
+Nets remaining: 804
+Finished routing net _218_
+Nets remaining: 803
+Finished routing net _220_
+Nets remaining: 802
+Finished routing net _226_
+Nets remaining: 801
+Finished routing net _229_
+Nets remaining: 800
+Finished routing net _231_
+Nets remaining: 799
+Finished routing net _232_
+Nets remaining: 798
+Finished routing net _235_
+Nets remaining: 797
+Finished routing net _237_
+Nets remaining: 796
+Finished routing net _241_
+Nets remaining: 795
+Finished routing net _243_
+Nets remaining: 794
+Finished routing net _244_
+Nets remaining: 793
+Finished routing net _63_
+Nets remaining: 792
+Finished routing net _65_
+Nets remaining: 791
+Finished routing net _77_
+Nets remaining: 790
+Finished routing net _78_
+Nets remaining: 789
+Finished routing net _69_
+Nets remaining: 788
+Finished routing net _75_
+Nets remaining: 787
+Finished routing net _72_
+Nets remaining: 786
+Finished routing net _262_
+Nets remaining: 785
+Finished routing net _265_
+Nets remaining: 784
+Finished routing net _80_
+Nets remaining: 783
+Finished routing net _269_
+Nets remaining: 782
+Finished routing net _277_
+Nets remaining: 781
+Finished routing net _278_
+Nets remaining: 780
+Finished routing net _81_
+Nets remaining: 779
+Finished routing net _282_
+Nets remaining: 778
+Finished routing net _59_
+Nets remaining: 777
+Finished routing net _293_
+Nets remaining: 776
+Finished routing net _301_
+Nets remaining: 775
+Finished routing net _303_
+Nets remaining: 774
+Finished routing net _307_
+Nets remaining: 773
+Finished routing net _308_
+Nets remaining: 772
+Finished routing net _309_
+Nets remaining: 771
+Finished routing net _311_
+Nets remaining: 770
+Finished routing net _314_
+Nets remaining: 769
+Finished routing net _315_
+Nets remaining: 768
+Finished routing net _321_
+Nets remaining: 767
+Finished routing net _324_
+Nets remaining: 766
+Finished routing net _325_
+Nets remaining: 765
+Finished routing net _326_
+Nets remaining: 764
+Finished routing net _327_
+Nets remaining: 763
+Finished routing net _332_
+Nets remaining: 762
+Finished routing net _337_
+Nets remaining: 761
+Finished routing net _338_
+Nets remaining: 760
+Finished routing net _339_
+Nets remaining: 759
+Finished routing net _340_
+Nets remaining: 758
+Finished routing net _341_
+Nets remaining: 757
+Finished routing net _343_
+Nets remaining: 756
+Finished routing net _344_
+Nets remaining: 755
+Finished routing net _346_
+Nets remaining: 754
+Finished routing net _348_
+Nets remaining: 753
+Finished routing net _349_
+Nets remaining: 752
+Finished routing net _350_
+Nets remaining: 751
+Finished routing net _352_
+Nets remaining: 750
+Finished routing net _353_
+Nets remaining: 749
+Finished routing net _356_
+Nets remaining: 748
+Finished routing net _358_
+Nets remaining: 747
+Finished routing net _359_
+Nets remaining: 746
+Finished routing net _360_
+Nets remaining: 745
+Finished routing net _365_
+Nets remaining: 744
+Finished routing net _367_
+Nets remaining: 743
+Finished routing net _376_
+Nets remaining: 742
+Finished routing net HC
+Nets remaining: 741
+Finished routing net _387_
+Nets remaining: 740
+Finished routing net _393_
+Nets remaining: 739
+Finished routing net _396_
+Nets remaining: 738
+Finished routing net _401_
+Nets remaining: 737
+Finished routing net _402_
+Nets remaining: 736
+Finished routing net _404_
+Nets remaining: 735
+Finished routing net _405_
+Nets remaining: 734
+Finished routing net _410_
+Nets remaining: 733
+Finished routing net _411_
+Nets remaining: 732
+Finished routing net _413_
+Nets remaining: 731
+Finished routing net _419_
+Nets remaining: 730
+Finished routing net _432_
+Nets remaining: 729
+Finished routing net _437_
+Nets remaining: 728
+Finished routing net _438_
+Nets remaining: 727
+Finished routing net _439_
+Nets remaining: 726
+Finished routing net _440_
+Nets remaining: 725
+Finished routing net _441_
+Nets remaining: 724
+Finished routing net _457_
+Nets remaining: 723
+Finished routing net _460_
+Nets remaining: 722
+Finished routing net _699_
+Nets remaining: 721
+Finished routing net _474_
+Nets remaining: 720
+Finished routing net _480_
+Nets remaining: 719
+Finished routing net _486_
+Nets remaining: 718
+Finished routing net _489_
+Nets remaining: 717
+Finished routing net _490_
+Nets remaining: 716
+Finished routing net _491_
+Nets remaining: 715
+Finished routing net _494_
+Nets remaining: 714
+Finished routing net _502_
+Nets remaining: 713
+Finished routing net _504_
+Nets remaining: 712
+Finished routing net _506_
+Nets remaining: 711
+Finished routing net _507_
+Nets remaining: 710
+Finished routing net _509_
+Nets remaining: 709
+Finished routing net _516_
+Nets remaining: 708
+Finished routing net _518_
+Nets remaining: 707
+Finished routing net _523_
+Nets remaining: 706
+Finished routing net _545_
+Nets remaining: 705
+Finished routing net _549_
+Nets remaining: 704
+Finished routing net _550_
+Nets remaining: 703
+Finished routing net _561_
+Nets remaining: 702
+Finished routing net _569_
+Nets remaining: 701
+Finished routing net _590_
+Nets remaining: 700
+Finished routing net _592_
+Nets remaining: 699
+Finished routing net _596_
+Nets remaining: 698
+Finished routing net _597_
+Nets remaining: 697
+Finished routing net _602_
+Nets remaining: 696
+Finished routing net _603_
+Nets remaining: 695
+Finished routing net _605_
+Nets remaining: 694
+Finished routing net _611_
+Nets remaining: 693
+Finished routing net _618_
+Nets remaining: 692
+Finished routing net _622_
+Nets remaining: 691
+Finished routing net _624_
+Nets remaining: 690
+Finished routing net _636_
+Nets remaining: 689
+Finished routing net _638_
+Nets remaining: 688
+Finished routing net _641_
+Nets remaining: 687
+Finished routing net _642_
+Nets remaining: 686
+Finished routing net _668_
+Nets remaining: 685
+Finished routing net state[2]
+Nets remaining: 684
+Finished routing net ABCmd_i[4]
+Nets remaining: 683
+Finished routing net _836_
+Nets remaining: 682
+Finished routing net _837_
+Nets remaining: 681
+Finished routing net _843_
+Nets remaining: 680
+Finished routing net _872_
+Nets remaining: 679
+Finished routing net _875_
+Nets remaining: 678
+Finished routing net _877_
+Nets remaining: 677
+Finished routing net _884_
+Nets remaining: 676
+Finished routing net _716_
+Nets remaining: 675
+Finished routing net _718_
+Nets remaining: 674
+Finished routing net _723_
+Nets remaining: 673
+Finished routing net _733_
+Nets remaining: 672
+Finished routing net _749_
+Nets remaining: 671
+Finished routing net _759_
+Nets remaining: 670
+Finished routing net _761_
+Nets remaining: 669
+Finished routing net _766_
+Nets remaining: 668
+Finished routing net _792_
+Nets remaining: 667
+Finished routing net _794_
+Nets remaining: 666
+Finished routing net _804_
+Nets remaining: 665
+Finished routing net _887_
+Nets remaining: 664
+Finished routing net _707_
+Nets remaining: 663
+Finished routing net _708_
+Nets remaining: 662
+Finished routing net LoadA_i
+Nets remaining: 661
+Finished routing net _105_
+Nets remaining: 660
+Finished routing net _82_
+Nets remaining: 659
+Finished routing net _115_
+Nets remaining: 658
+Finished routing net _117_
+Nets remaining: 657
+Finished routing net _102_
+Nets remaining: 656
+Finished routing net _103_
+Nets remaining: 655
+Finished routing net _101_
+Nets remaining: 654
+Finished routing net _99_
+Nets remaining: 653
+Finished routing net _96_
+Nets remaining: 652
+Finished routing net _89_
+Nets remaining: 651
+Finished routing net _121_
+Nets remaining: 650
+Finished routing net _88_
+Nets remaining: 649
+Finished routing net _124_
+Nets remaining: 648
+Finished routing net _125_
+Nets remaining: 647
+Finished routing net _126_
+Nets remaining: 646
+Finished routing net _90_
+Nets remaining: 645
+Finished routing net _97_
+Nets remaining: 644
+Finished routing net _138_
+Nets remaining: 643
+Finished routing net _140_
+Nets remaining: 642
+Finished routing net _141_
+Nets remaining: 641
+Finished routing net _142_
+Nets remaining: 640
+Finished routing net _144_
+Nets remaining: 639
+Finished routing net _145_
+Nets remaining: 638
+Keeping route for net _146_
+Finished routing net _147_
+Nets remaining: 636
+Finished routing net _150_
+Nets remaining: 635
+Finished routing net _151_
+Nets remaining: 634
+Finished routing net _152_
+Nets remaining: 633
+Finished routing net _155_
+Nets remaining: 632
+Finished routing net _157_
+Nets remaining: 631
+Finished routing net _161_
+Nets remaining: 630
+Finished routing net _163_
+Nets remaining: 629
+Finished routing net _164_
+Nets remaining: 628
+Finished routing net _165_
+Nets remaining: 627
+Finished routing net _168_
+Nets remaining: 626
+Finished routing net _84_
+Nets remaining: 625
+Finished routing net _169_
+Nets remaining: 624
+Finished routing net _179_
+Nets remaining: 623
+Finished routing net _180_
+Nets remaining: 622
+Finished routing net _181_
+Nets remaining: 621
+Finished routing net _187_
+Nets remaining: 620
+Finished routing net _190_
+Nets remaining: 619
+Finished routing net _192_
+Nets remaining: 618
+Finished routing net _193_
+Nets remaining: 617
+Finished routing net _198_
+Nets remaining: 616
+Finished routing net _199_
+Nets remaining: 615
+Finished routing net _200_
+Nets remaining: 614
+Finished routing net _202_
+Nets remaining: 613
+Finished routing net _205_
+Nets remaining: 612
+Finished routing net _207_
+Nets remaining: 611
+Finished routing net _212_
+Nets remaining: 610
+Finished routing net _214_
+Nets remaining: 609
+Finished routing net _215_
+Nets remaining: 608
+Finished routing net _216_
+Nets remaining: 607
+Finished routing net _219_
+Nets remaining: 606
+Finished routing net _221_
+Nets remaining: 605
+Finished routing net _222_
+Nets remaining: 604
+Finished routing net _223_
+Nets remaining: 603
+Finished routing net _224_
+Nets remaining: 602
+Finished routing net _227_
+Nets remaining: 601
+Finished routing net _230_
+Nets remaining: 600
+Finished routing net _233_
+Nets remaining: 599
+Finished routing net _236_
+Nets remaining: 598
+Finished routing net _238_
+Nets remaining: 597
+Finished routing net _239_
+Nets remaining: 596
+Finished routing net _240_
+Nets remaining: 595
+Finished routing net _242_
+Nets remaining: 594
+Finished routing net _245_
+Nets remaining: 593
+Finished routing net _246_
+Nets remaining: 592
+Finished routing net _247_
+Nets remaining: 591
+Finished routing net _248_
+Nets remaining: 590
+Finished routing net _249_
+Nets remaining: 589
+Finished routing net _250_
+Nets remaining: 588
+Finished routing net _73_
+Nets remaining: 587
+Finished routing net _251_
+Nets remaining: 586
+Finished routing net _252_
+Nets remaining: 585
+Finished routing net _253_
+Nets remaining: 584
+Finished routing net _254_
+Nets remaining: 583
+Finished routing net _255_
+Nets remaining: 582
+Finished routing net _85_
+Nets remaining: 581
+Finished routing net _256_
+Nets remaining: 580
+Finished routing net _257_
+Nets remaining: 579
+Finished routing net _259_
+Nets remaining: 578
+Finished routing net _260_
+Nets remaining: 577
+Finished routing net _261_
+Nets remaining: 576
+Keeping route for net _64_
+Finished routing net _270_
+Nets remaining: 574
+Finished routing net _273_
+Nets remaining: 573
+Finished routing net _274_
+Nets remaining: 572
+Finished routing net _275_
+Nets remaining: 571
+Finished routing net _66_
+Nets remaining: 570
+Finished routing net _276_
+Nets remaining: 569
+Finished routing net _279_
+Nets remaining: 568
+Finished routing net _87_
+Nets remaining: 567
+Finished routing net _86_
+Nets remaining: 566
+Finished routing net _280_
+Nets remaining: 565
+Finished routing net _281_
+Nets remaining: 564
+Finished routing net _283_
+Nets remaining: 563
+Finished routing net _286_
+Nets remaining: 562
+Finished routing net _289_
+Nets remaining: 561
+Finished routing net _291_
+Nets remaining: 560
+Finished routing net _292_
+Nets remaining: 559
+Finished routing net _294_
+Nets remaining: 558
+Finished routing net _296_
+Nets remaining: 557
+Finished routing net _297_
+Nets remaining: 556
+Finished routing net _298_
+Nets remaining: 555
+Finished routing net _300_
+Nets remaining: 554
+Finished routing net _302_
+Nets remaining: 553
+Finished routing net _306_
+Nets remaining: 552
+Finished routing net _310_
+Nets remaining: 551
+Finished routing net _319_
+Nets remaining: 550
+Finished routing net _323_
+Nets remaining: 549
+Finished routing net _328_
+Nets remaining: 548
+Keeping route for net _330_
+Finished routing net _335_
+Nets remaining: 546
+Finished routing net _342_
+Nets remaining: 545
+Finished routing net _345_
+Nets remaining: 544
+Finished routing net _347_
+Nets remaining: 543
+Finished routing net _351_
+Nets remaining: 542
+Finished routing net _355_
+Nets remaining: 541
+Finished routing net _357_
+Nets remaining: 540
+Finished routing net _362_
+Nets remaining: 539
+Finished routing net _363_
+Nets remaining: 538
+Finished routing net _364_
+Nets remaining: 537
+Finished routing net _368_
+Nets remaining: 536
+Finished routing net _369_
+Nets remaining: 535
+Finished routing net _371_
+Nets remaining: 534
+Finished routing net _374_
+Nets remaining: 533
+Finished routing net ACC[0]
+Nets remaining: 532
+Finished routing net _886_[1]
+Nets remaining: 531
+Finished routing net _389_
+Nets remaining: 530
+Finished routing net _390_
+Nets remaining: 529
+Finished routing net _392_
+Nets remaining: 528
+Finished routing net _397_
+Nets remaining: 527
+Finished routing net _398_
+Nets remaining: 526
+Finished routing net _406_
+Nets remaining: 525
+Finished routing net _409_
+Nets remaining: 524
+Finished routing net _412_
+Nets remaining: 523
+Finished routing net _414_
+Nets remaining: 522
+Finished routing net _416_
+Nets remaining: 521
+Finished routing net _417_
+Nets remaining: 520
+Keeping route for net _418_
+Finished routing net _420_
+Nets remaining: 518
+Finished routing net _421_
+Nets remaining: 517
+Finished routing net _424_
+Nets remaining: 516
+Finished routing net _425_
+Nets remaining: 515
+Finished routing net _433_
+Nets remaining: 514
+Finished routing net _435_
+Nets remaining: 513
+Finished routing net _436_
+Nets remaining: 512
+Finished routing net _444_
+Nets remaining: 511
+Finished routing net _445_
+Nets remaining: 510
+Finished routing net _448_
+Nets remaining: 509
+Finished routing net _449_
+Nets remaining: 508
+Finished routing net _450_
+Nets remaining: 507
+Finished routing net _451_
+Nets remaining: 506
+Finished routing net _452_
+Nets remaining: 505
+Finished routing net _453_
+Nets remaining: 504
+Finished routing net _456_
+Nets remaining: 503
+Finished routing net _458_
+Nets remaining: 502
+Finished routing net _459_
+Nets remaining: 501
+Finished routing net _886_[2]
+Nets remaining: 500
+Finished routing net _470_
+Nets remaining: 499
+Finished routing net _472_
+Nets remaining: 498
+Finished routing net _475_
+Nets remaining: 497
+Finished routing net _477_
+Nets remaining: 496
+Finished routing net _478_
+Nets remaining: 495
+Finished routing net _479_
+Nets remaining: 494
+Finished routing net _484_
+Nets remaining: 493
+Finished routing net _488_
+Nets remaining: 492
+Finished routing net _492_
+Nets remaining: 491
+Finished routing net _493_
+Nets remaining: 490
+Finished routing net _495_
+Nets remaining: 489
+Finished routing net _499_
+Nets remaining: 488
+Finished routing net _501_
+Nets remaining: 487
+Finished routing net _503_
+Nets remaining: 486
+Finished routing net _510_
+Nets remaining: 485
+Finished routing net _513_
+Nets remaining: 484
+Finished routing net _515_
+Nets remaining: 483
+Finished routing net _525_
+Nets remaining: 482
+Finished routing net _526_
+Nets remaining: 481
+Finished routing net _527_
+Nets remaining: 480
+Finished routing net _528_
+Nets remaining: 479
+Finished routing net _886_[3]
+Nets remaining: 478
+Finished routing net _541_
+Nets remaining: 477
+Finished routing net _542_
+Nets remaining: 476
+Finished routing net _544_
+Nets remaining: 475
+Finished routing net _547_
+Nets remaining: 474
+Finished routing net _548_
+Nets remaining: 473
+Finished routing net _552_
+Nets remaining: 472
+Finished routing net _554_
+Nets remaining: 471
+Finished routing net _556_
+Nets remaining: 470
+Finished routing net _558_
+Nets remaining: 469
+Finished routing net _560_
+Nets remaining: 468
+Finished routing net _562_
+Nets remaining: 467
+Finished routing net _565_
+Nets remaining: 466
+Failed to remove stacked via at grid point 74 22.
+Failed to route net _566_; restoring original
+Finished routing net _568_
+Nets remaining: 464
+Finished routing net _576_
+Nets remaining: 463
+Finished routing net ACC[3]
+Nets remaining: 462
+Finished routing net _886_[4]
+Nets remaining: 461
+Finished routing net _595_
+Nets remaining: 460
+Finished routing net _598_
+Nets remaining: 459
+Finished routing net _604_
+Nets remaining: 458
+Finished routing net _607_
+Nets remaining: 457
+Finished routing net _609_
+Nets remaining: 456
+Finished routing net _614_
+Nets remaining: 455
+Finished routing net _616_
+Nets remaining: 454
+Finished routing net _617_
+Nets remaining: 453
+Finished routing net _619_
+Nets remaining: 452
+Finished routing net _620_
+Nets remaining: 451
+Finished routing net CO
+Nets remaining: 450
+Finished routing net ACC[4]
+Nets remaining: 449
+Finished routing net _886_[5]
+Nets remaining: 448
+Finished routing net _639_
+Nets remaining: 447
+Finished routing net _640_
+Nets remaining: 446
+Finished routing net _644_
+Nets remaining: 445
+Finished routing net _645_
+Nets remaining: 444
+Finished routing net _646_
+Nets remaining: 443
+Finished routing net _886_[6]
+Nets remaining: 442
+Finished routing net _658_
+Nets remaining: 441
+Finished routing net _660_
+Nets remaining: 440
+Finished routing net _662_
+Nets remaining: 439
+Finished routing net _663_
+Nets remaining: 438
+Finished routing net _666_
+Nets remaining: 437
+Finished routing net _886_[7]
+Nets remaining: 436
+Finished routing net _40_
+Nets remaining: 435
+Finished routing net _42_
+Nets remaining: 434
+Finished routing net _44_
+Nets remaining: 433
+Finished routing net _46_
+Nets remaining: 432
+Finished routing net _48_
+Nets remaining: 431
+Finished routing net _50_
+Nets remaining: 430
+Finished routing net _52_
+Nets remaining: 429
+Finished routing net _886_[0]
+Nets remaining: 428
+Finished routing net _824_
+Nets remaining: 427
+Finished routing net ABCmd_i[3]
+Nets remaining: 426
+Finished routing net _827_
+Nets remaining: 425
+Finished routing net _828_
+Nets remaining: 424
+Finished routing net _832_
+Nets remaining: 423
+Finished routing net _833_
+Nets remaining: 422
+Finished routing net _840_
+Nets remaining: 421
+Finished routing net _842_
+Nets remaining: 420
+Finished routing net _845_
+Nets remaining: 419
+Finished routing net _858_
+Nets remaining: 418
+Finished routing net _861_
+Nets remaining: 417
+Finished routing net _863_
+Nets remaining: 416
+Finished routing net _871_
+Nets remaining: 415
+Finished routing net _719_
+Nets remaining: 414
+Finished routing net _722_
+Nets remaining: 413
+Finished routing net _725_
+Nets remaining: 412
+Finished routing net _729_
+Nets remaining: 411
+Finished routing net _731_
+Nets remaining: 410
+Finished routing net _732_
+Nets remaining: 409
+Finished routing net _734_
+Nets remaining: 408
+Finished routing net _737_
+Nets remaining: 407
+Finished routing net _739_
+Nets remaining: 406
+Finished routing net _742_
+Nets remaining: 405
+Finished routing net _746_
+Nets remaining: 404
+Finished routing net _748_
+Nets remaining: 403
+Finished routing net _750_
+Nets remaining: 402
+Finished routing net _751_
+Nets remaining: 401
+Finished routing net _753_
+Nets remaining: 400
+Finished routing net _755_
+Nets remaining: 399
+Finished routing net _762_
+Nets remaining: 398
+Finished routing net _763_
+Nets remaining: 397
+Finished routing net _764_
+Nets remaining: 396
+Finished routing net _765_
+Nets remaining: 395
+Finished routing net _767_
+Nets remaining: 394
+Finished routing net _768_
+Nets remaining: 393
+Finished routing net _772_
+Nets remaining: 392
+Finished routing net _774_
+Nets remaining: 391
+Finished routing net _777_
+Nets remaining: 390
+Finished routing net _783_
+Nets remaining: 389
+Finished routing net _784_
+Nets remaining: 388
+Finished routing net _785_
+Nets remaining: 387
+Finished routing net _786_
+Nets remaining: 386
+Finished routing net _788_
+Nets remaining: 385
+Finished routing net _795_
+Nets remaining: 384
+Finished routing net _797_
+Nets remaining: 383
+Finished routing net _798_
+Nets remaining: 382
+Finished routing net _799_
+Nets remaining: 381
+Finished routing net _800_
+Nets remaining: 380
+Finished routing net _806_
+Nets remaining: 379
+Finished routing net _807_
+Nets remaining: 378
+Finished routing net _814_
+Nets remaining: 377
+Finished routing net _817_
+Nets remaining: 376
+Finished routing net _818_
+Nets remaining: 375
+Finished routing net _820_
+Nets remaining: 374
+Finished routing net _702_
+Nets remaining: 373
+Finished routing net _706_
+Nets remaining: 372
+Finished routing net LoadCmd_i
+Nets remaining: 371
+Finished routing net _711_
+Nets remaining: 370
+Finished routing net _714_
+Nets remaining: 369
+Finished routing net _33_
+Nets remaining: 368
+Finished routing net _34_
+Nets remaining: 367
+Finished routing net _67_
+Nets remaining: 366
+Finished routing net _76_
+Nets remaining: 365
+Finished routing net _79_
+Nets remaining: 364
+Finished routing net _106_
+Nets remaining: 363
+Finished routing net _108_
+Nets remaining: 362
+Finished routing net _110_
+Nets remaining: 361
+Finished routing net _112_
+Nets remaining: 360
+Finished routing net _114_
+Nets remaining: 359
+Finished routing net _129_
+Nets remaining: 358
+Finished routing net _148_
+Nets remaining: 357
+Finished routing net _153_
+Nets remaining: 356
+Finished routing net _154_
+Nets remaining: 355
+Finished routing net _196_
+Nets remaining: 354
+Finished routing net _201_
+Nets remaining: 353
+Keeping route for net _203_
+Finished routing net _204_
+Nets remaining: 351
+Finished routing net _208_
+Nets remaining: 350
+Finished routing net _225_
+Nets remaining: 349
+Finished routing net _228_
+Nets remaining: 348
+Finished routing net _234_
+Nets remaining: 347
+Finished routing net _258_
+Nets remaining: 346
+Finished routing net _263_
+Nets remaining: 345
+Finished routing net _264_
+Nets remaining: 344
+Keeping route for net _266_
+Finished routing net _267_
+Nets remaining: 342
+Keeping route for net _268_
+Finished routing net _272_
+Nets remaining: 340
+Finished routing net _284_
+Nets remaining: 339
+Finished routing net _287_
+Nets remaining: 338
+Finished routing net _288_
+Nets remaining: 337
+Finished routing net _290_
+Nets remaining: 336
+Finished routing net _295_
+Nets remaining: 335
+Finished routing net _299_
+Nets remaining: 334
+Finished routing net _304_
+Nets remaining: 333
+Keeping route for net _305_
+Finished routing net _312_
+Nets remaining: 331
+Finished routing net _316_
+Nets remaining: 330
+Finished routing net _320_
+Nets remaining: 329
+Keeping route for net _322_
+Finished routing net _329_
+Nets remaining: 327
+Finished routing net _331_
+Nets remaining: 326
+Keeping route for net _333_
+Finished routing net _334_
+Nets remaining: 324
+Finished routing net _336_
+Nets remaining: 323
+Finished routing net _366_
+Nets remaining: 322
+Finished routing net _370_
+Nets remaining: 321
+Finished routing net _372_
+Nets remaining: 320
+Finished routing net _373_
+Nets remaining: 319
+Finished routing net _377_
+Nets remaining: 318
+Finished routing net _378_
+Nets remaining: 317
+Finished routing net _379_
+Nets remaining: 316
+Finished routing net _380_
+Nets remaining: 315
+Finished routing net _381_
+Nets remaining: 314
+Finished routing net _382_
+Nets remaining: 313
+Finished routing net _383_
+Nets remaining: 312
+Finished routing net _384_
+Nets remaining: 311
+Finished routing net _56_
+Nets remaining: 310
+Finished routing net _9_
+Nets remaining: 309
+Keeping route for net _385_
+Finished routing net _386_
+Nets remaining: 307
+Finished routing net _388_
+Nets remaining: 306
+Finished routing net _391_
+Nets remaining: 305
+Finished routing net _394_
+Nets remaining: 304
+Finished routing net _395_
+Nets remaining: 303
+Keeping route for net _399_
+Finished routing net _400_
+Nets remaining: 301
+Keeping route for net _403_
+Finished routing net _407_
+Nets remaining: 299
+Finished routing net _408_
+Nets remaining: 298
+Finished routing net _422_
+Nets remaining: 297
+Finished routing net _426_
+Nets remaining: 296
+Finished routing net _428_
+Nets remaining: 295
+Finished routing net _429_
+Nets remaining: 294
+Finished routing net _430_
+Nets remaining: 293
+Finished routing net _434_
+Nets remaining: 292
+Finished routing net _443_
+Nets remaining: 291
+Finished routing net _446_
+Nets remaining: 290
+Finished routing net _447_
+Nets remaining: 289
+Finished routing net _454_
+Nets remaining: 288
+Finished routing net _455_
+Nets remaining: 287
+Finished routing net _461_
+Nets remaining: 286
+Finished routing net _462_
+Nets remaining: 285
+Finished routing net _463_
+Nets remaining: 284
+Finished routing net _464_
+Nets remaining: 283
+Finished routing net ACC[1]
+Nets remaining: 282
+Finished routing net _465_
+Nets remaining: 281
+Finished routing net _466_
+Nets remaining: 280
+Finished routing net _467_
+Nets remaining: 279
+Finished routing net _468_
+Nets remaining: 278
+Finished routing net _10_
+Nets remaining: 277
+Finished routing net _469_
+Nets remaining: 276
+Finished routing net _471_
+Nets remaining: 275
+Finished routing net _473_
+Nets remaining: 274
+Finished routing net _476_
+Nets remaining: 273
+Finished routing net _481_
+Nets remaining: 272
+Finished routing net _485_
+Nets remaining: 271
+Finished routing net _487_
+Nets remaining: 270
+Finished routing net _496_
+Nets remaining: 269
+Keeping route for net _497_
+Keeping route for net _505_
+Finished routing net _508_
+Nets remaining: 266
+Finished routing net _511_
+Nets remaining: 265
+Finished routing net _512_
+Nets remaining: 264
+Keeping route for net _514_
+Finished routing net _517_
+Nets remaining: 262
+Finished routing net _519_
+Nets remaining: 261
+Finished routing net _520_
+Nets remaining: 260
+Finished routing net _521_
+Nets remaining: 259
+Finished routing net _522_
+Nets remaining: 258
+Keeping route for net _529_
+Finished routing net _530_
+Nets remaining: 256
+Finished routing net AZ
+Nets remaining: 255
+Finished routing net _531_
+Nets remaining: 254
+Finished routing net _532_
+Nets remaining: 253
+Finished routing net _533_
+Nets remaining: 252
+Finished routing net _534_
+Nets remaining: 251
+Finished routing net ACC[2]
+Nets remaining: 250
+Finished routing net _535_
+Nets remaining: 249
+Finished routing net _536_
+Nets remaining: 248
+Finished routing net _537_
+Nets remaining: 247
+Finished routing net _11_
+Nets remaining: 246
+Finished routing net _538_
+Nets remaining: 245
+Finished routing net AV
+Nets remaining: 244
+Finished routing net _539_
+Nets remaining: 243
+Finished routing net _540_
+Nets remaining: 242
+Keeping route for net _543_
+Keeping route for net _546_
+Keeping route for net _551_
+Finished routing net _553_
+Nets remaining: 238
+Finished routing net _555_
+Nets remaining: 237
+Finished routing net _559_
+Nets remaining: 236
+Finished routing net _564_
+Nets remaining: 235
+Keeping route for net _567_
+Finished routing net _570_
+Nets remaining: 233
+Finished routing net _572_
+Nets remaining: 232
+Finished routing net _574_
+Nets remaining: 231
+Finished routing net _575_
+Nets remaining: 230
+Finished routing net _578_
+Nets remaining: 229
+Finished routing net _579_
+Nets remaining: 228
+Finished routing net _580_
+Nets remaining: 227
+Finished routing net _581_
+Nets remaining: 226
+Finished routing net _582_
+Nets remaining: 225
+Finished routing net _583_
+Nets remaining: 224
+Finished routing net _584_
+Nets remaining: 223
+Finished routing net _585_
+Nets remaining: 222
+Finished routing net _586_
+Nets remaining: 221
+Finished routing net _587_
+Nets remaining: 220
+Finished routing net _588_
+Nets remaining: 219
+Keeping route for net _12_
+Finished routing net _589_
+Nets remaining: 217
+Finished routing net _591_
+Nets remaining: 216
+Finished routing net _593_
+Nets remaining: 215
+Finished routing net _594_
+Nets remaining: 214
+Finished routing net _599_
+Nets remaining: 213
+Finished routing net _600_
+Nets remaining: 212
+Keeping route for net _601_
+Finished routing net _606_
+Nets remaining: 210
+Finished routing net _608_
+Nets remaining: 209
+Finished routing net _610_
+Nets remaining: 208
+Finished routing net _612_
+Nets remaining: 207
+Finished routing net _615_
+Nets remaining: 206
+Finished routing net _621_
+Nets remaining: 205
+Finished routing net _623_
+Nets remaining: 204
+Finished routing net _625_
+Nets remaining: 203
+Finished routing net _626_
+Nets remaining: 202
+Finished routing net _627_
+Nets remaining: 201
+Finished routing net _628_
+Nets remaining: 200
+Keeping route for net _629_
+Finished routing net _630_
+Nets remaining: 198
+Finished routing net _631_
+Nets remaining: 197
+Finished routing net _632_
+Nets remaining: 196
+Finished routing net _633_
+Nets remaining: 195
+Finished routing net _634_
+Nets remaining: 194
+Finished routing net _13_
+Nets remaining: 193
+Finished routing net _635_
+Nets remaining: 192
+Finished routing net _637_
+Nets remaining: 191
+Finished routing net _643_
+Nets remaining: 190
+Keeping route for net _648_
+Keeping route for net _649_
+Finished routing net _650_
+Nets remaining: 187
+Finished routing net _651_
+Nets remaining: 186
+Finished routing net _652_
+Nets remaining: 185
+Finished routing net _653_
+Nets remaining: 184
+Finished routing net ACC[5]
+Nets remaining: 183
+Finished routing net _654_
+Nets remaining: 182
+Finished routing net _655_
+Nets remaining: 181
+Finished routing net _656_
+Nets remaining: 180
+Finished routing net _14_
+Nets remaining: 179
+Keeping route for net _657_
+Finished routing net _659_
+Nets remaining: 177
+Finished routing net _661_
+Nets remaining: 176
+Finished routing net _664_
+Nets remaining: 175
+Finished routing net _665_
+Nets remaining: 174
+Finished routing net _667_
+Nets remaining: 173
+Finished routing net _669_
+Nets remaining: 172
+Finished routing net _670_
+Nets remaining: 171
+Finished routing net _671_
+Nets remaining: 170
+Finished routing net _672_
+Nets remaining: 169
+Finished routing net _673_
+Nets remaining: 168
+Finished routing net _674_
+Nets remaining: 167
+Finished routing net _675_
+Nets remaining: 166
+Finished routing net _676_
+Nets remaining: 165
+Finished routing net _677_
+Nets remaining: 164
+Keeping route for net ACC[6]
+Finished routing net _678_
+Nets remaining: 162
+Finished routing net _679_
+Nets remaining: 161
+Finished routing net _680_
+Nets remaining: 160
+Finished routing net _15_
+Nets remaining: 159
+Keeping route for net _681_
+Finished routing net _682_
+Nets remaining: 157
+Finished routing net _683_
+Nets remaining: 156
+Finished routing net _684_
+Nets remaining: 155
+Finished routing net _685_
+Nets remaining: 154
+Finished routing net _686_
+Nets remaining: 153
+Finished routing net _687_
+Nets remaining: 152
+Finished routing net _688_
+Nets remaining: 151
+Finished routing net _689_
+Nets remaining: 150
+Finished routing net _690_
+Nets remaining: 149
+Finished routing net _16_
+Nets remaining: 148
+Finished routing net _691_
+Nets remaining: 147
+Finished routing net _17_
+Nets remaining: 146
+Finished routing net _692_
+Nets remaining: 145
+Finished routing net _18_
+Nets remaining: 144
+Finished routing net _693_
+Nets remaining: 143
+Finished routing net _19_
+Nets remaining: 142
+Finished routing net _694_
+Nets remaining: 141
+Finished routing net _20_
+Nets remaining: 140
+Finished routing net _695_
+Nets remaining: 139
+Finished routing net _21_
+Nets remaining: 138
+Finished routing net _696_
+Nets remaining: 137
+Finished routing net _22_
+Nets remaining: 136
+Finished routing net _697_
+Nets remaining: 135
+Finished routing net _23_
+Nets remaining: 134
+Finished routing net _698_
+Nets remaining: 133
+Finished routing net _24_
+Nets remaining: 132
+Finished routing net _1_
+Nets remaining: 131
+Finished routing net _2_
+Nets remaining: 130
+Finished routing net _3_
+Nets remaining: 129
+Finished routing net _4_
+Nets remaining: 128
+Finished routing net _5_
+Nets remaining: 127
+Finished routing net _6_
+Nets remaining: 126
+Finished routing net _7_
+Nets remaining: 125
+Finished routing net _8_
+Nets remaining: 124
+Finished routing net _888_[0]
+Nets remaining: 123
+Finished routing net _888_[1]
+Nets remaining: 122
+Finished routing net _888_[2]
+Nets remaining: 121
+Keeping route for net _826_
+Finished routing net _834_
+Nets remaining: 119
+Finished routing net _838_
+Nets remaining: 118
+Finished routing net _839_
+Nets remaining: 117
+Keeping route for net _846_
+Keeping route for net _847_
+Finished routing net _848_
+Nets remaining: 114
+Finished routing net _849_
+Nets remaining: 113
+Finished routing net _850_
+Nets remaining: 112
+Finished routing net _851_
+Nets remaining: 111
+Finished routing net _852_
+Nets remaining: 110
+Finished routing net _853_
+Nets remaining: 109
+Finished routing net _854_
+Nets remaining: 108
+Finished routing net _856_
+Nets remaining: 107
+Keeping route for net _859_
+Finished routing net _860_
+Nets remaining: 105
+Finished routing net _862_
+Nets remaining: 104
+Finished routing net _864_
+Nets remaining: 103
+Keeping route for net _865_
+Finished routing net _866_
+Nets remaining: 101
+Finished routing net _867_
+Nets remaining: 100
+Finished routing net _868_
+Nets remaining: 99
+Finished routing net _869_
+Nets remaining: 98
+Finished routing net _870_
+Nets remaining: 97
+Finished routing net _873_
+Nets remaining: 96
+Finished routing net _874_
+Nets remaining: 95
+Finished routing net _876_
+Nets remaining: 94
+Finished routing net _878_
+Nets remaining: 93
+Finished routing net _879_
+Nets remaining: 92
+Finished routing net _880_
+Nets remaining: 91
+Finished routing net _881_
+Nets remaining: 90
+Keeping route for net _882_
+Finished routing net _883_
+Nets remaining: 88
+Finished routing net _885_
+Nets remaining: 87
+Finished routing net _717_
+Nets remaining: 86
+Keeping route for net _720_
+Finished routing net _721_
+Nets remaining: 84
+Finished routing net _724_
+Nets remaining: 83
+Finished routing net _726_
+Nets remaining: 82
+Finished routing net _727_
+Nets remaining: 81
+Finished routing net _728_
+Nets remaining: 80
+Finished routing net _730_
+Nets remaining: 79
+Finished routing net _735_
+Nets remaining: 78
+Finished routing net _736_
+Nets remaining: 77
+Finished routing net _738_
+Nets remaining: 76
+Finished routing net _740_
+Nets remaining: 75
+Finished routing net _741_
+Nets remaining: 74
+Finished routing net _743_
+Nets remaining: 73
+Finished routing net _744_
+Nets remaining: 72
+Keeping route for net _745_
+Finished routing net _747_
+Nets remaining: 70
+Finished routing net _752_
+Nets remaining: 69
+Finished routing net _754_
+Nets remaining: 68
+Finished routing net _756_
+Nets remaining: 67
+Finished routing net _757_
+Nets remaining: 66
+Finished routing net _758_
+Nets remaining: 65
+Finished routing net _760_
+Nets remaining: 64
+Finished routing net _769_
+Nets remaining: 63
+Finished routing net _770_
+Nets remaining: 62
+Finished routing net _771_
+Nets remaining: 61
+Finished routing net _773_
+Nets remaining: 60
+Finished routing net _778_
+Nets remaining: 59
+Finished routing net _779_
+Nets remaining: 58
+Finished routing net _780_
+Nets remaining: 57
+Finished routing net _781_
+Nets remaining: 56
+Finished routing net _782_
+Nets remaining: 55
+Finished routing net _787_
+Nets remaining: 54
+Finished routing net _789_
+Nets remaining: 53
+Failed to remove stacked via at grid point 175 267.
+Failed to route net _790_; restoring original
+Finished routing net _791_
+Nets remaining: 51
+Finished routing net _793_
+Nets remaining: 50
+Keeping route for net _801_
+Finished routing net _802_
+Nets remaining: 48
+Finished routing net _803_
+Nets remaining: 47
+Finished routing net _805_
+Nets remaining: 46
+Finished routing net _808_
+Nets remaining: 45
+Keeping route for net _809_
+Finished routing net _810_
+Nets remaining: 43
+Finished routing net _811_
+Nets remaining: 42
+Finished routing net _812_
+Nets remaining: 41
+Finished routing net _813_
+Nets remaining: 40
+Finished routing net _815_
+Nets remaining: 39
+Finished routing net _816_
+Nets remaining: 38
+Finished routing net _819_
+Nets remaining: 37
+Finished routing net _821_
+Nets remaining: 36
+Finished routing net _822_
+Nets remaining: 35
+Finished routing net _823_
+Nets remaining: 34
+Keeping route for net ACC_o[0]
+Finished routing net ACC_o[1]
+Nets remaining: 32
+Keeping route for net ACC_o[2]
+Keeping route for net ACC_o[3]
+Keeping route for net ACC_o[4]
+Keeping route for net ACC_o[5]
+Keeping route for net ACC_o[6]
+Finished routing net ACC_o[7]
+Nets remaining: 26
+Finished routing net Done_o
+Nets remaining: 25
+Finished routing net _701_
+Nets remaining: 24
+Finished routing net _704_
+Nets remaining: 23
+Keeping route for net _709_
+Finished routing net _710_
+Nets remaining: 21
+Finished routing net _713_
+Nets remaining: 20
+Finished routing net _27_
+Nets remaining: 19
+Finished routing net _28_
+Nets remaining: 18
+Finished routing net _29_
+Nets remaining: 17
+Finished routing net _30_
+Nets remaining: 16
+Finished routing net _31_
+Nets remaining: 15
+Finished routing net _35_
+Nets remaining: 14
+Keeping route for net _36_
+Finished routing net _37_
+Nets remaining: 12
+Finished routing net _38_
+Nets remaining: 11
+Finished routing net _39_
+Nets remaining: 10
+Finished routing net reset
+Nets remaining: 9
+Finished routing net _41_
+Nets remaining: 8
+Finished routing net _43_
+Nets remaining: 7
+Finished routing net _45_
+Nets remaining: 6
+Finished routing net _47_
+Nets remaining: 5
+Finished routing net _49_
+Nets remaining: 4
+Finished routing net _51_
+Nets remaining: 3
+Finished routing net _53_
+Nets remaining: 2
+Finished routing net _55_
+Nets remaining: 1
+
+----------------------------------------------
+Progress: Stage 3 total routes completed: 9466
+No failed routes!
+----------------------------------------------
+*** Writing DEF file ALU_wrapper_route.def
+emit_routes():  DEF file has 994 nets and 3 specialnets.
+but qrouter wants to write 995 nets and specialnets.
+----------------------------------------------
+Final: No failed routes!
+----------------------------------------------
+*** Writing RC file ALU_wrapper_route.rc
+DEF2Verilog -v /home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/synthesis/ALU_wrapper.rtlnopwr.v -o /home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/synthesis/ALU_wrapper_postroute.v
+-p vdd -g gnd  -l  /usr/local/share/qflow/tech/etri050/etri050_stdcells.lef ALU_wrapper_route.def
+
+Generating RTL verilog and SPICE netlist file in directory
+   /home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/synthesis
+Running vlog2Verilog.
+vlog2Verilog -c -v vdd -g gnd -o ALU_wrapper.rtl.anno.v ALU_wrapper_postroute.v
+vlog2Verilog -c -p -v vdd -g gnd -o ALU_wrapper.rtlnopwr.anno.v ALU_wrapper_postroute.v
+/usr/local/share/qflow/bin/vlog2Verilog -c -b -p -n -v vdd -g gnd -o ALU_wrapper.rtlbb.anno.v ALU_wrapper_postroute.v
+Running vlog2Spice.
+vlog2Spice -i -l  /usr/local/share/qflow/tech/etri050/etri050_stdcells.sp -o ALU_wrapper.anno.spc ALU_wrapper.rtl.anno.v
+Warning:  No SPICE subcircuit for FILL.  Pin order will be arbitrary.
+Router script ended on Mon May 6 17:22:13 KST 2024

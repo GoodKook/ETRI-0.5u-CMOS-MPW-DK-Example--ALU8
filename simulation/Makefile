@@ -47,7 +47,7 @@ debug : $(TARGET_DIR)/$(TARGET)
 	ddd $(TARGET_DIR)/$(TARGET)
 
 wave: sc_VALU_wrapper.vcd
-	gtkwave sc_VALU_wrapper.vcd &
+	gtkwave sc_VALU_wrapper.vcd --save=sc_VALU_wrapper.gtkw &
 
 # ===========================================================
 

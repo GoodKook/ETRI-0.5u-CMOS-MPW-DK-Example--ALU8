@@ -1,7 +1,7 @@
 magic
 tech scmos
 magscale 1 2
-timestamp 1708954153
+timestamp 1714983742
 << metal1 >>
 rect -63 6242 30 6258
 rect -63 5738 -3 6242
@@ -38794,53 +38794,53 @@ timestamp 0
 transform 1 0 70 0 -1 2350
 box -6 -8 26 268
 << labels >>
-flabel metal1 s 6243 2 6303 2 3 FreeSans 16 270 0 0 gnd
+flabel metal1 s 6243 2 6303 2 0 FreeSans 48 0 0 0 gnd
 port 0 nsew
-flabel metal1 s -63 2 -3 2 7 FreeSans 16 270 0 0 vdd
+flabel metal1 s -63 2 -3 2 0 FreeSans 48 0 0 0 vdd
 port 1 nsew
-flabel metal2 s 937 6297 943 6303 3 FreeSans 16 90 0 0 ABCmd_i[7]
+flabel metal2 s 937 6297 943 6303 0 FreeSans 48 0 0 0 ABCmd_i[7]
 port 2 nsew
-flabel metal2 s 977 6297 983 6303 3 FreeSans 16 90 0 0 ABCmd_i[6]
+flabel metal2 s 977 6297 983 6303 0 FreeSans 48 0 0 0 ABCmd_i[6]
 port 3 nsew
-flabel metal2 s 3977 6297 3983 6303 3 FreeSans 16 90 0 0 ABCmd_i[5]
+flabel metal2 s 3977 6297 3983 6303 0 FreeSans 48 0 0 0 ABCmd_i[5]
 port 4 nsew
-flabel metal2 s 4097 6297 4103 6303 3 FreeSans 16 90 0 0 ABCmd_i[4]
+flabel metal2 s 4097 6297 4103 6303 0 FreeSans 48 0 0 0 ABCmd_i[4]
 port 5 nsew
-flabel metal2 s 4397 6297 4403 6303 3 FreeSans 16 90 0 0 ABCmd_i[3]
+flabel metal2 s 4397 6297 4403 6303 0 FreeSans 48 0 0 0 ABCmd_i[3]
 port 6 nsew
-flabel metal3 s 6276 5856 6284 5864 3 FreeSans 16 0 0 0 ABCmd_i[2]
+flabel metal3 s 6276 5856 6284 5864 0 FreeSans 64 0 0 0 ABCmd_i[2]
 port 7 nsew
-flabel metal3 s 6276 5636 6284 5644 3 FreeSans 16 0 0 0 ABCmd_i[1]
+flabel metal3 s 6276 5636 6284 5644 0 FreeSans 64 0 0 0 ABCmd_i[1]
 port 8 nsew
-flabel metal3 s 6276 5596 6284 5604 3 FreeSans 16 0 0 0 ABCmd_i[0]
+flabel metal3 s 6276 5596 6284 5604 0 FreeSans 64 0 0 0 ABCmd_i[0]
 port 9 nsew
-flabel metal2 s 77 -23 83 -17 7 FreeSans 16 270 0 0 ACC_o[7]
+flabel metal2 s 77 -23 83 -17 0 FreeSans 48 0 0 0 ACC_o[7]
 port 10 nsew
-flabel metal2 s 117 -23 123 -17 7 FreeSans 16 270 0 0 ACC_o[6]
+flabel metal2 s 117 -23 123 -17 0 FreeSans 48 0 0 0 ACC_o[6]
 port 11 nsew
-flabel metal2 s 237 -23 243 -17 7 FreeSans 16 270 0 0 ACC_o[5]
+flabel metal2 s 237 -23 243 -17 0 FreeSans 48 0 0 0 ACC_o[5]
 port 12 nsew
-flabel metal2 s 357 -23 363 -17 7 FreeSans 16 270 0 0 ACC_o[4]
+flabel metal2 s 357 -23 363 -17 0 FreeSans 48 0 0 0 ACC_o[4]
 port 13 nsew
-flabel metal2 s 617 -23 623 -17 7 FreeSans 16 270 0 0 ACC_o[3]
+flabel metal2 s 617 -23 623 -17 0 FreeSans 48 0 0 0 ACC_o[3]
 port 14 nsew
-flabel metal3 s -24 3776 -16 3784 7 FreeSans 16 0 0 0 ACC_o[2]
+flabel metal3 s -24 3776 -16 3784 0 FreeSans 64 0 0 0 ACC_o[2]
 port 15 nsew
-flabel metal3 s -24 2776 -16 2784 7 FreeSans 16 0 0 0 ACC_o[1]
+flabel metal3 s -24 2776 -16 2784 0 FreeSans 64 0 0 0 ACC_o[1]
 port 16 nsew
-flabel metal3 s -24 2736 -16 2744 7 FreeSans 16 0 0 0 ACC_o[0]
+flabel metal3 s -24 2736 -16 2744 0 FreeSans 64 0 0 0 ACC_o[0]
 port 17 nsew
-flabel metal2 s 1157 -23 1163 -17 7 FreeSans 16 270 0 0 Done_o
+flabel metal2 s 1157 -23 1163 -17 0 FreeSans 48 0 0 0 Done_o
 port 18 nsew
-flabel metal2 s 457 6297 463 6303 3 FreeSans 16 90 0 0 LoadA_i
+flabel metal2 s 457 6297 463 6303 0 FreeSans 48 0 0 0 LoadA_i
 port 19 nsew
-flabel metal2 s 497 6297 503 6303 3 FreeSans 16 90 0 0 LoadB_i
+flabel metal2 s 497 6297 503 6303 0 FreeSans 48 0 0 0 LoadB_i
 port 20 nsew
-flabel metal2 s 537 6297 543 6303 3 FreeSans 16 90 0 0 LoadCmd_i
+flabel metal2 s 537 6297 543 6303 0 FreeSans 48 0 0 0 LoadCmd_i
 port 21 nsew
-flabel metal3 s -24 2476 -16 2484 7 FreeSans 16 0 0 0 clk
+flabel metal3 s -24 2476 -16 2484 0 FreeSans 64 0 0 0 clk
 port 22 nsew
-flabel metal3 s -24 4036 -16 4044 7 FreeSans 16 0 0 0 reset
+flabel metal3 s -24 4036 -16 4044 0 FreeSans 64 0 0 0 reset
 port 23 nsew
 << properties >>
 string FIXED_BBOX -40 -40 6280 6300
