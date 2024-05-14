@@ -1,6 +1,9 @@
 # -----------------------------------------------------
-SC_SRCS      = ../sc_main.cpp
-SC_TOP_H     = ../sc_ALU_wrapper_top.h ../sc_monitor.h ../sc_gen_test.h ../def_commands.h
+SC_SRCS      =	../simulation/sc_main.cpp
+SC_TOP_H     =	../simulation/sc_ALU_wrapper_top.h \
+				../simulation/sc_monitor.h \
+				../simulation/sc_gen_test.h \
+				../simulation/def_commands.h
 
 TOP_MODULE   = ALU_wrapper
 
@@ -17,7 +20,8 @@ all : $(TOP_MODULE)
 $(TOP_MODULE) : $(SC_SRCS) $(SC_TOP_H)
 	$(CXX) $(CXXFLAGS) \
 		-I. -I$(SYSTEMC_INCLUDE) \
-		-L$(SYSTEMC_LIBDIR) -Wl,-rpath=$(SYSTEMC_LIBDIR) -lsystemc -lm \
+		-L$(SYSTEMC_LIBDIR) -Wl,-rpath=$(SYSTEMC_LIBDIR) \
+		-lsystemc -lm \
 		-o $(TOP_MODULE) $(SC_SRCS)
 
 run : $(TOP_MODULE)

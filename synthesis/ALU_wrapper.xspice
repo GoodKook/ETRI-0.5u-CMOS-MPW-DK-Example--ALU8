@@ -3,7 +3,7 @@
 ** Start of included library /usr/local/share/qflow/tech/etri050/etri050_stdcells.sp
 * NGSPICE file created from khu_etri050_stdcells.ext - technology: scmos
 ** End of included library /usr/local/share/qflow/tech/etri050/etri050_stdcells.sp
-.subckt ALU_wrapper a_vdd a_gnd a_ABCmd_i_0_ a_ABCmd_i_1_ a_ABCmd_i_2_ a_ABCmd_i_3_ a_ABCmd_i_4_ a_ABCmd_i_5_ a_ABCmd_i_6_ a_ABCmd_i_7_ a_ACC_o_0_ a_ACC_o_1_ a_ACC_o_2_ a_ACC_o_3_ a_ACC_o_4_ a_ACC_o_5_ a_ACC_o_6_ a_ACC_o_7_ a_Done_o a_LoadA_i a_LoadB_i a_LoadCmd_i a_clk a_reset
+.subckt ALU_wrapper a_vdd a_gnd a_ABCmd_i_0_ a_ABCmd_i_1_ a_ABCmd_i_2_ a_ABCmd_i_3_ a_ABCmd_i_4_ a_ABCmd_i_5_ a_ABCmd_i_6_ a_ABCmd_i_7_ a_ACC_o_0_ a_ACC_o_1_ a_ACC_o_2_ a_ACC_o_3_ a_ACC_o_4_ a_ACC_o_5_ a_ACC_o_6_ a_ACC_o_7_ a_Done_LED a_Done_o a_LoadA_i a_LoadB_i a_LoadCmd_i a_clk a_reset
 ABUFX2_insert41 [ABCmd_i_2_] ABCmd_i_2_bF$buf0 d_lut_BUFX2
 ABUFX2_insert40 [ABCmd_i_2_] ABCmd_i_2_bF$buf1 d_lut_BUFX2
 ABUFX2_insert39 [ABCmd_i_2_] ABCmd_i_2_bF$buf2 d_lut_BUFX2
@@ -872,7 +872,8 @@ A_1822_ [_886__4_] ACC_o_4_ d_lut_BUFX2
 A_1823_ [_886__5_] ACC_o_5_ d_lut_BUFX2
 A_1824_ [_886__6_] ACC_o_6_ d_lut_BUFX2
 A_1825_ [_886__7_] ACC_o_7_ d_lut_BUFX2
-A_1826_ [_887_] Done_o d_lut_BUFX2
+A_1826_ [_887_] Done_LED d_lut_BUFX2
+A_1827_ [_887_] Done_o d_lut_BUFX2
 A_889_ [state_2_] _699_ d_lut_INVX1
 A_890_ [state_0_ _699_] _700_ d_lut_NOR2X1
 A_891_ [state_1_ _700_] _701_ d_lut_NAND2X1
@@ -1011,7 +1012,8 @@ AD2A5 [ACC_o_4_] [a_ACC_o_4_] toana_5v
 AD2A6 [ACC_o_5_] [a_ACC_o_5_] toana_5v
 AD2A7 [ACC_o_6_] [a_ACC_o_6_] toana_5v
 AD2A8 [ACC_o_7_] [a_ACC_o_7_] toana_5v
-AD2A9 [Done_o] [a_Done_o] toana_5v
+AD2A9 [Done_LED] [a_Done_LED] toana_5v
+AD2A10 [Done_o] [a_Done_o] toana_5v
 AA2D11 [a_LoadA_i] [LoadA_i] todig_5v
 AA2D12 [a_LoadB_i] [LoadB_i] todig_5v
 AA2D13 [a_LoadCmd_i] [LoadCmd_i] todig_5v

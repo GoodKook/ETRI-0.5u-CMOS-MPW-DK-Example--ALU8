@@ -10705,14 +10705,22 @@ pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
 pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
    equiv name twfeed2 layer 1 300 1950
 pin name A signal _887_ layer 1 -300 -548
+pin name Y signal Done_LED layer 1 300 -53
+cell 870 BUFX2:_1827_
+left -450 right 450 bottom -1950 top 1950
+pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
+   equiv name twfeed1 layer 1 0 1950
+pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
+   equiv name twfeed2 layer 1 300 1950
+pin name A signal _887_ layer 1 -300 -548
 pin name Y signal Done_o layer 1 300 -53
-cell 870 INVX1:_889_
+cell 871 INVX1:_889_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal state[2] layer 1 -150 -548
 pin name Y signal _699_ layer 1 150 -53
-cell 871 NOR2X1:_890_
+cell 872 NOR2X1:_890_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -10721,7 +10729,7 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
 pin name A signal state[0] layer 1 -300 -548
 pin name B signal _699_ layer 1 300 -548
 pin name Y signal _700_ layer 1 0 -53
-cell 872 NAND2X1:_891_
+cell 873 NAND2X1:_891_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -10730,25 +10738,25 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
 pin name A signal state[1] layer 1 -300 -53
 pin name B signal _700_ layer 1 300 -53
 pin name Y signal _701_ layer 1 0 -548
-cell 873 INVX1:_892_
+cell 874 INVX1:_892_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal _701_ layer 1 -150 -548
 pin name Y signal _887_ layer 1 150 -53
-cell 874 INVX1:_893_
+cell 875 INVX1:_893_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal state[0] layer 1 -150 -548
 pin name Y signal _702_ layer 1 150 -53
-cell 875 INVX2:_894_
+cell 876 INVX2:_894_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal state[1] layer 1 -150 -53
 pin name Y signal _703_ layer 1 150 -548
-cell 876 NOR2X1:_895_
+cell 877 NOR2X1:_895_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -10757,7 +10765,7 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
 pin name A signal state[2] layer 1 -300 -548
 pin name B signal _703_ layer 1 300 -548
 pin name Y signal _704_ layer 1 0 -53
-cell 877 NAND2X1:_896_
+cell 878 NAND2X1:_896_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -10766,7 +10774,7 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
 pin name A signal _702_ layer 1 -300 -53
 pin name B signal _704_ layer 1 300 -53
 pin name Y signal _705_ layer 1 0 -548
-cell 878 INVX1:_897_
+cell 879 INVX1:_897_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
@@ -10774,7 +10782,7 @@ pin_group
 pin name _705__bF$pin/A signal _705__bF$buf3 layer 1 -150 -548
 end_pin_group
 pin name Y signal _706_ layer 1 150 -53
-cell 879 NOR2X1:_898_
+cell 880 NOR2X1:_898_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -10783,7 +10791,7 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
 pin name A signal state[2] layer 1 -300 -548
 pin name B signal _702_ layer 1 300 -548
 pin name Y signal _707_ layer 1 0 -53
-cell 880 AOI21X1:_899_
+cell 881 AOI21X1:_899_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -10795,7 +10803,7 @@ pin name A signal _703_ layer 1 -450 -53
 pin name B signal _707_ layer 1 -150 -548
 pin name C signal _887_ layer 1 150 -53
 pin name Y signal _708_ layer 1 450 -548
-cell 881 NOR2X1:_900_
+cell 882 NOR2X1:_900_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -10804,7 +10812,7 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
 pin name A signal LoadCmd_i layer 1 -300 -548
 pin name B signal _708_ layer 1 300 -548
 pin name Y signal _709_ layer 1 0 -53
-cell 882 OAI21X1:_901_
+cell 883 OAI21X1:_901_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -10816,13 +10824,13 @@ pin name A signal _706_ layer 1 -450 -548
 pin name B signal _709_ layer 1 -150 -53
 pin name C signal LoadB_i layer 1 450 -53
 pin name Y signal _710_ layer 1 150 -548
-cell 883 INVX1:_902_
+cell 884 INVX1:_902_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal LoadA_i layer 1 -150 -548
 pin name Y signal _711_ layer 1 150 -53
-cell 884 INVX4:_903_
+cell 885 INVX4:_903_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -10830,7 +10838,7 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
    equiv name twfeed2 layer 1 300 1950
 pin name A signal _700_ layer 1 -300 -53
 pin name Y signal _712_ layer 1 300 -548
-cell 885 OAI21X1:_904_
+cell 886 OAI21X1:_904_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -10842,13 +10850,13 @@ pin name A signal state[1] layer 1 -450 -548
 pin name B signal state[0] layer 1 -150 -53
 pin name C signal _699_ layer 1 450 -53
 pin name Y signal _713_ layer 1 150 -548
-cell 886 INVX1:_905_
+cell 887 INVX1:_905_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal LoadB_i layer 1 -150 -548
 pin name Y signal _714_ layer 1 150 -53
-cell 887 NOR2X1:_906_
+cell 888 NOR2X1:_906_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -10857,19 +10865,19 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
 pin name A signal state[1] layer 1 -300 -548
 pin name B signal _712_ layer 1 300 -548
 pin name Y signal _715_ layer 1 0 -53
-cell 888 INVX1:_907_
+cell 889 INVX1:_907_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal _715_ layer 1 -150 -548
 pin name Y signal _25_ layer 1 150 -53
-cell 889 INVX1:_908_
+cell 890 INVX1:_908_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal LoadCmd_i layer 1 -150 -548
 pin name Y signal _26_ layer 1 150 -53
-cell 890 OAI21X1:_909_
+cell 891 OAI21X1:_909_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -10881,7 +10889,7 @@ pin name A signal _707_ layer 1 -450 -548
 pin name B signal _887_ layer 1 -150 -53
 pin name C signal _26_ layer 1 450 -53
 pin name Y signal _27_ layer 1 150 -548
-cell 891 OAI21X1:_910_
+cell 892 OAI21X1:_910_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -10893,7 +10901,7 @@ pin name A signal _714_ layer 1 -450 -548
 pin name B signal _25_ layer 1 -150 -53
 pin name C signal _27_ layer 1 450 -53
 pin name Y signal _28_ layer 1 150 -548
-cell 892 AOI22X1:_911_
+cell 893 AOI22X1:_911_
 left -750 right 750 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -300 -1950
    equiv name twfeed1 layer 1 -300 1950
@@ -10908,7 +10916,7 @@ pin name B signal _713_ layer 1 -300 -548
 pin name C signal _28_ layer 1 600 -53
 pin name D signal _711_ layer 1 300 -548
 pin name Y signal _29_ layer 1 0 -53
-cell 893 NAND2X1:_912_
+cell 894 NAND2X1:_912_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -10917,7 +10925,7 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
 pin name A signal _29_ layer 1 -300 -53
 pin name B signal _710_ layer 1 300 -53
 pin name Y signal _888_[0] layer 1 0 -548
-cell 894 OAI21X1:_913_
+cell 895 OAI21X1:_913_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -10929,7 +10937,7 @@ pin name A signal LoadA_i layer 1 -450 -548
 pin name B signal LoadB_i layer 1 -150 -53
 pin name C signal _26_ layer 1 450 -53
 pin name Y signal _30_ layer 1 150 -548
-cell 895 OAI21X1:_914_
+cell 896 OAI21X1:_914_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -10941,7 +10949,7 @@ pin name A signal _30_ layer 1 -450 -548
 pin name B signal _708_ layer 1 -150 -53
 pin name C signal _25_ layer 1 450 -53
 pin name Y signal _31_ layer 1 150 -548
-cell 896 NAND2X1:_915_
+cell 897 NAND2X1:_915_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -10950,7 +10958,7 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
 pin name A signal state[1] layer 1 -300 -53
 pin name B signal _707_ layer 1 300 -53
 pin name Y signal _32_ layer 1 0 -548
-cell 897 NOR2X1:_916_
+cell 898 NOR2X1:_916_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -10959,7 +10967,7 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
 pin name A signal LoadA_i layer 1 -300 -548
 pin name B signal _26_ layer 1 300 -548
 pin name Y signal _33_ layer 1 0 -53
-cell 898 NOR2X1:_917_
+cell 899 NOR2X1:_917_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -10968,7 +10976,7 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
 pin name A signal LoadB_i layer 1 -300 -548
 pin name B signal _26_ layer 1 300 -548
 pin name Y signal _34_ layer 1 0 -53
-cell 899 OAI22X1:_918_
+cell 900 OAI22X1:_918_
 left -750 right 750 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -300 -1950
    equiv name twfeed1 layer 1 -300 1950
@@ -10987,7 +10995,7 @@ pin name _705__bF$pin/C signal _705__bF$buf2 layer 1 600 -548
 end_pin_group
 pin name D signal _34_ layer 1 300 -53
 pin name Y signal _35_ layer 1 0 -548
-cell 900 OR2X2:_919_
+cell 901 OR2X2:_919_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -10998,7 +11006,7 @@ pin name twfeed3 signal TW_PASS_THRU layer 1 450 -1950
 pin name A signal _31_ layer 1 -450 -53
 pin name B signal _35_ layer 1 -150 -548
 pin name Y signal _888_[1] layer 1 450 -53
-cell 901 INVX1:_920_
+cell 902 INVX1:_920_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
@@ -11006,7 +11014,7 @@ pin_group
 pin name _32__bF$pin/A signal _32__bF$buf2 layer 1 -150 -548
 end_pin_group
 pin name Y signal _36_ layer 1 150 -53
-cell 902 AOI22X1:_921_
+cell 903 AOI22X1:_921_
 left -750 right 750 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -300 -1950
    equiv name twfeed1 layer 1 -300 1950
@@ -11021,7 +11029,7 @@ pin name B signal _33_ layer 1 -300 -548
 pin name C signal _706_ layer 1 600 -53
 pin name D signal _34_ layer 1 300 -548
 pin name Y signal _37_ layer 1 0 -53
-cell 903 NAND3X1:_922_
+cell 904 NAND3X1:_922_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11033,7 +11041,7 @@ pin name A signal _711_ layer 1 -450 -53
 pin name B signal _714_ layer 1 -150 -548
 pin name C signal _715_ layer 1 150 -53
 pin name Y signal _38_ layer 1 450 -548
-cell 904 AND2X2:_923_
+cell 905 AND2X2:_923_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11044,7 +11052,7 @@ pin name twfeed3 signal TW_PASS_THRU layer 1 450 -1950
 pin name A signal _37_ layer 1 -450 -53
 pin name B signal _38_ layer 1 150 -548
 pin name Y signal _39_ layer 1 450 -53
-cell 905 OAI21X1:_924_
+cell 906 OAI21X1:_924_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11056,7 +11064,7 @@ pin name A signal _26_ layer 1 -450 -548
 pin name B signal _708_ layer 1 -150 -53
 pin name C signal _39_ layer 1 450 -53
 pin name Y signal _888_[2] layer 1 150 -548
-cell 906 INVX8:_925_
+cell 907 INVX8:_925_
 left -750 right 750 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -300 -1950
    equiv name twfeed1 layer 1 -300 1950
@@ -11068,13 +11076,13 @@ pin name twfeed4 signal TW_PASS_THRU layer 1 600 -1950
    equiv name twfeed4 layer 1 600 1950
 pin name A signal reset layer 1 -300 -548
 pin name Y signal _0_ layer 1 300 -53
-cell 907 INVX1:_926_
+cell 908 INVX1:_926_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal ABCmd_i[0] layer 1 -150 -548
 pin name Y signal _40_ layer 1 150 -53
-cell 908 NAND2X1:_927_
+cell 909 NAND2X1:_927_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11087,7 +11095,7 @@ pin_group
 pin name _32__bF$pin/B signal _32__bF$buf1 layer 1 300 -53
 end_pin_group
 pin name Y signal _41_ layer 1 0 -548
-cell 909 OAI21X1:_928_
+cell 910 OAI21X1:_928_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11101,13 +11109,13 @@ pin name _32__bF$pin/B signal _32__bF$buf0 layer 1 -150 -53
 end_pin_group
 pin name C signal _41_ layer 1 450 -53
 pin name Y signal _1_ layer 1 150 -548
-cell 910 INVX1:_929_
+cell 911 INVX1:_929_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal ABCmd_i[1] layer 1 -150 -548
 pin name Y signal _42_ layer 1 150 -53
-cell 911 NAND2X1:_930_
+cell 912 NAND2X1:_930_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11120,7 +11128,7 @@ pin_group
 pin name _32__bF$pin/B signal _32__bF$buf3 layer 1 300 -53
 end_pin_group
 pin name Y signal _43_ layer 1 0 -548
-cell 912 OAI21X1:_931_
+cell 913 OAI21X1:_931_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11134,7 +11142,7 @@ pin name _32__bF$pin/B signal _32__bF$buf2 layer 1 -150 -53
 end_pin_group
 pin name C signal _43_ layer 1 450 -53
 pin name Y signal _2_ layer 1 150 -548
-cell 913 INVX1:_932_
+cell 914 INVX1:_932_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
@@ -11142,7 +11150,7 @@ pin_group
 pin name ABCmd_i_2_bF$pin/A signal ABCmd_i_2_bF$buf2 layer 1 -150 -548
 end_pin_group
 pin name Y signal _44_ layer 1 150 -53
-cell 914 NAND2X1:_933_
+cell 915 NAND2X1:_933_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11153,7 +11161,7 @@ pin_group
 pin name _32__bF$pin/B signal _32__bF$buf1 layer 1 300 -53
 end_pin_group
 pin name Y signal _45_ layer 1 0 -548
-cell 915 OAI21X1:_934_
+cell 916 OAI21X1:_934_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11167,13 +11175,13 @@ pin name _32__bF$pin/B signal _32__bF$buf0 layer 1 -150 -53
 end_pin_group
 pin name C signal _45_ layer 1 450 -53
 pin name Y signal _3_ layer 1 150 -548
-cell 916 INVX1:_935_
+cell 917 INVX1:_935_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal ABCmd_i[3] layer 1 -150 -548
 pin name Y signal _46_ layer 1 150 -53
-cell 917 NAND2X1:_936_
+cell 918 NAND2X1:_936_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11186,7 +11194,7 @@ pin_group
 pin name _32__bF$pin/B signal _32__bF$buf3 layer 1 300 -53
 end_pin_group
 pin name Y signal _47_ layer 1 0 -548
-cell 918 OAI21X1:_937_
+cell 919 OAI21X1:_937_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11200,13 +11208,13 @@ pin name _32__bF$pin/B signal _32__bF$buf2 layer 1 -150 -53
 end_pin_group
 pin name C signal _47_ layer 1 450 -53
 pin name Y signal _4_ layer 1 150 -548
-cell 919 INVX1:_938_
+cell 920 INVX1:_938_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal ABCmd_i[4] layer 1 -150 -548
 pin name Y signal _48_ layer 1 150 -53
-cell 920 NAND2X1:_939_
+cell 921 NAND2X1:_939_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11219,7 +11227,7 @@ pin_group
 pin name _32__bF$pin/B signal _32__bF$buf1 layer 1 300 -53
 end_pin_group
 pin name Y signal _49_ layer 1 0 -548
-cell 921 OAI21X1:_940_
+cell 922 OAI21X1:_940_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11233,13 +11241,13 @@ pin name _32__bF$pin/B signal _32__bF$buf0 layer 1 -150 -53
 end_pin_group
 pin name C signal _49_ layer 1 450 -53
 pin name Y signal _5_ layer 1 150 -548
-cell 922 INVX1:_941_
+cell 923 INVX1:_941_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal ABCmd_i[5] layer 1 -150 -548
 pin name Y signal _50_ layer 1 150 -53
-cell 923 NAND2X1:_942_
+cell 924 NAND2X1:_942_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11250,7 +11258,7 @@ pin_group
 pin name _32__bF$pin/B signal _32__bF$buf3 layer 1 300 -53
 end_pin_group
 pin name Y signal _51_ layer 1 0 -548
-cell 924 OAI21X1:_943_
+cell 925 OAI21X1:_943_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11264,13 +11272,13 @@ pin name _32__bF$pin/B signal _32__bF$buf2 layer 1 -150 -53
 end_pin_group
 pin name C signal _51_ layer 1 450 -53
 pin name Y signal _6_ layer 1 150 -548
-cell 925 INVX1:_944_
+cell 926 INVX1:_944_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal ABCmd_i[6] layer 1 -150 -548
 pin name Y signal _52_ layer 1 150 -53
-cell 926 NAND2X1:_945_
+cell 927 NAND2X1:_945_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11281,7 +11289,7 @@ pin_group
 pin name _32__bF$pin/B signal _32__bF$buf1 layer 1 300 -53
 end_pin_group
 pin name Y signal _53_ layer 1 0 -548
-cell 927 OAI21X1:_946_
+cell 928 OAI21X1:_946_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11295,7 +11303,7 @@ pin name _32__bF$pin/B signal _32__bF$buf0 layer 1 -150 -53
 end_pin_group
 pin name C signal _53_ layer 1 450 -53
 pin name Y signal _7_ layer 1 150 -548
-cell 928 INVX4:_947_
+cell 929 INVX4:_947_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11303,7 +11311,7 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
    equiv name twfeed2 layer 1 300 1950
 pin name A signal ABCmd_i[7] layer 1 -300 -53
 pin name Y signal _54_ layer 1 300 -548
-cell 929 NAND2X1:_948_
+cell 930 NAND2X1:_948_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11314,7 +11322,7 @@ pin_group
 pin name _32__bF$pin/B signal _32__bF$buf3 layer 1 300 -53
 end_pin_group
 pin name Y signal _55_ layer 1 0 -548
-cell 930 OAI21X1:_949_
+cell 931 OAI21X1:_949_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11328,19 +11336,19 @@ pin name _32__bF$pin/B signal _32__bF$buf2 layer 1 -150 -53
 end_pin_group
 pin name C signal _55_ layer 1 450 -53
 pin name Y signal _8_ layer 1 150 -548
-cell 931 INVX1:_950_
+cell 932 INVX1:_950_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal _886_[0] layer 1 -150 -548
 pin name Y signal _56_ layer 1 150 -53
-cell 932 INVX1:_951_
+cell 933 INVX1:_951_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal AI[0] layer 1 -150 -548
 pin name Y signal _57_ layer 1 150 -53
-cell 933 INVX2:_952_
+cell 934 INVX2:_952_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
@@ -11348,7 +11356,7 @@ pin_group
 pin name BI_3_bF$pin/A signal BI_3_bF$buf3 layer 1 -150 -53
 end_pin_group
 pin name Y signal _58_ layer 1 150 -548
-cell 934 NOR2X1:_953_
+cell 935 NOR2X1:_953_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11357,7 +11365,7 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
 pin name A signal _57_ layer 1 -300 -548
 pin name B signal _58_ layer 1 300 -548
 pin name Y signal _59_ layer 1 0 -53
-cell 935 AND2X2:_954_
+cell 936 AND2X2:_954_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11370,7 +11378,7 @@ pin name BI_4_bF$pin/A signal BI_4_bF$buf2 layer 1 -450 -53
 end_pin_group
 pin name B signal AI[1] layer 1 150 -548
 pin name Y signal _60_ layer 1 450 -53
-cell 936 NAND2X1:_955_
+cell 937 NAND2X1:_955_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11379,7 +11387,7 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
 pin name A signal _60_ layer 1 -300 -53
 pin name B signal _59_ layer 1 300 -53
 pin name Y signal _61_ layer 1 0 -548
-cell 937 NAND2X1:_956_
+cell 938 NAND2X1:_956_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11390,7 +11398,7 @@ pin name BI_1_bF$pin/A signal BI_1_bF$buf2 layer 1 -300 -53
 end_pin_group
 pin name B signal AI[2] layer 1 300 -53
 pin name Y signal _62_ layer 1 0 -548
-cell 938 NAND2X1:_957_
+cell 939 NAND2X1:_957_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11401,7 +11409,7 @@ pin name BI_0_bF$pin/A signal BI_0_bF$buf1 layer 1 -300 -53
 end_pin_group
 pin name B signal AI[3] layer 1 300 -53
 pin name Y signal _63_ layer 1 0 -548
-cell 939 OR2X2:_958_
+cell 940 OR2X2:_958_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11412,7 +11420,7 @@ pin name twfeed3 signal TW_PASS_THRU layer 1 450 -1950
 pin name A signal _62_ layer 1 -450 -53
 pin name B signal _63_ layer 1 -150 -548
 pin name Y signal _64_ layer 1 450 -53
-cell 940 NAND2X1:_959_
+cell 941 NAND2X1:_959_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11421,7 +11429,7 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
 pin name A signal BI[2] layer 1 -300 -53
 pin name B signal AI[1] layer 1 300 -53
 pin name Y signal _65_ layer 1 0 -548
-cell 941 AND2X2:_960_
+cell 942 AND2X2:_960_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11432,7 +11440,7 @@ pin name twfeed3 signal TW_PASS_THRU layer 1 450 -1950
 pin name A signal _62_ layer 1 -450 -53
 pin name B signal _63_ layer 1 150 -548
 pin name Y signal _66_ layer 1 450 -53
-cell 942 OAI21X1:_961_
+cell 943 OAI21X1:_961_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11444,7 +11452,7 @@ pin name A signal _65_ layer 1 -450 -548
 pin name B signal _66_ layer 1 -150 -53
 pin name C signal _64_ layer 1 450 -53
 pin name Y signal _67_ layer 1 150 -548
-cell 943 NAND2X1:_962_
+cell 944 NAND2X1:_962_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11453,13 +11461,13 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
 pin name A signal BI[2] layer 1 -300 -53
 pin name B signal AI[2] layer 1 300 -53
 pin name Y signal _68_ layer 1 0 -548
-cell 944 INVX1:_963_
+cell 945 INVX1:_963_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal _68_ layer 1 -150 -548
 pin name Y signal _69_ layer 1 150 -53
-cell 945 NAND2X1:_964_
+cell 946 NAND2X1:_964_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11470,7 +11478,7 @@ pin name BI_1_bF$pin/A signal BI_1_bF$buf1 layer 1 -300 -53
 end_pin_group
 pin name B signal AI[3] layer 1 300 -53
 pin name Y signal _70_ layer 1 0 -548
-cell 946 NAND2X1:_965_
+cell 947 NAND2X1:_965_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11481,7 +11489,7 @@ pin name BI_0_bF$pin/A signal BI_0_bF$buf0 layer 1 -300 -53
 end_pin_group
 pin name B signal AI[4] layer 1 300 -53
 pin name Y signal _71_ layer 1 0 -548
-cell 947 OR2X2:_966_
+cell 948 OR2X2:_966_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11492,7 +11500,7 @@ pin name twfeed3 signal TW_PASS_THRU layer 1 450 -1950
 pin name A signal _70_ layer 1 -450 -53
 pin name B signal _71_ layer 1 -150 -548
 pin name Y signal _72_ layer 1 450 -53
-cell 948 INVX1:_967_
+cell 949 INVX1:_967_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
@@ -11500,13 +11508,13 @@ pin_group
 pin name BI_0_bF$pin/A signal BI_0_bF$buf3 layer 1 -150 -548
 end_pin_group
 pin name Y signal _73_ layer 1 150 -53
-cell 949 INVX1:_968_
+cell 950 INVX1:_968_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal AI[4] layer 1 -150 -548
 pin name Y signal _74_ layer 1 150 -53
-cell 950 OAI21X1:_969_
+cell 951 OAI21X1:_969_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11518,7 +11526,7 @@ pin name A signal _73_ layer 1 -450 -548
 pin name B signal _74_ layer 1 -150 -53
 pin name C signal _70_ layer 1 450 -53
 pin name Y signal _75_ layer 1 150 -548
-cell 951 NAND3X1:_970_
+cell 952 NAND3X1:_970_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11530,7 +11538,7 @@ pin name A signal _75_ layer 1 -450 -53
 pin name B signal _69_ layer 1 -150 -548
 pin name C signal _72_ layer 1 150 -53
 pin name Y signal _76_ layer 1 450 -548
-cell 952 NOR2X1:_971_
+cell 953 NOR2X1:_971_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11539,7 +11547,7 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
 pin name A signal _70_ layer 1 -300 -548
 pin name B signal _71_ layer 1 300 -548
 pin name Y signal _77_ layer 1 0 -53
-cell 953 AND2X2:_972_
+cell 954 AND2X2:_972_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11550,7 +11558,7 @@ pin name twfeed3 signal TW_PASS_THRU layer 1 450 -1950
 pin name A signal _70_ layer 1 -450 -53
 pin name B signal _71_ layer 1 150 -548
 pin name Y signal _78_ layer 1 450 -53
-cell 954 OAI21X1:_973_
+cell 955 OAI21X1:_973_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11562,7 +11570,7 @@ pin name A signal _77_ layer 1 -450 -548
 pin name B signal _78_ layer 1 -150 -53
 pin name C signal _68_ layer 1 450 -53
 pin name Y signal _79_ layer 1 150 -548
-cell 955 NAND3X1:_974_
+cell 956 NAND3X1:_974_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11574,13 +11582,13 @@ pin name A signal _79_ layer 1 -450 -53
 pin name B signal _67_ layer 1 -150 -548
 pin name C signal _76_ layer 1 150 -53
 pin name Y signal _80_ layer 1 450 -548
-cell 956 INVX1:_975_
+cell 957 INVX1:_975_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal _59_ layer 1 -150 -548
 pin name Y signal _81_ layer 1 150 -53
-cell 957 NAND2X1:_976_
+cell 958 NAND2X1:_976_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11591,7 +11599,7 @@ pin name BI_4_bF$pin/A signal BI_4_bF$buf1 layer 1 -300 -53
 end_pin_group
 pin name B signal AI[1] layer 1 300 -53
 pin name Y signal _82_ layer 1 0 -548
-cell 958 INVX2:_977_
+cell 959 INVX2:_977_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
@@ -11599,7 +11607,7 @@ pin_group
 pin name BI_4_bF$pin/A signal BI_4_bF$buf0 layer 1 -150 -53
 end_pin_group
 pin name Y signal _83_ layer 1 150 -548
-cell 959 NAND2X1:_978_
+cell 960 NAND2X1:_978_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11610,7 +11618,7 @@ pin name BI_3_bF$pin/A signal BI_3_bF$buf2 layer 1 -300 -53
 end_pin_group
 pin name B signal AI[1] layer 1 300 -53
 pin name Y signal _84_ layer 1 0 -548
-cell 960 OAI21X1:_979_
+cell 961 OAI21X1:_979_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11622,7 +11630,7 @@ pin name A signal _57_ layer 1 -450 -548
 pin name B signal _83_ layer 1 -150 -53
 pin name C signal _84_ layer 1 450 -53
 pin name Y signal _85_ layer 1 150 -548
-cell 961 OAI21X1:_980_
+cell 962 OAI21X1:_980_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11634,7 +11642,7 @@ pin name A signal _82_ layer 1 -450 -548
 pin name B signal _81_ layer 1 -150 -53
 pin name C signal _85_ layer 1 450 -53
 pin name Y signal _86_ layer 1 150 -548
-cell 962 AOI21X1:_981_
+cell 963 AOI21X1:_981_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11646,7 +11654,7 @@ pin name A signal _76_ layer 1 -450 -53
 pin name B signal _79_ layer 1 -150 -548
 pin name C signal _67_ layer 1 150 -53
 pin name Y signal _87_ layer 1 450 -548
-cell 963 OAI21X1:_982_
+cell 964 OAI21X1:_982_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11658,7 +11666,7 @@ pin name A signal _86_ layer 1 -450 -548
 pin name B signal _87_ layer 1 -150 -53
 pin name C signal _80_ layer 1 450 -53
 pin name Y signal _88_ layer 1 150 -548
-cell 964 OAI21X1:_983_
+cell 965 OAI21X1:_983_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11670,7 +11678,7 @@ pin name A signal _68_ layer 1 -450 -548
 pin name B signal _78_ layer 1 -150 -53
 pin name C signal _72_ layer 1 450 -53
 pin name Y signal _89_ layer 1 150 -548
-cell 965 AND2X2:_984_
+cell 966 AND2X2:_984_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11685,7 +11693,7 @@ pin_group
 pin name AI_5_bF$pin/B signal AI_5_bF$buf1 layer 1 150 -548
 end_pin_group
 pin name Y signal _90_ layer 1 450 -53
-cell 966 NAND3X1:_985_
+cell 967 NAND3X1:_985_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11699,7 +11707,7 @@ end_pin_group
 pin name B signal AI[4] layer 1 -150 -548
 pin name C signal _90_ layer 1 150 -53
 pin name Y signal _91_ layer 1 450 -548
-cell 967 AOI22X1:_986_
+cell 968 AOI22X1:_986_
 left -750 right 750 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -300 -1950
    equiv name twfeed1 layer 1 -300 1950
@@ -11720,13 +11728,13 @@ pin name BI_1_bF$pin/C signal BI_1_bF$buf3 layer 1 600 -53
 end_pin_group
 pin name D signal AI[4] layer 1 300 -548
 pin name Y signal _92_ layer 1 0 -53
-cell 968 INVX1:_987_
+cell 969 INVX1:_987_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal _92_ layer 1 -150 -548
 pin name Y signal _93_ layer 1 150 -53
-cell 969 NAND2X1:_988_
+cell 970 NAND2X1:_988_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11735,13 +11743,13 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
 pin name A signal BI[2] layer 1 -300 -53
 pin name B signal AI[3] layer 1 300 -53
 pin name Y signal _94_ layer 1 0 -548
-cell 970 INVX1:_989_
+cell 971 INVX1:_989_
 left -300 right 300 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 150 -1950
    equiv name twfeed1 layer 1 150 1950
 pin name A signal _94_ layer 1 -150 -548
 pin name Y signal _95_ layer 1 150 -53
-cell 971 NAND3X1:_990_
+cell 972 NAND3X1:_990_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11753,7 +11761,7 @@ pin name A signal _93_ layer 1 -450 -53
 pin name B signal _95_ layer 1 -150 -548
 pin name C signal _91_ layer 1 150 -53
 pin name Y signal _96_ layer 1 450 -548
-cell 972 NAND2X1:_991_
+cell 973 NAND2X1:_991_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11766,7 +11774,7 @@ pin_group
 pin name AI_5_bF$pin/B signal AI_5_bF$buf3 layer 1 300 -53
 end_pin_group
 pin name Y signal _97_ layer 1 0 -548
-cell 973 NOR2X1:_992_
+cell 974 NOR2X1:_992_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11775,7 +11783,7 @@ pin name twfeed2 signal TW_PASS_THRU layer 1 300 -1950
 pin name A signal _71_ layer 1 -300 -548
 pin name B signal _97_ layer 1 300 -548
 pin name Y signal _98_ layer 1 0 -53
-cell 974 OAI21X1:_993_
+cell 975 OAI21X1:_993_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11787,7 +11795,7 @@ pin name A signal _92_ layer 1 -450 -548
 pin name B signal _98_ layer 1 -150 -53
 pin name C signal _94_ layer 1 450 -53
 pin name Y signal _99_ layer 1 150 -548
-cell 975 NAND3X1:_994_
+cell 976 NAND3X1:_994_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11799,7 +11807,7 @@ pin name A signal _96_ layer 1 -450 -53
 pin name B signal _99_ layer 1 -150 -548
 pin name C signal _89_ layer 1 150 -53
 pin name Y signal _100_ layer 1 450 -548
-cell 976 AOI21X1:_995_
+cell 977 AOI21X1:_995_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11811,7 +11819,7 @@ pin name A signal _69_ layer 1 -450 -53
 pin name B signal _75_ layer 1 -150 -548
 pin name C signal _77_ layer 1 150 -53
 pin name Y signal _101_ layer 1 450 -548
-cell 977 OAI21X1:_996_
+cell 978 OAI21X1:_996_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11823,7 +11831,7 @@ pin name A signal _92_ layer 1 -450 -548
 pin name B signal _98_ layer 1 -150 -53
 pin name C signal _95_ layer 1 450 -53
 pin name Y signal _102_ layer 1 150 -548
-cell 978 NAND3X1:_997_
+cell 979 NAND3X1:_997_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11835,7 +11843,7 @@ pin name A signal _93_ layer 1 -450 -53
 pin name B signal _94_ layer 1 -150 -548
 pin name C signal _91_ layer 1 150 -53
 pin name Y signal _103_ layer 1 450 -548
-cell 979 NAND3X1:_998_
+cell 980 NAND3X1:_998_
 left -600 right 600 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 -150 -1950
    equiv name twfeed1 layer 1 -150 1950
@@ -11847,7 +11855,7 @@ pin name A signal _103_ layer 1 -450 -53
 pin name B signal _102_ layer 1 -150 -548
 pin name C signal _101_ layer 1 150 -53
 pin name Y signal _104_ layer 1 450 -548
-cell 980 NAND2X1:_999_
+cell 981 NAND2X1:_999_
 left -450 right 450 bottom -1950 top 1950
 pin name twfeed1 signal TW_PASS_THRU layer 1 0 -1950
    equiv name twfeed1 layer 1 0 1950
@@ -11906,27 +11914,31 @@ pad 16 name twpin_ACC_o[0]
 corners 4 -150 -300 -150 300 150 300 150 -300
 pin name ACC_o[0] signal ACC_o[0] layer 1 0 0
 
-pad 17 name twpin_Done_o
+pad 17 name twpin_Done_LED
+corners 4 -150 -300 -150 300 150 300 150 -300
+pin name Done_LED signal Done_LED layer 1 0 0
+
+pad 18 name twpin_Done_o
 corners 4 -150 -300 -150 300 150 300 150 -300
 pin name Done_o signal Done_o layer 1 0 0
 
-pad 18 name twpin_LoadA_i
+pad 19 name twpin_LoadA_i
 corners 4 -150 -300 -150 300 150 300 150 -300
 pin name LoadA_i signal LoadA_i layer 1 0 0
 
-pad 19 name twpin_LoadB_i
+pad 20 name twpin_LoadB_i
 corners 4 -150 -300 -150 300 150 300 150 -300
 pin name LoadB_i signal LoadB_i layer 1 0 0
 
-pad 20 name twpin_LoadCmd_i
+pad 21 name twpin_LoadCmd_i
 corners 4 -150 -300 -150 300 150 300 150 -300
 pin name LoadCmd_i signal LoadCmd_i layer 1 0 0
 
-pad 21 name twpin_clk
+pad 22 name twpin_clk
 corners 4 -150 -300 -150 300 150 300 150 -300
 pin name clk signal clk layer 1 0 0
 
-pad 22 name twpin_reset
+pad 23 name twpin_reset
 corners 4 -150 -300 -150 300 150 300 150 -300
 pin name reset signal reset layer 1 0 0
 

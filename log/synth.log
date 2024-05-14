@@ -1,4 +1,4 @@
-Qflow synthesis logfile created on Mon May 6 17:21:36 KST 2024
+Qflow synthesis logfile created on Tue May 14 14:33:12 KST 2024
 Running yosys for verilog parsing and synthesis
 yosys  -s ALU_wrapper.ys
 
@@ -63,10 +63,10 @@ Removed 1 dead cases from process $proc$ALU.v:67$14 in module ALU.
 Marked 1 switch rules as full_case in process $proc$ALU.v:67$14 in module ALU.
 Removed 1 dead cases from process $proc$ALU.v:53$10 in module ALU.
 Marked 2 switch rules as full_case in process $proc$ALU.v:53$10 in module ALU.
-Marked 4 switch rules as full_case in process $proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:152$5 in module ALU_wrapper.
-Marked 1 switch rules as full_case in process $proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:105$3 in module ALU_wrapper.
-Marked 1 switch rules as full_case in process $proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:76$2 in module ALU_wrapper.
-Marked 14 switch rules as full_case in process $proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:42$1 in module ALU_wrapper.
+Marked 4 switch rules as full_case in process $proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:154$5 in module ALU_wrapper.
+Marked 1 switch rules as full_case in process $proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:107$3 in module ALU_wrapper.
+Marked 1 switch rules as full_case in process $proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:77$2 in module ALU_wrapper.
+Marked 14 switch rules as full_case in process $proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:43$1 in module ALU_wrapper.
 Removed a total of 2 dead cases.
 
 4.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
@@ -76,9 +76,9 @@ Promoted 9 assignments to connections.
 4.2.4. Executing PROC_INIT pass (extract init attributes).
 
 4.2.5. Executing PROC_ARST pass (detect async resets in processes).
-Found async reset \reset in `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:152$5'.
-Found async reset \reset in `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:105$3'.
-Found async reset \reset in `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:42$1'.
+Found async reset \reset in `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:154$5'.
+Found async reset \reset in `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:107$3'.
+Found async reset \reset in `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:43$1'.
 
 4.2.6. Executing PROC_ROM pass (convert switches to ROMs).
 Converted 0 switches.
@@ -91,18 +91,18 @@ Creating decoders for process `\ALU.$proc$ALU.v:67$14'.
 Creating decoders for process `\ALU.$proc$ALU.v:53$10'.
      1/2: $2\temp_logic[8:0]
      2/2: $1\temp_logic[8:0]
-Creating decoders for process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:152$5'.
+Creating decoders for process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:154$5'.
      1/1: $0\ACC_o[7:0]
-Creating decoders for process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:105$3'.
+Creating decoders for process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:107$3'.
      1/2: $0\rB[7:0]
      2/2: $0\rA[7:0]
-Creating decoders for process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:76$2'.
+Creating decoders for process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:77$2'.
      1/5: $1\LoadA[0:0]
      2/5: $1\OutFlag[0:0]
      3/5: $1\LoadCmd[0:0]
      4/5: $1\LoadB[0:0]
      5/5: $1\Done_o[0:0]
-Creating decoders for process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:42$1'.
+Creating decoders for process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:43$1'.
      1/1: $0\state[2:0]
 
 4.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
@@ -110,20 +110,20 @@ No latch inferred for signal `\ALU.\temp_l' from process `\ALU.$proc$ALU.v:87$21
 No latch inferred for signal `\ALU.\temp_h' from process `\ALU.$proc$ALU.v:87$21'.
 No latch inferred for signal `\ALU.\temp_BI' from process `\ALU.$proc$ALU.v:67$14'.
 No latch inferred for signal `\ALU.\temp_logic' from process `\ALU.$proc$ALU.v:53$10'.
-No latch inferred for signal `\ALU_wrapper.\Done_o' from process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:76$2'.
-No latch inferred for signal `\ALU_wrapper.\LoadA' from process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:76$2'.
-No latch inferred for signal `\ALU_wrapper.\LoadB' from process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:76$2'.
-No latch inferred for signal `\ALU_wrapper.\LoadCmd' from process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:76$2'.
-No latch inferred for signal `\ALU_wrapper.\OutFlag' from process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:76$2'.
+No latch inferred for signal `\ALU_wrapper.\Done_o' from process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:77$2'.
+No latch inferred for signal `\ALU_wrapper.\LoadA' from process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:77$2'.
+No latch inferred for signal `\ALU_wrapper.\LoadB' from process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:77$2'.
+No latch inferred for signal `\ALU_wrapper.\LoadCmd' from process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:77$2'.
+No latch inferred for signal `\ALU_wrapper.\OutFlag' from process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:77$2'.
 
 4.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
-Creating register for signal `\ALU_wrapper.\ACC_o' using process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:152$5'.
+Creating register for signal `\ALU_wrapper.\ACC_o' using process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:154$5'.
   created $adff cell `$procdff$124' with positive edge clock and positive level reset.
-Creating register for signal `\ALU_wrapper.\rA' using process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:105$3'.
+Creating register for signal `\ALU_wrapper.\rA' using process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:107$3'.
   created $adff cell `$procdff$125' with positive edge clock and positive level reset.
-Creating register for signal `\ALU_wrapper.\rB' using process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:105$3'.
+Creating register for signal `\ALU_wrapper.\rB' using process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:107$3'.
   created $adff cell `$procdff$126' with positive edge clock and positive level reset.
-Creating register for signal `\ALU_wrapper.\state' using process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:42$1'.
+Creating register for signal `\ALU_wrapper.\state' using process `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:43$1'.
   created $adff cell `$procdff$127' with positive edge clock and positive level reset.
 
 4.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
@@ -134,14 +134,14 @@ Found and cleaned up 1 empty switch in `\ALU.$proc$ALU.v:67$14'.
 Removing empty process `ALU.$proc$ALU.v:67$14'.
 Found and cleaned up 2 empty switches in `\ALU.$proc$ALU.v:53$10'.
 Removing empty process `ALU.$proc$ALU.v:53$10'.
-Found and cleaned up 4 empty switches in `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:152$5'.
-Removing empty process `ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:152$5'.
-Found and cleaned up 2 empty switches in `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:105$3'.
-Removing empty process `ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:105$3'.
-Found and cleaned up 1 empty switch in `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:76$2'.
-Removing empty process `ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:76$2'.
-Found and cleaned up 13 empty switches in `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:42$1'.
-Removing empty process `ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:42$1'.
+Found and cleaned up 4 empty switches in `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:154$5'.
+Removing empty process `ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:154$5'.
+Found and cleaned up 2 empty switches in `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:107$3'.
+Removing empty process `ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:107$3'.
+Found and cleaned up 1 empty switch in `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:77$2'.
+Removing empty process `ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:77$2'.
+Found and cleaned up 13 empty switches in `\ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:43$1'.
+Removing empty process `ALU_wrapper.$proc$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:43$1'.
 Cleaned up 23 empty switches.
 
 4.2.12. Executing OPT_EXPR pass (perform const folding).
@@ -429,8 +429,8 @@ Extracting $alu and $macc cells in module ALU:
   creating $alu cell for $add$ALU.v:89$23: $auto$alumacc.cc:485:replace_alu$160
   created 4 $alu and 0 $macc cells.
 Extracting $alu and $macc cells in module ALU_wrapper:
-  creating $macc model for $mul$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:133$4 ($mul).
-  creating $macc cell for $mul$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:133$4: $auto$alumacc.cc:365:replace_macc$163
+  creating $macc model for $mul$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:135$4 ($mul).
+  creating $macc cell for $mul$/home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/source/ALU_wrapper.v:135$4: $auto$alumacc.cc:365:replace_macc$163
   created 0 $alu and 1 $macc cells.
 
 4.13. Executing SHARE pass (SAT-based resource sharing).
@@ -889,10 +889,10 @@ Removed 0 unused modules.
 
 === ALU_wrapper ===
 
-   Number of wires:                442
-   Number of wire bits:            512
-   Number of public wires:          26
-   Number of public wire bits:      87
+   Number of wires:                443
+   Number of wire bits:            513
+   Number of public wires:          27
+   Number of public wire bits:      88
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
@@ -917,10 +917,10 @@ Removed 0 unused modules.
    ALU_wrapper                       1
      ALU                             1
 
-   Number of wires:                660
-   Number of wire bits:            770
-   Number of public wires:          43
-   Number of public wire bits:     144
+   Number of wires:                661
+   Number of wire bits:            771
+   Number of public wires:          44
+   Number of public wire bits:     145
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
@@ -1072,8 +1072,8 @@ ABC: Scl_LibertyReadGenlib() skipped cell "PADFC" without logic function.
 ABC: Scl_LibertyReadGenlib() skipped cell "PADNC" without logic function.
 ABC: Scl_LibertyReadGenlib() skipped cell "PADVDD" without logic function.
 ABC: Scl_LibertyReadGenlib() skipped cell "PADGND" without logic function.
-ABC: Library "etri05_stdcells" from "/usr/local/share/qflow/tech/etri050/etri05_stdcells.lib" has 28 cells (11 skipped: 4 seq; 3 tri-state; 4 no func; 0 dont_use).  Time =     0.00 sec
-ABC: Memory =    0.51 MB. Time =     0.00 sec
+ABC: Library "etri05_stdcells" from "/usr/local/share/qflow/tech/etri050/etri05_stdcells.lib" has 28 cells (11 skipped: 4 seq; 3 tri-state; 4 no func; 0 dont_use).  Time =     0.01 sec
+ABC: Memory =    0.51 MB. Time =     0.01 sec
 ABC: Warning: Detected 2 multi-output gates (for example, "FAX1").
 ABC: + strash 
 ABC: + scorr 
@@ -1167,6 +1167,7 @@ Removed 0 unused cells and 757 unused wires.
 10. Executing IOPADMAP pass (mapping inputs/outputs to IO-PAD cells).
 Don't map input port ALU_wrapper.ABCmd_i: Missing option -inpad.
 Mapping port ALU_wrapper.ACC_o using BUFX2.
+Mapping port ALU_wrapper.Done_LED using BUFX2.
 Mapping port ALU_wrapper.Done_o using BUFX2.
 Don't map input port ALU_wrapper.LoadA_i: Missing option -inpad.
 Don't map input port ALU_wrapper.LoadB_i: Missing option -inpad.
@@ -1201,11 +1202,37 @@ Removed a total of 0 cells.
 
 11.7. Executing OPT_CLEAN pass (remove unused cells and wires).
 Finding unused cells or wires in module \ALU_wrapper..
+Removed 0 unused cells and 1 unused wires.
+<suppressed ~1 debug messages>
 
 11.8. Executing OPT_EXPR pass (perform const folding).
 Optimizing module ALU_wrapper.
 
-11.9. Finished OPT passes. (There is nothing left to do.)
+11.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+11.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \ALU_wrapper..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+11.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \ALU_wrapper.
+Performed a total of 0 changes.
+
+11.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\ALU_wrapper'.
+Removed a total of 0 cells.
+
+11.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+11.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \ALU_wrapper..
+
+11.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module ALU_wrapper.
+
+11.16. Finished OPT passes. (There is nothing left to do.)
 
 12. Executing Verilog backend.
 
@@ -1218,19 +1245,19 @@ Dumping module `\ALU_wrapper'.
 
 === ALU_wrapper ===
 
-   Number of wires:                907
-   Number of wire bits:            953
-   Number of public wires:         907
-   Number of public wire bits:     953
+   Number of wires:                908
+   Number of wire bits:            954
+   Number of public wires:         908
+   Number of public wire bits:     954
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                939
+   Number of cells:                940
      $scopeinfo                      1
      AND2X2                         34
      AOI21X1                        90
      AOI22X1                        38
-     BUFX2                           9
+     BUFX2                          10
      DFFSR                          27
      INVX1                         130
      MUX2X1                          2
@@ -1244,9 +1271,9 @@ Dumping module `\ALU_wrapper'.
      XNOR2X1                         8
      XOR2X1                         13
 
-End of script. Logfile hash: 83f47b889e, CPU: user 0.31s system 0.02s, MEM: 19.57 MB peak
+End of script. Logfile hash: ab91fba54f, CPU: user 0.33s system 0.02s, MEM: 19.69 MB peak
 Yosys 0.38+88 (git sha1 38f1b0b12, clang 10.0.0-4ubuntu1 -fPIC -Os)
-Time spent: 50% 2x abc (0 sec), 12% 29x opt_expr (0 sec), ...
+Time spent: 50% 2x abc (0 sec), 12% 30x opt_expr (0 sec), ...
 Running getpowerground to determine power and ground net names.
 getpowerground.tcl  /usr/local/share/qflow/tech/etri050/etri050_stdcells.lef
 Running vlogFanout
@@ -1276,7 +1303,7 @@ Gate counts by drive strength:
 
 	"" gates	In: 27    	Out: 27    	+0
 	"1" gates	In: 859    	Out: 845    	-14
-	"2" gates	In: 94    	Out: 103    	+9
+	"2" gates	In: 95    	Out: 104    	+9
 
 45 gates exceed specified minimum load.
 0 buffers were added.
@@ -1286,7 +1313,7 @@ Gate counts by drive strength:
 
 	"" gates	In: 27    	Out: 27    	+0
 	"1" gates	In: 859    	Out: 845    	-14
-	"2" gates	In: 94    	Out: 103    	+9
+	"2" gates	In: 95    	Out: 104    	+9
 
 Number of gates changed: 0
 Running vlog2Verilog for antenna cell mapping.
@@ -1315,4 +1342,4 @@ vlog2Spice -i -l  /usr/local/share/qflow/tech/etri050/etri050_stdcells.sp -o ALU
 Running spi2xspice.py
 spi2xspice.py "/usr/local/share/qflow/tech/etri050/etri05_stdcells.lib" ALU_wrapper.spc ALU_wrapper.xspice
 
-Synthesis script ended on Mon May 6 17:21:37 KST 2024
+Synthesis script ended on Tue May 14 14:33:13 KST 2024

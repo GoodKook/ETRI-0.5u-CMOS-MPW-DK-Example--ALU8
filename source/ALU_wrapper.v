@@ -3,7 +3,7 @@
  *
  */
 
-module ALU_wrapper( clk, reset, ABCmd_i, LoadA_i, LoadB_i, LoadCmd_i, ACC_o, Done_o);
+module ALU_wrapper( clk, reset, ABCmd_i, LoadA_i, LoadB_i, LoadCmd_i, ACC_o, Done_o, Done_LED);
 	input clk;
 	input reset;
     input LoadA_i;
@@ -12,6 +12,7 @@ module ALU_wrapper( clk, reset, ABCmd_i, LoadA_i, LoadB_i, LoadCmd_i, ACC_o, Don
     input [7:0] ABCmd_i;
     output [7:0] ACC_o;
     output Done_o;
+    output Done_LED;
 
     // Registers
     reg [7:0] rA, rB, ACC_o;
@@ -100,6 +101,7 @@ module ALU_wrapper( clk, reset, ABCmd_i, LoadA_i, LoadB_i, LoadCmd_i, ACC_o, Don
             end
         endcase
     end
+    assign Done_LED = Done_o;
     
     // Input Registers ----------------------------------------------
     always @(posedge clk or posedge reset)

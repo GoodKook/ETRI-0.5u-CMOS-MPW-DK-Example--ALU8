@@ -1,22 +1,23 @@
-Qflow placement logfile created on Mon May 6 17:21:44 KST 2024
+Qflow placement logfile created on Tue May 14 15:16:43 KST 2024
+Restoring ALU_wrapper.rtl.v, ALU_wrapper.rtlnopwr.v, and ALU_wrapper.rtlbb.v from pre-placement backups
 Running vlog2Cel to generate input files for graywolf
 vlog2Cel  -l  /usr/local/share/qflow/tech/etri050/etri050_stdcells.lef -u 100 -o /home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/layout/ALU_wrapper.cel /home/goodkook/ETRI050_DesignKit/devel/Ref_Design/ALU8/synthesis/ALU_wrapper.rtlnopwr.v
 No ALU_wrapper.cel1 file found for project. . . no partial blockages to apply to layout.
-Running decongest to set initial density of 0.55
-decongest.tcl ALU_wrapper  /usr/local/share/qflow/tech/etri050/etri050_stdcells.lef FILL,,, 0.55 --units=100 --lib=/usr/local/share/qflow/tech/etri050/etri05_stdcells.lib
+Running decongest to set initial density of 0.54
+decongest.tcl ALU_wrapper  /usr/local/share/qflow/tech/etri050/etri050_stdcells.lef FILL,,, 0.54 --units=100 --lib=/usr/local/share/qflow/tech/etri050/etri05_stdcells.lib
 Reading FILL {} {} {} macros from LEF file.
 Unexpected input in LEF file:  Only macro defs were expected!
 Line is:   NOWIREEXTENSIONATPIN ON ;
 decongest.tcl:
-Fixed density planning, density = 0.55
-Number of cells = 980, total width = 1215300
-Width of fill = 994336
+Fixed density planning, density = 0.54
+Number of cells = 981, total width = 1216200
+Width of fill = 1036022
 Width of decap = 0
 Width of antenna = 0
 Width of body ties = 0
 
 Done!
-Preparing pin placement hints from ALU_wrapper.cel2
+No ALU_wrapper.cel2 file found for project. . . continuing without pin placement hints
 Running GrayWolf placement
 graywolf  ALU_wrapper
 
@@ -56,11 +57,11 @@ syntax terminated normally with no errors and 0 warning[s]
 
 
 ----------------------------
-Total stdcells     :980
-Total cell width   :2.21e+06
-Total cell height  :3.82e+06
-Total cell area    :8.62e+09
-Total core area    :8.62e+09
+Total stdcells     :981
+Total cell width   :2.25e+06
+Total cell height  :3.83e+06
+Total cell area    :8.78e+09
+Total core area    :8.78e+09
 Average cell height:3.90e+03
 
 
@@ -140,328 +141,336 @@ Authors: Carl Sechen, Kai-Win Lee, and Bill Swartz,
 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 
 151 152 153 154 155 156 157 158 
  block left edge is at -299
- the longest block length is 93600
+ the longest block length is 95100
  building the steiner trees
  rebuilding the steiner tree
 
 ----start doing coarse global routing ------ 
  ITERATION  1
+ ITERATION  2
+ ITERATION  3
 
-  longest Row is:12   Its length is:93300
+  longest Row is:6   Its length is:95700
  doing feed-through pins assignment
  building the net-tree now !
  set up the global routing grids
- the starting value of tracks =  274
- tracks = 268 at attempts =  1000
- tracks = 265 at attempts =  2000
- tracks = 264 at attempts =  3000
- tracks = 264 at attempts =  4000
- tracks = 263 at attempts =  5000
- tracks = 263 at attempts =  6000
- tracks = 263 at attempts =  7000
- tracks = 263 at attempts =  8000
- tracks = 263 at attempts =  9000
- tracks = 263 at attempts = 10000
- tracks = 263 at attempts = 11000
- tracks = 263 at attempts = 12000
- tracks = 263 at attempts = 13000
- tracks = 263 at attempts = 14000
- tracks = 263 at attempts = 15000
- tracks = 263 at attempts = 16000
- tracks = 263 at attempts = 17000
- tracks = 263 at attempts = 18000
- tracks = 263 at attempts = 19000
- tracks = 263 at attempts = 20000
- tracks = 263 at attempts = 21000
- tracks = 263 at attempts = 22000
- tracks = 263 at attempts = 23000
- tracks = 263 at attempts = 24000
+ the starting value of tracks =  240
+ tracks = 225 at attempts =  1000
+ tracks = 224 at attempts =  2000
+ tracks = 223 at attempts =  3000
+ tracks = 222 at attempts =  4000
+ tracks = 221 at attempts =  5000
+ tracks = 221 at attempts =  6000
+ tracks = 221 at attempts =  7000
+ tracks = 221 at attempts =  8000
+ tracks = 221 at attempts =  9000
+ tracks = 221 at attempts = 10000
+ tracks = 221 at attempts = 11000
+ tracks = 221 at attempts = 12000
+ tracks = 221 at attempts = 13000
+ tracks = 221 at attempts = 14000
+ tracks = 221 at attempts = 15000
+ tracks = 221 at attempts = 16000
+ tracks = 221 at attempts = 17000
+ tracks = 221 at attempts = 18000
+ tracks = 221 at attempts = 19000
+ tracks = 221 at attempts = 20000
+ tracks = 221 at attempts = 21000
+ tracks = 221 at attempts = 22000
+ tracks = 221 at attempts = 23000
+ tracks = 221 at attempts = 24000
  removing redundant feed-through pins
  the connectivity of all the nets is verified
 
  block left edge is at -299
- the longest block length is 93600
+ the longest block length is 95100
  building the steiner trees
  rebuilding the steiner tree
 
 ----start doing coarse global routing ------ 
  ITERATION  1
+ ITERATION  2
 
-  longest Row is:12   Its length is:93300
+  longest Row is:6   Its length is:95700
  doing feed-through pins assignment
  building the net-tree now !
  set up the global routing grids
- the starting value of tracks =  286
- tracks = 274 at attempts =  1000
- tracks = 269 at attempts =  2000
- tracks = 265 at attempts =  3000
- tracks = 265 at attempts =  4000
- tracks = 265 at attempts =  5000
- tracks = 265 at attempts =  6000
- tracks = 265 at attempts =  7000
- tracks = 265 at attempts =  8000
- tracks = 265 at attempts =  9000
- tracks = 265 at attempts = 10000
- tracks = 264 at attempts = 11000
- tracks = 264 at attempts = 12000
- tracks = 264 at attempts = 13000
- tracks = 264 at attempts = 14000
- tracks = 264 at attempts = 15000
- tracks = 264 at attempts = 16000
- tracks = 264 at attempts = 17000
- tracks = 264 at attempts = 18000
- tracks = 264 at attempts = 19000
- tracks = 264 at attempts = 20000
- tracks = 264 at attempts = 21000
- tracks = 264 at attempts = 22000
- tracks = 264 at attempts = 23000
- tracks = 264 at attempts = 24000
+ the starting value of tracks =  240
+ tracks = 226 at attempts =  1000
+ tracks = 222 at attempts =  2000
+ tracks = 221 at attempts =  3000
+ tracks = 221 at attempts =  4000
+ tracks = 221 at attempts =  5000
+ tracks = 220 at attempts =  6000
+ tracks = 220 at attempts =  7000
+ tracks = 220 at attempts =  8000
+ tracks = 220 at attempts =  9000
+ tracks = 220 at attempts = 10000
+ tracks = 220 at attempts = 11000
+ tracks = 220 at attempts = 12000
+ tracks = 220 at attempts = 13000
+ tracks = 220 at attempts = 14000
+ tracks = 220 at attempts = 15000
+ tracks = 220 at attempts = 16000
+ tracks = 220 at attempts = 17000
+ tracks = 220 at attempts = 18000
+ tracks = 220 at attempts = 19000
+ tracks = 220 at attempts = 20000
+ tracks = 220 at attempts = 21000
+ tracks = 220 at attempts = 22000
+ tracks = 220 at attempts = 23000
+ tracks = 220 at attempts = 24000
  removing redundant feed-through pins
  the connectivity of all the nets is verified
 
  block left edge is at -299
- the longest block length is 93600
+ the longest block length is 95100
  building the steiner trees
  rebuilding the steiner tree
 
 ----start doing coarse global routing ------ 
  ITERATION  1
+ ITERATION  2
+ ITERATION  3
 
-  longest Row is:12   Its length is:93300
+  longest Row is:6   Its length is:95700
  doing feed-through pins assignment
  building the net-tree now !
  set up the global routing grids
- the starting value of tracks =  273
- tracks = 266 at attempts =  1000
- tracks = 263 at attempts =  2000
- tracks = 261 at attempts =  3000
- tracks = 260 at attempts =  4000
- tracks = 260 at attempts =  5000
- tracks = 260 at attempts =  6000
- tracks = 260 at attempts =  7000
- tracks = 260 at attempts =  8000
- tracks = 260 at attempts =  9000
- tracks = 260 at attempts = 10000
- tracks = 260 at attempts = 11000
- tracks = 260 at attempts = 12000
- tracks = 260 at attempts = 13000
- tracks = 260 at attempts = 14000
- tracks = 260 at attempts = 15000
- tracks = 260 at attempts = 16000
- tracks = 259 at attempts = 17000
- tracks = 259 at attempts = 18000
- tracks = 259 at attempts = 19000
- tracks = 259 at attempts = 20000
- tracks = 259 at attempts = 21000
- tracks = 259 at attempts = 22000
- tracks = 259 at attempts = 23000
- tracks = 259 at attempts = 24000
+ the starting value of tracks =  230
+ tracks = 220 at attempts =  1000
+ tracks = 217 at attempts =  2000
+ tracks = 217 at attempts =  3000
+ tracks = 215 at attempts =  4000
+ tracks = 215 at attempts =  5000
+ tracks = 215 at attempts =  6000
+ tracks = 215 at attempts =  7000
+ tracks = 215 at attempts =  8000
+ tracks = 215 at attempts =  9000
+ tracks = 215 at attempts = 10000
+ tracks = 215 at attempts = 11000
+ tracks = 215 at attempts = 12000
+ tracks = 215 at attempts = 13000
+ tracks = 215 at attempts = 14000
+ tracks = 215 at attempts = 15000
+ tracks = 215 at attempts = 16000
+ tracks = 215 at attempts = 17000
+ tracks = 215 at attempts = 18000
+ tracks = 215 at attempts = 19000
+ tracks = 215 at attempts = 20000
+ tracks = 215 at attempts = 21000
+ tracks = 215 at attempts = 22000
+ tracks = 215 at attempts = 23000
+ tracks = 215 at attempts = 24000
  removing redundant feed-through pins
  the connectivity of all the nets is verified
 
  block left edge is at -299
- the longest block length is 93600
+ the longest block length is 95100
  building the steiner trees
  rebuilding the steiner tree
 
 ----start doing coarse global routing ------ 
  ITERATION  1
 
-  longest Row is:12   Its length is:93300
+  longest Row is:5   Its length is:94500
  doing feed-through pins assignment
  building the net-tree now !
  set up the global routing grids
- the starting value of tracks =  250
- tracks = 249 at attempts =  1000
- tracks = 248 at attempts =  2000
- tracks = 248 at attempts =  3000
- tracks = 248 at attempts =  4000
- tracks = 248 at attempts =  5000
- tracks = 248 at attempts =  6000
- tracks = 248 at attempts =  7000
- tracks = 248 at attempts =  8000
- tracks = 248 at attempts =  9000
- tracks = 248 at attempts = 10000
- tracks = 248 at attempts = 11000
- tracks = 248 at attempts = 12000
- tracks = 248 at attempts = 13000
- tracks = 248 at attempts = 14000
- tracks = 248 at attempts = 15000
- tracks = 248 at attempts = 16000
- tracks = 248 at attempts = 17000
- tracks = 248 at attempts = 18000
- tracks = 248 at attempts = 19000
- tracks = 248 at attempts = 20000
- tracks = 248 at attempts = 21000
- tracks = 248 at attempts = 22000
- tracks = 248 at attempts = 23000
- tracks = 248 at attempts = 24000
+ the starting value of tracks =  235
+ tracks = 235 at attempts =  1000
+ tracks = 235 at attempts =  2000
+ tracks = 235 at attempts =  3000
+ tracks = 235 at attempts =  4000
+ tracks = 235 at attempts =  5000
+ tracks = 235 at attempts =  6000
+ tracks = 235 at attempts =  7000
+ tracks = 235 at attempts =  8000
+ tracks = 235 at attempts =  9000
+ tracks = 235 at attempts = 10000
+ tracks = 235 at attempts = 11000
+ tracks = 235 at attempts = 12000
+ tracks = 235 at attempts = 13000
+ tracks = 235 at attempts = 14000
+ tracks = 235 at attempts = 15000
+ tracks = 235 at attempts = 16000
+ tracks = 235 at attempts = 17000
+ tracks = 235 at attempts = 18000
+ tracks = 235 at attempts = 19000
+ tracks = 235 at attempts = 20000
+ tracks = 235 at attempts = 21000
+ tracks = 235 at attempts = 22000
+ tracks = 235 at attempts = 23000
+ tracks = 235 at attempts = 24000
  removing redundant feed-through pins
  the connectivity of all the nets is verified
 
  block left edge is at -299
- the longest block length is 93600
+ the longest block length is 95100
  building the steiner trees
  rebuilding the steiner tree
 
 ----start doing coarse global routing ------ 
  ITERATION  1
+ ITERATION  2
 
-  longest Row is:12   Its length is:93300
+  longest Row is:6   Its length is:95100
  doing feed-through pins assignment
  building the net-tree now !
  set up the global routing grids
- the starting value of tracks =  273
- tracks = 266 at attempts =  1000
- tracks = 261 at attempts =  2000
- tracks = 260 at attempts =  3000
- tracks = 258 at attempts =  4000
- tracks = 258 at attempts =  5000
- tracks = 258 at attempts =  6000
- tracks = 258 at attempts =  7000
- tracks = 258 at attempts =  8000
- tracks = 257 at attempts =  9000
- tracks = 257 at attempts = 10000
- tracks = 257 at attempts = 11000
- tracks = 257 at attempts = 12000
- tracks = 257 at attempts = 13000
- tracks = 257 at attempts = 14000
- tracks = 257 at attempts = 15000
- tracks = 257 at attempts = 16000
- tracks = 257 at attempts = 17000
- tracks = 257 at attempts = 18000
- tracks = 257 at attempts = 19000
- tracks = 257 at attempts = 20000
- tracks = 257 at attempts = 21000
- tracks = 257 at attempts = 22000
- tracks = 257 at attempts = 23000
- tracks = 257 at attempts = 24000
+ the starting value of tracks =  242
+ tracks = 234 at attempts =  1000
+ tracks = 229 at attempts =  2000
+ tracks = 227 at attempts =  3000
+ tracks = 227 at attempts =  4000
+ tracks = 226 at attempts =  5000
+ tracks = 226 at attempts =  6000
+ tracks = 226 at attempts =  7000
+ tracks = 226 at attempts =  8000
+ tracks = 226 at attempts =  9000
+ tracks = 226 at attempts = 10000
+ tracks = 226 at attempts = 11000
+ tracks = 226 at attempts = 12000
+ tracks = 226 at attempts = 13000
+ tracks = 226 at attempts = 14000
+ tracks = 226 at attempts = 15000
+ tracks = 226 at attempts = 16000
+ tracks = 226 at attempts = 17000
+ tracks = 226 at attempts = 18000
+ tracks = 226 at attempts = 19000
+ tracks = 226 at attempts = 20000
+ tracks = 226 at attempts = 21000
+ tracks = 226 at attempts = 22000
+ tracks = 226 at attempts = 23000
+ tracks = 226 at attempts = 24000
  removing redundant feed-through pins
  the connectivity of all the nets is verified
 
  block left edge is at -299
- the longest block length is 93600
+ the longest block length is 95100
  building the steiner trees
  rebuilding the steiner tree
 
 ----start doing coarse global routing ------ 
  ITERATION  1
+ ITERATION  2
 
-  longest Row is:12   Its length is:93300
+  longest Row is:6   Its length is:95100
  doing feed-through pins assignment
  building the net-tree now !
  set up the global routing grids
- the starting value of tracks =  275
- tracks = 267 at attempts =  1000
- tracks = 264 at attempts =  2000
- tracks = 263 at attempts =  3000
- tracks = 263 at attempts =  4000
- tracks = 263 at attempts =  5000
- tracks = 262 at attempts =  6000
- tracks = 262 at attempts =  7000
- tracks = 262 at attempts =  8000
- tracks = 262 at attempts =  9000
- tracks = 262 at attempts = 10000
- tracks = 262 at attempts = 11000
- tracks = 262 at attempts = 12000
- tracks = 262 at attempts = 13000
- tracks = 262 at attempts = 14000
- tracks = 262 at attempts = 15000
- tracks = 262 at attempts = 16000
- tracks = 262 at attempts = 17000
- tracks = 262 at attempts = 18000
- tracks = 262 at attempts = 19000
- tracks = 262 at attempts = 20000
- tracks = 262 at attempts = 21000
- tracks = 262 at attempts = 22000
- tracks = 262 at attempts = 23000
- tracks = 262 at attempts = 24000
+ the starting value of tracks =  246
+ tracks = 234 at attempts =  1000
+ tracks = 225 at attempts =  2000
+ tracks = 223 at attempts =  3000
+ tracks = 222 at attempts =  4000
+ tracks = 222 at attempts =  5000
+ tracks = 222 at attempts =  6000
+ tracks = 221 at attempts =  7000
+ tracks = 221 at attempts =  8000
+ tracks = 221 at attempts =  9000
+ tracks = 221 at attempts = 10000
+ tracks = 221 at attempts = 11000
+ tracks = 221 at attempts = 12000
+ tracks = 221 at attempts = 13000
+ tracks = 221 at attempts = 14000
+ tracks = 221 at attempts = 15000
+ tracks = 221 at attempts = 16000
+ tracks = 221 at attempts = 17000
+ tracks = 221 at attempts = 18000
+ tracks = 221 at attempts = 19000
+ tracks = 221 at attempts = 20000
+ tracks = 221 at attempts = 21000
+ tracks = 221 at attempts = 22000
+ tracks = 221 at attempts = 23000
+ tracks = 221 at attempts = 24000
  removing redundant feed-through pins
  the connectivity of all the nets is verified
 
  block left edge is at -299
- the longest block length is 93600
+ the longest block length is 95100
  building the steiner trees
  rebuilding the steiner tree
 
 ----start doing coarse global routing ------ 
  ITERATION  1
+ ITERATION  2
 
-  longest Row is:12   Its length is:93300
+  longest Row is:6   Its length is:95400
  doing feed-through pins assignment
  building the net-tree now !
  set up the global routing grids
- the starting value of tracks =  277
- tracks = 265 at attempts =  1000
- tracks = 260 at attempts =  2000
- tracks = 258 at attempts =  3000
- tracks = 258 at attempts =  4000
- tracks = 258 at attempts =  5000
- tracks = 258 at attempts =  6000
- tracks = 258 at attempts =  7000
- tracks = 258 at attempts =  8000
- tracks = 258 at attempts =  9000
- tracks = 258 at attempts = 10000
- tracks = 258 at attempts = 11000
- tracks = 258 at attempts = 12000
- tracks = 258 at attempts = 13000
- tracks = 258 at attempts = 14000
- tracks = 258 at attempts = 15000
- tracks = 258 at attempts = 16000
- tracks = 258 at attempts = 17000
- tracks = 258 at attempts = 18000
- tracks = 258 at attempts = 19000
- tracks = 258 at attempts = 20000
- tracks = 258 at attempts = 21000
- tracks = 258 at attempts = 22000
- tracks = 258 at attempts = 23000
- tracks = 258 at attempts = 24000
+ the starting value of tracks =  236
+ tracks = 227 at attempts =  1000
+ tracks = 225 at attempts =  2000
+ tracks = 223 at attempts =  3000
+ tracks = 222 at attempts =  4000
+ tracks = 222 at attempts =  5000
+ tracks = 222 at attempts =  6000
+ tracks = 221 at attempts =  7000
+ tracks = 221 at attempts =  8000
+ tracks = 221 at attempts =  9000
+ tracks = 221 at attempts = 10000
+ tracks = 221 at attempts = 11000
+ tracks = 221 at attempts = 12000
+ tracks = 221 at attempts = 13000
+ tracks = 221 at attempts = 14000
+ tracks = 221 at attempts = 15000
+ tracks = 221 at attempts = 16000
+ tracks = 221 at attempts = 17000
+ tracks = 221 at attempts = 18000
+ tracks = 221 at attempts = 19000
+ tracks = 221 at attempts = 20000
+ tracks = 221 at attempts = 21000
+ tracks = 221 at attempts = 22000
+ tracks = 221 at attempts = 23000
+ tracks = 221 at attempts = 24000
  removing redundant feed-through pins
  the connectivity of all the nets is verified
 
  block left edge is at -299
- the longest block length is 93600
+ the longest block length is 95100
  building the steiner trees
  rebuilding the steiner tree
 
 ----start doing coarse global routing ------ 
  ITERATION  1
 
-  longest Row is:12   Its length is:93300
+  longest Row is:5   Its length is:94500
  doing feed-through pins assignment
  building the net-tree now !
  set up the global routing grids
- the starting value of tracks =  248
- tracks = 248 at attempts =  1000
- tracks = 248 at attempts =  2000
- tracks = 248 at attempts =  3000
- tracks = 248 at attempts =  4000
- tracks = 248 at attempts =  5000
- tracks = 248 at attempts =  6000
- tracks = 248 at attempts =  7000
- tracks = 248 at attempts =  8000
- tracks = 248 at attempts =  9000
- tracks = 248 at attempts = 10000
- tracks = 248 at attempts = 11000
- tracks = 248 at attempts = 12000
- tracks = 248 at attempts = 13000
- tracks = 248 at attempts = 14000
- tracks = 248 at attempts = 15000
- tracks = 248 at attempts = 16000
- tracks = 248 at attempts = 17000
- tracks = 248 at attempts = 18000
- tracks = 248 at attempts = 19000
- tracks = 248 at attempts = 20000
- tracks = 248 at attempts = 21000
- tracks = 248 at attempts = 22000
- tracks = 248 at attempts = 23000
- tracks = 248 at attempts = 24000
+ the starting value of tracks =  242
+ tracks = 242 at attempts =  1000
+ tracks = 242 at attempts =  2000
+ tracks = 242 at attempts =  3000
+ tracks = 242 at attempts =  4000
+ tracks = 242 at attempts =  5000
+ tracks = 242 at attempts =  6000
+ tracks = 242 at attempts =  7000
+ tracks = 242 at attempts =  8000
+ tracks = 242 at attempts =  9000
+ tracks = 242 at attempts = 10000
+ tracks = 242 at attempts = 11000
+ tracks = 242 at attempts = 12000
+ tracks = 242 at attempts = 13000
+ tracks = 242 at attempts = 14000
+ tracks = 242 at attempts = 15000
+ tracks = 242 at attempts = 16000
+ tracks = 242 at attempts = 17000
+ tracks = 242 at attempts = 18000
+ tracks = 242 at attempts = 19000
+ tracks = 242 at attempts = 20000
+ tracks = 242 at attempts = 21000
+ tracks = 242 at attempts = 22000
+ tracks = 242 at attempts = 23000
+ tracks = 242 at attempts = 24000
  removing redundant feed-through pins
  the connectivity of all the nets is verified
 
 
 ***********************************************
-*ACTUAL* FINAL NUMBER OF ROUTING TRACKS: 248
+*ACTUAL* FINAL NUMBER OF ROUTING TRACKS: 215
 ***********************************************
 
 
@@ -479,15 +488,15 @@ Running place2def to translate graywolf output to DEF format.
 place2def.tcl ALU_wrapper FILL 
 Running place2def.tcl
 DEF database: 100 units per micron
-Limits: xbot = -802.0 ybot = -795.0 xtop = 93802.0 ytop = 94095.0
-Core values: 150 150 93450 93750
+Limits: xbot = -802.0 ybot = -300 xtop = 95002.0 ytop = 94095.0
+Core values: 150 150 94650 93750
 Offsets: 150 150
 3 routing layers
-317 horizontal tracks from -600.0 to 94500.0 step 300 (M1, M3, ...)
-316 vertical tracks from -600.0 to 94200.0 step 300 (M2, M4, ...)
-Summary: Total components = 4295
-  Fill cells  = 3315
-  Other cells = 980
+315 horizontal tracks from 0.0 to 94500.0 step 300 (M1, M3, ...)
+320 vertical tracks from -600.0 to 95400.0 step 300 (M2, M4, ...)
+Summary: Total components = 4435
+  Fill cells  = 3454
+  Other cells = 981
 Done with place2def.tcl
 Running addspacers to generate power stripes and align cell right edge
 addspacers -stripe 8 225 PG  -p vdd -g gnd -f FILL -O   -l  /usr/local/share/qflow/tech/etri050/etri050_stdcells.lef -o ALU_wrapper_filled.def ALU_wrapper
@@ -495,7 +504,7 @@ Warning:  Stretching requested, but not applicable.
 Stripe width requested = 8, stripe width used = 9
 Will not generate over-cell power stripes due to lack of route layers
 Generating comb structures instead.
-Initial core layout: (150 150) to (93450 93750) (scale um * 100)
+Initial core layout: (150 150) to (94650 93750) (scale um * 100)
 Running arrangepins to adjust pin positions for optimal routing.
 arrangepins.tcl  ALU_wrapper
 Reading info file ALU_wrapper.info. . .
@@ -521,4 +530,4 @@ vlog2Verilog -c -b -p -n -v vdd -g gnd -o ALU_wrapper.rtlbb.v ALU_wrapper_anno.v
 Running vlog2Spice.
 vlog2Spice -i -l  /usr/local/share/qflow/tech/etri050/etri050_stdcells.sp -o ALU_wrapper.spc ALU_wrapper.rtl.v
 Warning:  No SPICE subcircuit for FILL.  Pin order will be arbitrary.
-Placement script ended on Mon May 6 17:21:57 KST 2024
+Placement script ended on Tue May 14 15:16:58 KST 2024

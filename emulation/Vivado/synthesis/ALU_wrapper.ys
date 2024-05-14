@@ -1,0 +1,9 @@
+### Yosys taargetting Xilinx
+read_verilog ../../../source/ALU.v
+read_verilog ../../../source/ALU_wrapper.v
+
+synth_xilinx -top ALU_wrapper -family xc7 -flatten
+write_verilog  ALU_wrapper.v
+stat
+
+### https://www.reddit.com/r/yosys/comments/3djedt/timing_constraints_in_yosys_abc/

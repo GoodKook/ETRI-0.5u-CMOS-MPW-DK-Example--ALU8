@@ -6,6 +6,7 @@ module ALU_wrapper(
     inout gnd,
     input [7:0] ABCmd_i,
     output [7:0] ACC_o,
+    output Done_LED,
     output Done_o,
     input LoadA_i,
     input LoadB_i,
@@ -673,6 +674,7 @@ wire _263_ ;
 wire _739_ ;
 wire _319_ ;
 wire _492_ ;
+wire Done_LED ;
 wire _548_ ;
 wire _128_ ;
 wire _20_ ;
@@ -8305,6 +8307,13 @@ BUFX2 _1825_ (
 );
 
 BUFX2 _1826_ (
+    .vdd(vdd),
+    .gnd(gnd),
+    .A(_887_),
+    .Y(Done_LED)
+);
+
+BUFX2 _1827_ (
     .vdd(vdd),
     .gnd(gnd),
     .A(_887_),
