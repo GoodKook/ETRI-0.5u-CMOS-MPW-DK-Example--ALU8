@@ -15,10 +15,25 @@ export LD_LIBRARY_PATH	:=$(LD_LIBRARY_PATH):$(SYSTEMC_LIBDIR)
 export CXX				= clang++
 export CXXFLAGS			= -std=c++17
 
-all : $(TOP_MODULE)
+all :
+	@echo 'Makefile for "ALU8" Co-Emulation: Arduino-FPGA & SystemC TestBench.'
+	@echo 'Usage:'
+	@echo '    make [option]'
+	@echo '         Use one of following options'
+	@echo '         to build and run FPGA emulator with re-used SystemC TestBench'
+	@echo '             build'
+	@echo '             run'
+	@echo '             * FPGA & Arduino board must be configured before running.'
+	@echo '         View VCD, dumpped from SC-TB'
+	@echo '             wave'
+	@echo '         Clean-up'
+	@echo '             clean'
+	
+build : $(TOP_MODULE)
 
 $(TOP_MODULE) : $(SC_SRCS) $(SC_TOP_H)
 	$(CXX) $(CXXFLAGS) \
+		-DEMULATION \
 		-I. -I$(SYSTEMC_INCLUDE) \
 		-L$(SYSTEMC_LIBDIR) -Wl,-rpath=$(SYSTEMC_LIBDIR) \
 		-lsystemc -lm \

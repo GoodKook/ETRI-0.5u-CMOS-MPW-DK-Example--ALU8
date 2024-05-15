@@ -1,4 +1,4 @@
-Emulator Pin Mapping:
+Emulator Pin Mapping for ALU8
    Arduino DUE & Arty A7-100 & Verilog RTL
 --------------- ----------  -----------
 SAM3X8E/Digital Pmod /FPGA  ALU_wrapper

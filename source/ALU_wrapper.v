@@ -2,8 +2,12 @@
  * ALU Wrapper for ALU8 with Multiplier & IO FSM
  *
  */
-
+ 
+`ifdef EMULATION
 module ALU_wrapper( clk, reset, ABCmd_i, LoadA_i, LoadB_i, LoadCmd_i, ACC_o, Done_o, Done_LED);
+`else
+module ALU_wrapper( clk, reset, ABCmd_i, LoadA_i, LoadB_i, LoadCmd_i, ACC_o, Done_o);
+`endif
 	input clk;
 	input reset;
     input LoadA_i;
@@ -12,7 +16,9 @@ module ALU_wrapper( clk, reset, ABCmd_i, LoadA_i, LoadB_i, LoadCmd_i, ACC_o, Don
     input [7:0] ABCmd_i;
     output [7:0] ACC_o;
     output Done_o;
+`ifdef EMULATION
     output Done_LED;
+`endif
 
     // Registers
     reg [7:0] rA, rB, ACC_o;
@@ -101,8 +107,9 @@ module ALU_wrapper( clk, reset, ABCmd_i, LoadA_i, LoadB_i, LoadCmd_i, ACC_o, Don
             end
         endcase
     end
+`ifdef EMULATION
     assign Done_LED = Done_o;
-    
+`endif    
     // Input Registers ----------------------------------------------
     always @(posedge clk or posedge reset)
     begin : LOAD_REGS

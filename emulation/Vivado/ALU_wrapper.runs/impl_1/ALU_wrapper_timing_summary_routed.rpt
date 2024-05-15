@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2.2 (lin64) Build 4126759 Thu Feb  8 23:52:05 MST 2024
-| Date         : Tue May 14 14:31:34 2024
+| Date         : Wed May 15 21:29:35 2024
 | Host         : GoodKook-Skull running 64-bit Ubuntu 20.04.6 LTS
 | Command      : report_timing_summary -max_paths 10 -report_unconstrained -file ALU_wrapper_timing_summary_routed.rpt -pb ALU_wrapper_timing_summary_routed.pb -rpx ALU_wrapper_timing_summary_routed.rpx -warn_on_violation
 | Design       : ALU_wrapper
