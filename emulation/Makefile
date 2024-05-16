@@ -45,6 +45,7 @@ run : $(TOP_MODULE)
 clean :
 	rm -f $(TOP_MODULE)
 	rm -f *.vcd
+	rm -f ./Vivado/vivado*
 
 wave: sc_VALU_wrapper.vcd
 	gtkwave sc_VALU_wrapper.vcd --save=sc_VALU_wrapper.gtkw &

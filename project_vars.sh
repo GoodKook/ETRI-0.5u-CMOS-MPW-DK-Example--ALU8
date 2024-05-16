@@ -1,6 +1,6 @@
 #!/bin/tcsh -f
 #------------------------------------------------------------
-# project variables for project ~/ETRI050_DesignKit/devel/Ref_Design/ALU8
+# project variables for project ~/ETRI050_DesignKit/Ref_Design/ALU8
 #------------------------------------------------------------
 
 # Flow options:
